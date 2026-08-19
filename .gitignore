@@ -15,6 +15,7 @@ __pycache__/
 # Large / regenerable analysis blobs (kept out of git; regenerated on demand).
 analysis/keyframes/
 analysis/cache/
+analysis/_inspect/
 analysis/*.png
 # Source media is large and lives outside git (drop your own into public/).
 public/*.mp4

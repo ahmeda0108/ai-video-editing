@@ -61,10 +61,12 @@ def evaluate(plan: dict, audio: dict, clips_doc: dict) -> dict:
                 b["trackStart"] / fps)
 
     # ---- 2. intensity mismatch vs music --------------------------------------
+    from .select import rel_energy
     for c in clips:
         t = c["trackStart"] / fps
         e = _energy_at(audio, t)
-        target = float(np.clip((e - 0.15) / 0.6, 0.0, 1.0))
+        rel = rel_energy(audio, t)
+        target = rel
         inten = c.get("intensity", 0.5)
         if e >= hi_q and inten < 0.4:
             add(3, "weak_in_strong", c["id"],
@@ -73,10 +75,10 @@ def evaluate(plan: dict, audio: dict, clips_doc: dict) -> dict:
                 "use a high-motion / high-impact clip here",
                 {"action": "replace", "clipId": c["id"], "prefer": "impact",
                  "match_intensity": max(0.7, target)}, t)
-        elif e < 0.22 and inten > 0.7:
+        elif rel < 0.25 and inten > 0.7:
             add(1, "busy_in_calm", c["id"],
                 f"{c['id']} is a busy shot ({inten:.2f}) in a calm passage "
-                f"(energy {e:.2f})",
+                f"(rel-energy {rel:.2f})",
                 "use a calmer / scenic clip here",
                 {"action": "replace", "clipId": c["id"], "prefer": "calm",
                  "match_intensity": target}, t)

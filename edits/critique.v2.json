@@ -1,0 +1,24 @@
+{
+  "score": 91,
+  "n_issues": 1,
+  "variety": 0.868,
+  "issues": [
+    {
+      "severity": 3,
+      "type": "weak_in_strong",
+      "clipId": "c033",
+      "t": 29.97,
+      "frame": 899,
+      "note": "c033 is a low-intensity shot (0.30) on a high-energy beat (energy 0.34) — wasted strong musical moment",
+      "suggestion": "use a high-motion / high-impact clip here",
+      "action": {
+        "action": "replace",
+        "clipId": "c033",
+        "prefer": "impact",
+        "match_intensity": 0.7
+      }
+    }
+  ],
+  "summary": "score 91/100; 1 issues (weak_in_strong×1)",
+  "provider": "local"
+}

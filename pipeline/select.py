@@ -53,6 +53,20 @@ def _level(e: float, lo: float, hi: float) -> str:
     return "mid"
 
 
+def rel_energy(audio: dict, t: float) -> float:
+    """Energy at t as a percentile RANK within the track (0..1).
+
+    Absolute loudness varies wildly track to track; the desired clip intensity
+    should track how loud this moment is *relative to the rest of the song*, so
+    a chorus maps to ~1 even if its absolute RMS is modest.
+    """
+    e = np.asarray(audio["energy"])
+    se = np.sort(e)
+    hz = audio.get("energy_hz", 20.0)
+    v = e[min(int(t * hz), len(e) - 1)]
+    return float(np.searchsorted(se, v) / max(1, len(se)))
+
+
 # ---------------------------------------------------------------------------
 def build_cut_grid(audio: dict, profile: dict) -> list[dict]:
     """Beat-aligned segments whose length scales with local musical energy."""
@@ -156,8 +170,8 @@ def assign_clips(segments: list[dict], clips: list[dict], profile: dict, audio: 
 
     for si in order:
         seg = segments[si]
-        t = seg["energy"]
-        target = float(np.clip((t - 0.15) / 0.6, 0.0, 1.0))  # musical energy -> desired clip intensity
+        # desired clip intensity = how loud this moment is relative to the song
+        target = rel_energy(audio, seg["start"])
         is_peak = seg["is_drop"] or seg["level"] == "high"
         prev = prev_clip(si)
 

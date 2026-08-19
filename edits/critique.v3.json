@@ -1,0 +1,24 @@
+{
+  "score": 95,
+  "n_issues": 1,
+  "variety": 0.842,
+  "issues": [
+    {
+      "severity": 2,
+      "type": "repetition",
+      "clipId": "c034",
+      "t": 30.4,
+      "frame": 912,
+      "note": "c034 looks like the previous shot (c033) (palette sim 0.99)",
+      "suggestion": "replace with a visually different clip",
+      "action": {
+        "action": "replace",
+        "clipId": "c034",
+        "avoid_cluster": 13,
+        "match_intensity": 0.636
+      }
+    }
+  ],
+  "summary": "score 95/100; 1 issues (repetition×1)",
+  "provider": "local"
+}

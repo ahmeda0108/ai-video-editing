@@ -106,12 +106,14 @@ def cmd_iterate(args) -> None:
             break
         plan = new_plan
 
+    # persist history BEFORE the (slow) final render so it survives interruption
+    save_json(config.EDITS / "history.json", {"history": history, "final_version": plan["version"]})
+    print("score history:", " -> ".join(f"v{h['version']}:{h['score']}" for h in history))
+
     # render the final converged plan
     final_plan_path = config.EDITS / f"edit_plan.v{plan['version']}.json"
     final = render_mod.render(final_plan_path, out_path=config.OUT / "final.mp4")
     print(f"\nFINAL edit: v{plan['version']}  ->  {final}")
-    save_json(config.EDITS / "history.json", {"history": history, "final_version": plan["version"]})
-    print("score history:", " -> ".join(f"v{h['version']}:{h['score']}" for h in history))
 
 
 def cmd_all(args) -> None:
