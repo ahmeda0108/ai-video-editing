@@ -66,17 +66,25 @@ def render_chunk(plan_path: Path, start: int, end: int, out_path: Path,
 
 
 def concat(parts: list[Path], out_path: Path) -> Path:
-    """Concatenate rendered mp4 chunks (same codec params) into one file."""
-    listfile = config.OUT / "_concat.txt"
-    listfile.write_text("".join(f"file '{Path(p).as_posix()}'\n" for p in parts), encoding="utf-8")
+    """Concatenate rendered mp4 chunks (same codec params) into one file.
+
+    The concat demuxer resolves list entries relative to the list file, so we
+    write basenames and run ffmpeg from the chunks' directory — absolute
+    Windows paths (with a `C:` drive) confuse the demuxer.
+    """
+    parts = [Path(p) for p in parts]
+    workdir = parts[0].parent
+    out_path = Path(out_path).resolve()
+    listfile = workdir / "_concat.txt"
+    listfile.write_text("".join(f"file '{p.name}'\n" for p in parts), encoding="utf-8")
     proc = subprocess.run([
         ffmpeg_util.ffmpeg_exe(), "-hide_banner", "-nostdin", "-y",
-        "-f", "concat", "-safe", "0", "-i", str(listfile),
+        "-f", "concat", "-safe", "0", "-i", "_concat.txt",
         "-c", "copy", str(out_path),
-    ], capture_output=True, text=True)
+    ], cwd=str(workdir), capture_output=True, text=True)
     if proc.returncode != 0:
-        raise RuntimeError(f"concat failed: {proc.stderr[-400:]}")
-    return Path(out_path)
+        raise RuntimeError(f"concat failed: {proc.stderr[-500:]}")
+    return out_path
 
 
 def render_chunked(plan_path: Path, out_path: Path, chunk: int = 250,
