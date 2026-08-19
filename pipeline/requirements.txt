@@ -1,0 +1,8 @@
+# Pipeline dependencies (analysis brain). Node/Remotion deps are in package.json.
+numpy>=1.24
+pillow>=10.0
+imageio-ffmpeg>=0.5     # bundles a static ffmpeg binary (no system install)
+
+# Optional: only needed if you set ANTHROPIC_API_KEY to enable multimodal
+# tagging + critique. The pipeline runs fully without it.
+anthropic>=0.40 ; python_version >= "3.8"

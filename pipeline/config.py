@@ -76,8 +76,10 @@ load_dotenv()
 #   "local"     -> force local metrics-only heuristics (no network, no key)
 VISION_PROVIDER = os.environ.get("VISION_PROVIDER", "auto")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-# Vision model id (multimodal). Swappable; kept current.
-ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
+# Vision model id (multimodal). Swappable; kept current. Defaults to the most
+# capable Claude vision model; set ANTHROPIC_MODEL=claude-haiku-4-5 (or
+# claude-sonnet-5) in .env to trade some quality for lower API cost.
+ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-opus-4-8")
 
 
 def has_anthropic() -> bool:

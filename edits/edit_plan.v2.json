@@ -1,0 +1,950 @@
+{
+  "version": 2,
+  "profile": "amv",
+  "meta": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 996,
+    "audio": "track_v1.wav",
+    "tempo_bpm": 123.05
+  },
+  "grade": {
+    "preset": "neonDusk",
+    "saturation": 0.9,
+    "contrast": 1.08,
+    "brightness": 0.98,
+    "vignette": 0.45,
+    "grain": 0.05,
+    "letterbox": 90,
+    "tint": "#243056",
+    "tintOpacity": 0.16
+  },
+  "clips": [
+    {
+      "id": "c000",
+      "clipId": "s00_037",
+      "source": "footage.mp4",
+      "sourceStart": 165.586,
+      "trackStart": 5,
+      "duration": 46,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.0,
+      "impact": 0.0,
+      "reason": "low energy (0.11) -> intensity 0.00, quality 0.57"
+    },
+    {
+      "id": "c001",
+      "clipId": "s00_002",
+      "source": "footage.mp4",
+      "sourceStart": 12.023,
+      "trackStart": 51,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.071,
+      "impact": 0.067,
+      "reason": "mid energy (0.28) -> intensity 0.07, quality 0.59"
+    },
+    {
+      "id": "c002",
+      "clipId": "s00_003",
+      "source": "footage.mp4",
+      "sourceStart": 14.162,
+      "trackStart": 79,
+      "duration": 16,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "whip",
+        "dur": 10
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 1.0,
+      "reason": "high energy (0.35) -> intensity 1.00, quality 0.80"
+    },
+    {
+      "id": "c003",
+      "clipId": "s00_044",
+      "source": "footage.mp4",
+      "sourceStart": 213.213,
+      "trackStart": 95,
+      "duration": 30,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.286,
+      "impact": 0.109,
+      "reason": "mid energy (0.29) -> intensity 0.29, quality 0.47"
+    },
+    {
+      "id": "c004",
+      "clipId": "s00_001",
+      "source": "footage.mp4",
+      "sourceStart": 8.615,
+      "trackStart": 125,
+      "duration": 26,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.26,
+      "impact": 0.097,
+      "reason": "mid energy (0.31) -> intensity 0.26, quality 0.35"
+    },
+    {
+      "id": "c005",
+      "clipId": "s00_000",
+      "source": "footage.mp4",
+      "sourceStart": 2.022,
+      "trackStart": 151,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.221,
+      "impact": 0.276,
+      "reason": "mid energy (0.28) -> intensity 0.22, quality 0.51"
+    },
+    {
+      "id": "c006",
+      "clipId": "s00_011",
+      "source": "footage.mp4",
+      "sourceStart": 54.462,
+      "trackStart": 180,
+      "duration": 44,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.013,
+      "impact": 0.008,
+      "reason": "low energy (0.24) -> intensity 0.01, quality 0.52"
+    },
+    {
+      "id": "c007",
+      "clipId": "s00_040",
+      "source": "footage.mp4",
+      "sourceStart": 194.401,
+      "trackStart": 224,
+      "duration": 46,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.101,
+      "impact": 0.031,
+      "reason": "low energy (0.22) -> intensity 0.10, quality 0.57"
+    },
+    {
+      "id": "c008",
+      "clipId": "s00_007",
+      "source": "footage.mp4",
+      "sourceStart": 39.816,
+      "trackStart": 270,
+      "duration": 16,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "whip",
+        "dur": 10
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.733,
+      "impact": 1.0,
+      "reason": "high energy (0.36) -> intensity 0.73, quality 0.55"
+    },
+    {
+      "id": "c009",
+      "clipId": "s00_010",
+      "source": "footage.mp4",
+      "sourceStart": 52.184,
+      "trackStart": 286,
+      "duration": 14,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 1.0,
+      "reason": "high energy (0.34) -> intensity 1.00, quality 0.42"
+    },
+    {
+      "id": "c010",
+      "clipId": "s00_012",
+      "source": "footage.mp4",
+      "sourceStart": 57.057,
+      "trackStart": 300,
+      "duration": 27,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.138,
+      "impact": 0.121,
+      "reason": "mid energy (0.29) -> intensity 0.14, quality 0.56"
+    },
+    {
+      "id": "c011",
+      "clipId": "s00_010",
+      "source": "footage.mp4",
+      "sourceStart": 52.184,
+      "trackStart": 327,
+      "duration": 14,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "whip",
+        "dur": 10
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 1.0,
+      "reason": "high energy (0.35) -> intensity 0.30, quality 0.22"
+    },
+    {
+      "id": "c012",
+      "clipId": "s00_016",
+      "source": "footage.mp4",
+      "sourceStart": 65.376,
+      "trackStart": 341,
+      "duration": 46,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.165,
+      "impact": 0.064,
+      "reason": "low energy (0.27) -> intensity 0.16, quality 0.40"
+    },
+    {
+      "id": "c013",
+      "clipId": "s00_029",
+      "source": "footage.mp4",
+      "sourceStart": 123.93,
+      "trackStart": 387,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.223,
+      "impact": 0.107,
+      "reason": "mid energy (0.28) -> intensity 0.22, quality 0.35"
+    },
+    {
+      "id": "c014",
+      "clipId": "s00_008",
+      "source": "footage.mp4",
+      "sourceStart": 42.684,
+      "trackStart": 415,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.076,
+      "impact": 0.078,
+      "reason": "mid energy (0.30) -> intensity 0.08, quality 0.47"
+    },
+    {
+      "id": "c015",
+      "clipId": "s00_026",
+      "source": "footage.mp4",
+      "sourceStart": 112.137,
+      "trackStart": 444,
+      "duration": 30,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.003,
+      "impact": 0.0,
+      "reason": "mid energy (0.33) -> intensity 0.00, quality 0.56"
+    },
+    {
+      "id": "c016",
+      "clipId": "s00_021",
+      "source": "footage.mp4",
+      "sourceStart": 93.524,
+      "trackStart": 474,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.33,
+      "impact": 0.115,
+      "reason": "mid energy (0.30) -> intensity 0.33, quality 0.50"
+    },
+    {
+      "id": "c017",
+      "clipId": "s00_025",
+      "source": "footage.mp4",
+      "sourceStart": 106.864,
+      "trackStart": 503,
+      "duration": 44,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.011,
+      "impact": 0.016,
+      "reason": "low energy (0.23) -> intensity 0.01, quality 0.45"
+    },
+    {
+      "id": "c018",
+      "clipId": "s00_004",
+      "source": "footage.mp4",
+      "sourceStart": 22.384,
+      "trackStart": 547,
+      "duration": 7,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.459,
+      "impact": 0.708,
+      "reason": "high energy (0.25) -> intensity 0.46, quality 0.38"
+    },
+    {
+      "id": "c019",
+      "clipId": "s00_013",
+      "source": "footage.mp4",
+      "sourceStart": 60.301,
+      "trackStart": 554,
+      "duration": 7,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "punch",
+        "dur": 8
+      },
+      "effects": [
+        "shake",
+        "flash"
+      ],
+      "level": "high",
+      "isDrop": true,
+      "intensity": 1.0,
+      "impact": 0.875,
+      "reason": "DROP high energy (0.25) -> intensity 1.00, quality 0.28"
+    },
+    {
+      "id": "c020",
+      "clipId": "s00_003",
+      "source": "footage.mp4",
+      "sourceStart": 13.972,
+      "trackStart": 561,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 1.0,
+      "reason": "mid energy (0.32) -> intensity 0.07, quality 0.50"
+    },
+    {
+      "id": "c021",
+      "clipId": "s00_006",
+      "source": "footage.mp4",
+      "sourceStart": 32.006,
+      "trackStart": 590,
+      "duration": 15,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.462,
+      "impact": 0.686,
+      "reason": "high energy (0.37) -> intensity 0.46, quality 0.35"
+    },
+    {
+      "id": "c022",
+      "clipId": "s00_007",
+      "source": "footage.mp4",
+      "sourceStart": 39.839,
+      "trackStart": 605,
+      "duration": 14,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "punch",
+        "dur": 8
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.733,
+      "impact": 1.0,
+      "reason": "high energy (0.36) -> intensity 0.73, quality 0.55"
+    },
+    {
+      "id": "c023",
+      "clipId": "s00_034",
+      "source": "footage.mp4",
+      "sourceStart": 149.05,
+      "trackStart": 619,
+      "duration": 32,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.059,
+      "impact": 0.018,
+      "reason": "mid energy (0.30) -> intensity 0.06, quality 0.32"
+    },
+    {
+      "id": "c024",
+      "clipId": "s00_003",
+      "source": "footage.mp4",
+      "sourceStart": 14.173,
+      "trackStart": 651,
+      "duration": 15,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 1.0,
+      "reason": "high energy (0.34) -> intensity 1.00, quality 0.80"
+    },
+    {
+      "id": "c025",
+      "clipId": "s00_020",
+      "source": "footage.mp4",
+      "sourceStart": 85.105,
+      "trackStart": 666,
+      "duration": 44,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.001,
+      "impact": 0.001,
+      "reason": "low energy (0.25) -> intensity 0.00, quality 0.51"
+    },
+    {
+      "id": "c026",
+      "clipId": "s00_009",
+      "source": "footage.mp4",
+      "sourceStart": 47.72,
+      "trackStart": 710,
+      "duration": 12,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "whip",
+        "dur": 10
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.454,
+      "impact": 0.331,
+      "reason": "high energy (0.34) -> intensity 0.45, quality 0.66"
+    },
+    {
+      "id": "c027",
+      "clipId": "s00_028",
+      "source": "footage.mp4",
+      "sourceStart": 119.6,
+      "trackStart": 722,
+      "duration": 14,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.669,
+      "impact": 0.455,
+      "reason": "high energy (0.34) -> intensity 0.28, quality 0.31"
+    },
+    {
+      "id": "c028",
+      "clipId": "s00_035",
+      "source": "footage.mp4",
+      "sourceStart": 153.694,
+      "trackStart": 736,
+      "duration": 30,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.0,
+      "impact": 0.0,
+      "reason": "mid energy (0.28) -> intensity 0.00, quality 0.45"
+    },
+    {
+      "id": "c029",
+      "clipId": "s00_015",
+      "source": "footage.mp4",
+      "sourceStart": 62.167,
+      "trackStart": 766,
+      "duration": 32,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.149,
+      "impact": 0.066,
+      "reason": "mid energy (0.30) -> intensity 0.15, quality 0.32"
+    },
+    {
+      "id": "c030",
+      "clipId": "s00_031",
+      "source": "footage.mp4",
+      "sourceStart": 131.596,
+      "trackStart": 798,
+      "duration": 26,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.005,
+      "impact": 0.005,
+      "reason": "mid energy (0.30) -> intensity 0.01, quality 0.41"
+    },
+    {
+      "id": "c031",
+      "clipId": "s00_033",
+      "source": "footage.mp4",
+      "sourceStart": 145.291,
+      "trackStart": 824,
+      "duration": 47,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.0,
+      "impact": 0.0,
+      "reason": "low energy (0.22) -> intensity 0.00, quality 0.48"
+    },
+    {
+      "id": "c032",
+      "clipId": "s00_049",
+      "source": "footage.mp4",
+      "sourceStart": 233.752,
+      "trackStart": 871,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.042,
+      "impact": 0.049,
+      "reason": "mid energy (0.30) -> intensity 0.04, quality 0.29"
+    },
+    {
+      "id": "c033",
+      "clipId": "s00_047",
+      "source": "footage.mp4",
+      "sourceStart": 223.533,
+      "trackStart": 899,
+      "duration": 13,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.299,
+      "impact": 0.798,
+      "reason": "high energy (0.34) -> intensity 0.36, quality 0.38"
+    },
+    {
+      "id": "c034",
+      "clipId": "s00_014",
+      "source": "footage.mp4",
+      "sourceStart": 60.686,
+      "trackStart": 912,
+      "duration": 14,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "punch",
+        "dur": 8
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.636,
+      "impact": 0.623,
+      "reason": "high energy (0.36) -> intensity 0.64, quality 0.25"
+    },
+    {
+      "id": "c035",
+      "clipId": "s00_007",
+      "source": "footage.mp4",
+      "sourceStart": 39.833,
+      "trackStart": 926,
+      "duration": 15,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "whip",
+        "dur": 10
+      },
+      "effects": [
+        "shake"
+      ],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.733,
+      "impact": 1.0,
+      "reason": "high energy (0.33) -> intensity 0.16, quality 0.57"
+    },
+    {
+      "id": "c036",
+      "clipId": "s00_017",
+      "source": "footage.mp4",
+      "sourceStart": 69.765,
+      "trackStart": 941,
+      "duration": 44,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.016,
+      "impact": 0.011,
+      "reason": "low energy (0.24) -> intensity 0.02, quality 0.37"
+    },
+    {
+      "id": "c037",
+      "clipId": "s00_032",
+      "source": "footage.mp4",
+      "sourceStart": 139.367,
+      "trackStart": 985,
+      "duration": 11,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "fade",
+        "dur": 9
+      },
+      "effects": [
+        "kenburns"
+      ],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.0,
+      "impact": 0.001,
+      "reason": "low energy (0.01) -> intensity 0.00, quality 0.49"
+    }
+  ],
+  "beatFlashes": [
+    562,
+    590,
+    651,
+    710
+  ],
+  "audioInfo": {
+    "drops": [
+      18.75
+    ],
+    "sections": [
+      {
+        "start": 0.0,
+        "end": 5.9,
+        "level": "low",
+        "energy": 0.2126
+      },
+      {
+        "start": 5.9,
+        "end": 16.55,
+        "level": "low",
+        "energy": 0.2356
+      },
+      {
+        "start": 16.55,
+        "end": 18.75,
+        "level": "low",
+        "energy": 0.2366
+      },
+      {
+        "start": 18.75,
+        "end": 27.25,
+        "level": "high",
+        "energy": 0.3596
+      },
+      {
+        "start": 27.25,
+        "end": 31.2,
+        "level": "low",
+        "energy": 0.2363
+      },
+      {
+        "start": 31.2,
+        "end": 33.15,
+        "level": "low",
+        "energy": 0.0927
+      }
+    ],
+    "beats": [
+      0.163,
+      0.65,
+      1.161,
+      1.695,
+      2.183,
+      2.647,
+      3.158,
+      3.646,
+      4.156,
+      4.644,
+      5.039,
+      5.596,
+      6.014,
+      6.502,
+      7.012,
+      7.477,
+      7.988,
+      8.475,
+      8.986,
+      9.52,
+      9.985,
+      10.472,
+      10.89,
+      11.378,
+      11.958,
+      12.353,
+      12.887,
+      13.328,
+      13.839,
+      14.327,
+      14.814,
+      15.325,
+      15.813,
+      16.254,
+      16.765,
+      17.322,
+      17.81,
+      18.228,
+      18.692,
+      19.18,
+      19.667,
+      20.155,
+      20.643,
+      21.153,
+      21.711,
+      22.198,
+      22.639,
+      23.15,
+      23.661,
+      24.056,
+      24.543,
+      25.031,
+      25.519,
+      26.006,
+      26.587,
+      27.028,
+      27.469,
+      27.98,
+      28.491,
+      29.025,
+      29.466,
+      29.977,
+      30.395,
+      30.883,
+      31.37,
+      31.927,
+      32.345,
+      32.833
+    ]
+  },
+  "notes": [
+    {
+      "version": 2,
+      "from_score": 55,
+      "applied": [
+        "replace c011: -> s00_010 (weak_in_strong)",
+        "replace c020: -> s00_003 (weak_drop)",
+        "replace c027: -> s00_028 (weak_in_strong)",
+        "replace c033: -> s00_047 (weak_in_strong)",
+        "replace c035: -> s00_007 (weak_in_strong)"
+      ]
+    }
+  ]
+}
