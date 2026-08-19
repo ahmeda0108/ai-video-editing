@@ -24,7 +24,7 @@ from pathlib import Path
 
 from . import config, audio as audio_mod, ingest, visual, library
 from . import select as select_mod, render as render_mod, revise as revise_mod
-from . import vision_provider
+from . import vision_provider, setup_vision, ffmpeg_util
 from .io_util import load_json, save_json
 
 
@@ -72,7 +72,7 @@ def cmd_iterate(args) -> None:
         raise SystemExit("run `analyze` first")
 
     provider = vision_provider.get_provider(args.provider)
-    render_each = provider.name.startswith("anthropic")
+    render_each = provider.semantic   # any pixel-level provider judges real frames
     print(f"critic: {provider.name}  (render every iteration: {render_each})")
 
     plan = select_mod.build_plan(args.profile, version=1)
@@ -122,13 +122,101 @@ def cmd_all(args) -> None:
 
 
 # ---------------------------------------------------------------------------
+def cmd_doctor(args) -> None:
+    setup_vision.doctor()
+
+
+def cmd_setup(args) -> None:
+    setup_vision.run(pull_flag=args.pull, test_flag=args.test)
+
+
+_IMG_EXT = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif"}
+_VID_EXT = {".mp4", ".mov", ".mkv", ".webm", ".avi", ".m4v"}
+
+
+def cmd_vision(args) -> None:
+    """General-purpose local vision: analyze ANY image or video into the schema.
+
+    Not AMV-specific. Images -> one structured record. Videos -> coarse-sampled
+    per-timestamp records (multi-stage: sample -> analyze -> structured report).
+    """
+    import json
+    src = Path(args.source)
+    if not src.exists():
+        raise SystemExit(f"not found: {src}")
+
+    provider = vision_provider.get_provider(args.provider)
+    if not getattr(provider, "semantic", False):
+        raise SystemExit(
+            f"provider '{provider.name}' has no semantic vision. "
+            "Run `python -m pipeline.run doctor`, then use --provider ollama.")
+
+    out_dir = config.ANALYSIS / "vision"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    if src.suffix.lower() in _IMG_EXT:
+        rec = provider.analyze_image(src)
+        print(json.dumps(rec, indent=2, ensure_ascii=False))
+        dest = out_dir / f"{src.stem}.json"
+        save_json(dest, rec)
+        print(f"\nsaved -> {dest}")
+        return
+
+    if src.suffix.lower() in _VID_EXT:
+        meta = ffmpeg_util.probe_media(src)
+        dur = meta.get("duration") or 0.0
+        every = max(0.5, float(args.every))
+        times = [round(t, 2) for t in _frange(0.0, dur, every)] or [0.0]
+        if len(times) > args.max_frames:                 # bound local compute
+            step = len(times) / args.max_frames
+            times = [times[int(i * step)] for i in range(args.max_frames)]
+        print(f"video {src.name}: {dur:.1f}s, analyzing {len(times)} frames "
+              f"(every ~{every}s) with '{provider.name}'...")
+
+        tmp = config.CACHE / "vision_frames"
+        tmp.mkdir(exist_ok=True)
+        records = []
+        for i, t in enumerate(times):
+            frame = tmp / f"v{i:03d}.jpg"
+            import subprocess
+            subprocess.run([
+                ffmpeg_util.ffmpeg_exe(), "-hide_banner", "-nostdin",
+                "-ss", f"{t:.3f}", "-i", str(src),
+                "-frames:v", "1", "-vf", "scale=512:-2", "-q:v", "4", "-y", str(frame),
+            ], capture_output=True)
+            if not frame.exists():
+                continue
+            rec = provider.analyze_image(frame)
+            rec["timestamp"] = t
+            records.append(rec)
+            print(f"  t={t:>6.2f}s  {str(rec.get('scene',''))[:70]}")
+
+        report = {"source": str(src), "duration": dur, "n_frames": len(records),
+                  "model": config.VISION_MODEL, "frames": records}
+        dest = out_dir / f"{src.stem}.vision.json"
+        save_json(dest, report)
+        print(f"\nsaved -> {dest}")
+        return
+
+    raise SystemExit(f"unsupported file type: {src.suffix}")
+
+
+def _frange(start: float, stop: float, step: float):
+    t = start
+    while t < stop:
+        yield t
+        t += step
+
+
+# ---------------------------------------------------------------------------
 def main():
     ap = argparse.ArgumentParser(prog="pipeline.run", description="Autonomous visual-model video editor")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--profile", default="amv", help="edit profile: amv | hype | montage")
-    common.add_argument("--provider", default=None, help="vision provider: auto | anthropic | local")
+    common.add_argument("--provider", default=None,
+                        help="vision provider: auto | ollama | anthropic | local")
     common.add_argument("--force", action="store_true", help="ignore analysis caches")
 
     a = sub.add_parser("analyze", parents=[common], help="footage + audio -> clip library")
@@ -153,8 +241,30 @@ def main():
     al.add_argument("--iters", type=int, default=4)
     al.set_defaults(func=cmd_all)
 
+    doc = sub.add_parser("doctor", help="inspect hardware + local-vision prereqs")
+    doc.set_defaults(func=cmd_doctor)
+
+    st = sub.add_parser("setup", help="doctor + optional model pull / inference test")
+    st.add_argument("--pull", action="store_true", help="download the recommended/VISION_MODEL")
+    st.add_argument("--test", action="store_true", help="run one real local inference")
+    st.set_defaults(func=cmd_setup)
+
+    vis = sub.add_parser("vision", parents=[common],
+                         help="general-purpose local analysis of ANY image or video")
+    vis.add_argument("source", help="path to an image or video file")
+    vis.add_argument("--every", type=float, default=2.0,
+                     help="video: seconds between sampled frames (default 2.0)")
+    vis.add_argument("--max-frames", dest="max_frames", type=int, default=40,
+                     help="video: cap analyzed frames (default 40)")
+    vis.set_defaults(func=cmd_vision)
+
     args = ap.parse_args()
-    args.func(args)
+    try:
+        args.func(args)
+    except RuntimeError as e:
+        # Local-inference / provider errors are expected + actionable: show the
+        # clean message (with install/fix steps) instead of a Python traceback.
+        raise SystemExit(f"\n{e}")
 
 
 if __name__ == "__main__":
