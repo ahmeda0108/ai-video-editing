@@ -1,0 +1,1993 @@
+{
+  "_input_hash": "29034601fadbc2394928d9c7e21c9eab7cb0ad22",
+  "sources": [
+    "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4"
+  ],
+  "n_sources": 1,
+  "total_duration": 260.43,
+  "n_shots": 51,
+  "shots": [
+    {
+      "id": "s00_000",
+      "src_idx": 0,
+      "index": 0,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 0.0,
+      "end": 7.716,
+      "dur": 7.716,
+      "motion_mean": 0.01061,
+      "motion_max": 0.03915,
+      "brightness": 0.1581,
+      "action": false,
+      "motion_peaks": [
+        1.333,
+        1.917,
+        1.167,
+        1.667,
+        3.0,
+        2.583
+      ],
+      "keyframes": [
+        {
+          "t": 2.099,
+          "path": "analysis/keyframes/src00_shot000_0.jpg"
+        },
+        {
+          "t": 3.272,
+          "path": "analysis/keyframes/src00_shot000_1.jpg"
+        },
+        {
+          "t": 4.444,
+          "path": "analysis/keyframes/src00_shot000_2.jpg"
+        },
+        {
+          "t": 5.617,
+          "path": "analysis/keyframes/src00_shot000_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_001",
+      "src_idx": 0,
+      "index": 1,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 7.716,
+      "end": 11.595,
+      "dur": 3.879,
+      "motion_mean": 0.01246,
+      "motion_max": 0.01427,
+      "brightness": 0.7523,
+      "action": false,
+      "motion_peaks": [
+        8.083,
+        8.75,
+        8.917,
+        9.583
+      ],
+      "keyframes": [
+        {
+          "t": 9.164,
+          "path": "analysis/keyframes/src00_shot001_0.jpg"
+        },
+        {
+          "t": 10.147,
+          "path": "analysis/keyframes/src00_shot001_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_002",
+      "src_idx": 0,
+      "index": 2,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 11.595,
+      "end": 13.972,
+      "dur": 2.377,
+      "motion_mean": 0.0034,
+      "motion_max": 0.0101,
+      "brightness": 0.3051,
+      "action": false,
+      "motion_peaks": [
+        12.083,
+        12.25,
+        12.583,
+        11.75,
+        12.833,
+        13.333
+      ],
+      "keyframes": [
+        {
+          "t": 12.482,
+          "path": "analysis/keyframes/src00_shot002_0.jpg"
+        },
+        {
+          "t": 13.085,
+          "path": "analysis/keyframes/src00_shot002_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_003",
+      "src_idx": 0,
+      "index": 3,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 13.972,
+      "end": 16.6,
+      "dur": 2.628,
+      "motion_mean": 0.14848,
+      "motion_max": 0.23209,
+      "brightness": 0.5838,
+      "action": true,
+      "motion_peaks": [
+        14.417,
+        15.167
+      ],
+      "keyframes": [
+        {
+          "t": 14.417,
+          "path": "analysis/keyframes/src00_shot003_0.jpg"
+        },
+        {
+          "t": 14.953,
+          "path": "analysis/keyframes/src00_shot003_1.jpg"
+        },
+        {
+          "t": 15.167,
+          "path": "analysis/keyframes/src00_shot003_2.jpg"
+        },
+        {
+          "t": 15.619,
+          "path": "analysis/keyframes/src00_shot003_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_004",
+      "src_idx": 0,
+      "index": 4,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 16.6,
+      "end": 23.106,
+      "dur": 6.506,
+      "motion_mean": 0.02197,
+      "motion_max": 0.0991,
+      "brightness": 0.2457,
+      "action": true,
+      "motion_peaks": [
+        22.5,
+        21.333,
+        22.917,
+        22.25,
+        21.75,
+        21.083
+      ],
+      "keyframes": [
+        {
+          "t": 19.853,
+          "path": "analysis/keyframes/src00_shot004_0.jpg"
+        },
+        {
+          "t": 20.833,
+          "path": "analysis/keyframes/src00_shot004_1.jpg"
+        },
+        {
+          "t": 21.333,
+          "path": "analysis/keyframes/src00_shot004_2.jpg"
+        },
+        {
+          "t": 21.75,
+          "path": "analysis/keyframes/src00_shot004_3.jpg"
+        },
+        {
+          "t": 22.5,
+          "path": "analysis/keyframes/src00_shot004_4.jpg"
+        },
+        {
+          "t": 22.917,
+          "path": "analysis/keyframes/src00_shot004_5.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_005",
+      "src_idx": 0,
+      "index": 5,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 23.106,
+      "end": 29.988,
+      "dur": 6.882,
+      "motion_mean": 0.00021,
+      "motion_max": 0.00119,
+      "brightness": 0.2153,
+      "action": false,
+      "motion_peaks": [
+        25.083,
+        26.667,
+        27.917,
+        28.583,
+        28.167,
+        28.083
+      ],
+      "keyframes": [
+        {
+          "t": 24.978,
+          "path": "analysis/keyframes/src00_shot005_0.jpg"
+        },
+        {
+          "t": 26.024,
+          "path": "analysis/keyframes/src00_shot005_1.jpg"
+        },
+        {
+          "t": 27.07,
+          "path": "analysis/keyframes/src00_shot005_2.jpg"
+        },
+        {
+          "t": 28.116,
+          "path": "analysis/keyframes/src00_shot005_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_006",
+      "src_idx": 0,
+      "index": 6,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 29.988,
+      "end": 33.116,
+      "dur": 3.128,
+      "motion_mean": 0.02213,
+      "motion_max": 0.09606,
+      "brightness": 0.2242,
+      "action": true,
+      "motion_peaks": [
+        32.25,
+        32.083,
+        32.417,
+        31.833,
+        31.5,
+        31.333
+      ],
+      "keyframes": [
+        {
+          "t": 31.5,
+          "path": "analysis/keyframes/src00_shot006_0.jpg"
+        },
+        {
+          "t": 31.552,
+          "path": "analysis/keyframes/src00_shot006_1.jpg"
+        },
+        {
+          "t": 31.833,
+          "path": "analysis/keyframes/src00_shot006_2.jpg"
+        },
+        {
+          "t": 32.25,
+          "path": "analysis/keyframes/src00_shot006_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_007",
+      "src_idx": 0,
+      "index": 7,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 33.116,
+      "end": 41.625,
+      "dur": 8.509,
+      "motion_mean": 0.03506,
+      "motion_max": 0.3023,
+      "brightness": 0.5091,
+      "action": true,
+      "motion_peaks": [
+        40.083,
+        35.833,
+        40.75,
+        39.75,
+        41.333,
+        35.0
+      ],
+      "keyframes": [
+        {
+          "t": 35.0,
+          "path": "analysis/keyframes/src00_shot007_0.jpg"
+        },
+        {
+          "t": 35.833,
+          "path": "analysis/keyframes/src00_shot007_1.jpg"
+        },
+        {
+          "t": 39.75,
+          "path": "analysis/keyframes/src00_shot007_2.jpg"
+        },
+        {
+          "t": 40.083,
+          "path": "analysis/keyframes/src00_shot007_3.jpg"
+        },
+        {
+          "t": 40.75,
+          "path": "analysis/keyframes/src00_shot007_4.jpg"
+        },
+        {
+          "t": 41.333,
+          "path": "analysis/keyframes/src00_shot007_5.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_008",
+      "src_idx": 0,
+      "index": 8,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 41.625,
+      "end": 46.129,
+      "dur": 4.504,
+      "motion_mean": 0.00364,
+      "motion_max": 0.01166,
+      "brightness": 0.3706,
+      "action": false,
+      "motion_peaks": [
+        43.083,
+        42.917,
+        45.667,
+        45.0,
+        45.333,
+        43.333
+      ],
+      "keyframes": [
+        {
+          "t": 43.021,
+          "path": "analysis/keyframes/src00_shot008_0.jpg"
+        },
+        {
+          "t": 43.877,
+          "path": "analysis/keyframes/src00_shot008_1.jpg"
+        },
+        {
+          "t": 44.733,
+          "path": "analysis/keyframes/src00_shot008_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_009",
+      "src_idx": 0,
+      "index": 9,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 46.129,
+      "end": 48.757,
+      "dur": 2.628,
+      "motion_mean": 0.02172,
+      "motion_max": 0.04674,
+      "brightness": 0.6123,
+      "action": true,
+      "motion_peaks": [
+        47.917,
+        46.417,
+        48.417,
+        46.75,
+        46.917,
+        48.167
+      ],
+      "keyframes": [
+        {
+          "t": 46.417,
+          "path": "analysis/keyframes/src00_shot009_0.jpg"
+        },
+        {
+          "t": 46.75,
+          "path": "analysis/keyframes/src00_shot009_1.jpg"
+        },
+        {
+          "t": 47.917,
+          "path": "analysis/keyframes/src00_shot009_2.jpg"
+        },
+        {
+          "t": 48.417,
+          "path": "analysis/keyframes/src00_shot009_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_010",
+      "src_idx": 0,
+      "index": 10,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 48.757,
+      "end": 54.263,
+      "dur": 5.506,
+      "motion_mean": 0.10642,
+      "motion_max": 0.157,
+      "brightness": 0.5771,
+      "action": true,
+      "motion_peaks": [
+        52.417,
+        52.0,
+        50.25,
+        50.833,
+        51.167
+      ],
+      "keyframes": [
+        {
+          "t": 50.25,
+          "path": "analysis/keyframes/src00_shot010_0.jpg"
+        },
+        {
+          "t": 50.833,
+          "path": "analysis/keyframes/src00_shot010_1.jpg"
+        },
+        {
+          "t": 51.167,
+          "path": "analysis/keyframes/src00_shot010_2.jpg"
+        },
+        {
+          "t": 52.0,
+          "path": "analysis/keyframes/src00_shot010_3.jpg"
+        },
+        {
+          "t": 52.417,
+          "path": "analysis/keyframes/src00_shot010_4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_011",
+      "src_idx": 0,
+      "index": 11,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 54.263,
+      "end": 56.39,
+      "dur": 2.127,
+      "motion_mean": 0.00066,
+      "motion_max": 0.00187,
+      "brightness": 0.4978,
+      "action": false,
+      "motion_peaks": [
+        55.083,
+        56.0,
+        56.167,
+        55.5,
+        54.667,
+        55.75
+      ],
+      "keyframes": [
+        {
+          "t": 55.057,
+          "path": "analysis/keyframes/src00_shot011_0.jpg"
+        },
+        {
+          "t": 55.596,
+          "path": "analysis/keyframes/src00_shot011_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_012",
+      "src_idx": 0,
+      "index": 12,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 56.39,
+      "end": 59.518,
+      "dur": 3.128,
+      "motion_mean": 0.00663,
+      "motion_max": 0.01762,
+      "brightness": 0.4327,
+      "action": false,
+      "motion_peaks": [
+        57.167,
+        56.667,
+        58.667,
+        58.0,
+        56.917,
+        58.25
+      ],
+      "keyframes": [
+        {
+          "t": 57.558,
+          "path": "analysis/keyframes/src00_shot012_0.jpg"
+        },
+        {
+          "t": 58.35,
+          "path": "analysis/keyframes/src00_shot012_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_013",
+      "src_idx": 0,
+      "index": 13,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 59.518,
+      "end": 60.686,
+      "dur": 1.168,
+      "motion_mean": 0.05174,
+      "motion_max": 0.12235,
+      "brightness": 0.772,
+      "action": true,
+      "motion_peaks": [
+        60.417,
+        60.167,
+        59.917
+      ],
+      "keyframes": [
+        {
+          "t": 59.917,
+          "path": "analysis/keyframes/src00_shot013_0.jpg"
+        },
+        {
+          "t": 60.102,
+          "path": "analysis/keyframes/src00_shot013_1.jpg"
+        },
+        {
+          "t": 60.417,
+          "path": "analysis/keyframes/src00_shot013_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_014",
+      "src_idx": 0,
+      "index": 14,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 60.686,
+      "end": 61.436,
+      "dur": 0.75,
+      "motion_mean": 0.03045,
+      "motion_max": 0.08735,
+      "brightness": 0.8168,
+      "action": true,
+      "motion_peaks": [
+        60.833,
+        61.083
+      ],
+      "keyframes": [
+        {
+          "t": 60.833,
+          "path": "analysis/keyframes/src00_shot014_0.jpg"
+        },
+        {
+          "t": 60.966,
+          "path": "analysis/keyframes/src00_shot014_1.jpg"
+        },
+        {
+          "t": 61.156,
+          "path": "analysis/keyframes/src00_shot014_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_015",
+      "src_idx": 0,
+      "index": 15,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 61.436,
+      "end": 64.94,
+      "dur": 3.504,
+      "motion_mean": 0.00716,
+      "motion_max": 0.00995,
+      "brightness": 0.2974,
+      "action": false,
+      "motion_peaks": [
+        62.417,
+        63.583,
+        63.917,
+        63.417,
+        63.083,
+        62.917
+      ],
+      "keyframes": [
+        {
+          "t": 62.744,
+          "path": "analysis/keyframes/src00_shot015_0.jpg"
+        },
+        {
+          "t": 63.632,
+          "path": "analysis/keyframes/src00_shot015_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_016",
+      "src_idx": 0,
+      "index": 16,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 64.94,
+      "end": 67.901,
+      "dur": 2.961,
+      "motion_mean": 0.0079,
+      "motion_max": 0.00973,
+      "brightness": 0.6435,
+      "action": false,
+      "motion_peaks": [
+        65.25,
+        67.667,
+        65.75,
+        66.5,
+        65.583,
+        66.833
+      ],
+      "keyframes": [
+        {
+          "t": 66.045,
+          "path": "analysis/keyframes/src00_shot016_0.jpg"
+        },
+        {
+          "t": 66.796,
+          "path": "analysis/keyframes/src00_shot016_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_017",
+      "src_idx": 0,
+      "index": 17,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 67.901,
+      "end": 75.576,
+      "dur": 7.675,
+      "motion_mean": 0.00077,
+      "motion_max": 0.00234,
+      "brightness": 0.3909,
+      "action": false,
+      "motion_peaks": [
+        70.083,
+        68.25,
+        72.083,
+        72.333,
+        71.167,
+        70.583
+      ],
+      "keyframes": [
+        {
+          "t": 69.989,
+          "path": "analysis/keyframes/src00_shot017_0.jpg"
+        },
+        {
+          "t": 71.155,
+          "path": "analysis/keyframes/src00_shot017_1.jpg"
+        },
+        {
+          "t": 72.322,
+          "path": "analysis/keyframes/src00_shot017_2.jpg"
+        },
+        {
+          "t": 73.488,
+          "path": "analysis/keyframes/src00_shot017_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_018",
+      "src_idx": 0,
+      "index": 18,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 75.576,
+      "end": 78.829,
+      "dur": 3.253,
+      "motion_mean": 0.02298,
+      "motion_max": 0.04267,
+      "brightness": 0.1348,
+      "action": true,
+      "motion_peaks": [
+        76.917,
+        77.083,
+        76.667,
+        76.417,
+        77.333,
+        76.167
+      ],
+      "keyframes": [
+        {
+          "t": 75.833,
+          "path": "analysis/keyframes/src00_shot018_0.jpg"
+        },
+        {
+          "t": 76.417,
+          "path": "analysis/keyframes/src00_shot018_1.jpg"
+        },
+        {
+          "t": 76.917,
+          "path": "analysis/keyframes/src00_shot018_2.jpg"
+        },
+        {
+          "t": 77.333,
+          "path": "analysis/keyframes/src00_shot018_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_019",
+      "src_idx": 0,
+      "index": 19,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 78.829,
+      "end": 82.916,
+      "dur": 4.087,
+      "motion_mean": 0.00721,
+      "motion_max": 0.00836,
+      "brightness": 0.1221,
+      "action": false,
+      "motion_peaks": [
+        82.5,
+        82.667,
+        82.333,
+        82.167,
+        82.0,
+        81.833
+      ],
+      "keyframes": [
+        {
+          "t": 80.096,
+          "path": "analysis/keyframes/src00_shot019_0.jpg"
+        },
+        {
+          "t": 80.873,
+          "path": "analysis/keyframes/src00_shot019_1.jpg"
+        },
+        {
+          "t": 81.649,
+          "path": "analysis/keyframes/src00_shot019_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_020",
+      "src_idx": 0,
+      "index": 20,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 82.916,
+      "end": 91.675,
+      "dur": 8.759,
+      "motion_mean": 7e-05,
+      "motion_max": 0.00089,
+      "brightness": 0.2146,
+      "action": false,
+      "motion_peaks": [
+        90.167,
+        85.167,
+        85.583,
+        89.917,
+        87.917,
+        87.667
+      ],
+      "keyframes": [
+        {
+          "t": 85.077,
+          "path": "analysis/keyframes/src00_shot020_0.jpg"
+        },
+        {
+          "t": 86.186,
+          "path": "analysis/keyframes/src00_shot020_1.jpg"
+        },
+        {
+          "t": 87.296,
+          "path": "analysis/keyframes/src00_shot020_2.jpg"
+        },
+        {
+          "t": 88.405,
+          "path": "analysis/keyframes/src00_shot020_3.jpg"
+        },
+        {
+          "t": 89.514,
+          "path": "analysis/keyframes/src00_shot020_4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_021",
+      "src_idx": 0,
+      "index": 21,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 91.675,
+      "end": 94.594,
+      "dur": 2.919,
+      "motion_mean": 0.01579,
+      "motion_max": 0.01678,
+      "brightness": 0.1586,
+      "action": true,
+      "motion_peaks": [
+        94.0,
+        94.25,
+        93.75,
+        93.583,
+        93.417,
+        93.25
+      ],
+      "keyframes": [
+        {
+          "t": 93.135,
+          "path": "analysis/keyframes/src00_shot021_0.jpg"
+        },
+        {
+          "t": 93.25,
+          "path": "analysis/keyframes/src00_shot021_1.jpg"
+        },
+        {
+          "t": 93.583,
+          "path": "analysis/keyframes/src00_shot021_2.jpg"
+        },
+        {
+          "t": 94.0,
+          "path": "analysis/keyframes/src00_shot021_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_022",
+      "src_idx": 0,
+      "index": 22,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 94.594,
+      "end": 99.85,
+      "dur": 5.256,
+      "motion_mean": 0.00327,
+      "motion_max": 0.00383,
+      "brightness": 0.1684,
+      "action": false,
+      "motion_peaks": [
+        95.583,
+        95.167,
+        99.167,
+        97.25,
+        96.417,
+        95.833
+      ],
+      "keyframes": [
+        {
+          "t": 96.223,
+          "path": "analysis/keyframes/src00_shot022_0.jpg"
+        },
+        {
+          "t": 97.222,
+          "path": "analysis/keyframes/src00_shot022_1.jpg"
+        },
+        {
+          "t": 98.221,
+          "path": "analysis/keyframes/src00_shot022_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_023",
+      "src_idx": 0,
+      "index": 23,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 99.85,
+      "end": 102.686,
+      "dur": 2.836,
+      "motion_mean": 3e-05,
+      "motion_max": 0.00096,
+      "brightness": 0.2461,
+      "action": false,
+      "motion_peaks": [
+        100.167
+      ],
+      "keyframes": [
+        {
+          "t": 100.909,
+          "path": "analysis/keyframes/src00_shot023_0.jpg"
+        },
+        {
+          "t": 101.627,
+          "path": "analysis/keyframes/src00_shot023_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_024",
+      "src_idx": 0,
+      "index": 24,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 102.686,
+      "end": 105.564,
+      "dur": 2.878,
+      "motion_mean": 4e-05,
+      "motion_max": 0.00128,
+      "brightness": 0.2562,
+      "action": false,
+      "motion_peaks": [
+        105.167
+      ],
+      "keyframes": [
+        {
+          "t": 103.76,
+          "path": "analysis/keyframes/src00_shot024_0.jpg"
+        },
+        {
+          "t": 104.49,
+          "path": "analysis/keyframes/src00_shot024_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_025",
+      "src_idx": 0,
+      "index": 25,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 105.564,
+      "end": 111.361,
+      "dur": 5.797,
+      "motion_mean": 0.00053,
+      "motion_max": 0.00308,
+      "brightness": 0.2717,
+      "action": false,
+      "motion_peaks": [
+        110.167,
+        110.5,
+        108.417,
+        109.417,
+        106.917,
+        106.417
+      ],
+      "keyframes": [
+        {
+          "t": 107.361,
+          "path": "analysis/keyframes/src00_shot025_0.jpg"
+        },
+        {
+          "t": 108.463,
+          "path": "analysis/keyframes/src00_shot025_1.jpg"
+        },
+        {
+          "t": 109.564,
+          "path": "analysis/keyframes/src00_shot025_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_026",
+      "src_idx": 0,
+      "index": 26,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 111.361,
+      "end": 114.948,
+      "dur": 3.587,
+      "motion_mean": 0.00016,
+      "motion_max": 0.00078,
+      "brightness": 0.5483,
+      "action": false,
+      "motion_peaks": [
+        111.917,
+        111.75,
+        113.917,
+        112.083,
+        114.083,
+        114.25
+      ],
+      "keyframes": [
+        {
+          "t": 112.7,
+          "path": "analysis/keyframes/src00_shot026_0.jpg"
+        },
+        {
+          "t": 113.609,
+          "path": "analysis/keyframes/src00_shot026_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_027",
+      "src_idx": 0,
+      "index": 27,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 114.948,
+      "end": 118.952,
+      "dur": 4.004,
+      "motion_mean": 0.00047,
+      "motion_max": 0.0064,
+      "brightness": 0.1494,
+      "action": false,
+      "motion_peaks": [
+        115.167,
+        115.583,
+        115.75,
+        118.333,
+        118.167,
+        118.583
+      ],
+      "keyframes": [
+        {
+          "t": 116.189,
+          "path": "analysis/keyframes/src00_shot027_0.jpg"
+        },
+        {
+          "t": 116.95,
+          "path": "analysis/keyframes/src00_shot027_1.jpg"
+        },
+        {
+          "t": 117.711,
+          "path": "analysis/keyframes/src00_shot027_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_028",
+      "src_idx": 0,
+      "index": 28,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 118.952,
+      "end": 122.789,
+      "dur": 3.837,
+      "motion_mean": 0.03203,
+      "motion_max": 0.06404,
+      "brightness": 0.6884,
+      "action": true,
+      "motion_peaks": [
+        119.833,
+        120.083,
+        122.083,
+        122.333,
+        119.25,
+        121.833
+      ],
+      "keyframes": [
+        {
+          "t": 119.25,
+          "path": "analysis/keyframes/src00_shot028_0.jpg"
+        },
+        {
+          "t": 119.833,
+          "path": "analysis/keyframes/src00_shot028_1.jpg"
+        },
+        {
+          "t": 121.333,
+          "path": "analysis/keyframes/src00_shot028_2.jpg"
+        },
+        {
+          "t": 122.083,
+          "path": "analysis/keyframes/src00_shot028_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_029",
+      "src_idx": 0,
+      "index": 29,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 122.789,
+      "end": 127.544,
+      "dur": 4.755,
+      "motion_mean": 0.0107,
+      "motion_max": 0.01574,
+      "brightness": 0.2168,
+      "action": false,
+      "motion_peaks": [
+        123.417,
+        123.75,
+        124.917,
+        123.167,
+        125.333,
+        122.917
+      ],
+      "keyframes": [
+        {
+          "t": 124.263,
+          "path": "analysis/keyframes/src00_shot029_0.jpg"
+        },
+        {
+          "t": 125.166,
+          "path": "analysis/keyframes/src00_shot029_1.jpg"
+        },
+        {
+          "t": 126.07,
+          "path": "analysis/keyframes/src00_shot029_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_030",
+      "src_idx": 0,
+      "index": 30,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 127.544,
+      "end": 129.546,
+      "dur": 2.002,
+      "motion_mean": 0.00763,
+      "motion_max": 0.05442,
+      "brightness": 0.4055,
+      "action": false,
+      "motion_peaks": [
+        128.25,
+        128.417
+      ],
+      "keyframes": [
+        {
+          "t": 128.291,
+          "path": "analysis/keyframes/src00_shot030_0.jpg"
+        },
+        {
+          "t": 128.799,
+          "path": "analysis/keyframes/src00_shot030_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_031",
+      "src_idx": 0,
+      "index": 31,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 129.546,
+      "end": 137.262,
+      "dur": 7.716,
+      "motion_mean": 0.00028,
+      "motion_max": 0.00148,
+      "brightness": 0.5561,
+      "action": false,
+      "motion_peaks": [
+        131.167,
+        130.167,
+        131.333,
+        130.667,
+        130.833,
+        135.167
+      ],
+      "keyframes": [
+        {
+          "t": 131.645,
+          "path": "analysis/keyframes/src00_shot031_0.jpg"
+        },
+        {
+          "t": 132.818,
+          "path": "analysis/keyframes/src00_shot031_1.jpg"
+        },
+        {
+          "t": 133.99,
+          "path": "analysis/keyframes/src00_shot031_2.jpg"
+        },
+        {
+          "t": 135.163,
+          "path": "analysis/keyframes/src00_shot031_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_032",
+      "src_idx": 0,
+      "index": 32,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 137.262,
+      "end": 144.644,
+      "dur": 7.382,
+      "motion_mean": 1e-05,
+      "motion_max": 0.001,
+      "brightness": 0.3286,
+      "action": false,
+      "motion_peaks": [
+        140.167
+      ],
+      "keyframes": [
+        {
+          "t": 139.27,
+          "path": "analysis/keyframes/src00_shot032_0.jpg"
+        },
+        {
+          "t": 140.392,
+          "path": "analysis/keyframes/src00_shot032_1.jpg"
+        },
+        {
+          "t": 141.514,
+          "path": "analysis/keyframes/src00_shot032_2.jpg"
+        },
+        {
+          "t": 142.636,
+          "path": "analysis/keyframes/src00_shot032_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_033",
+      "src_idx": 0,
+      "index": 33,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 144.644,
+      "end": 148.357,
+      "dur": 3.713,
+      "motion_mean": 2e-05,
+      "motion_max": 0.00085,
+      "brightness": 0.2784,
+      "action": false,
+      "motion_peaks": [
+        145.167
+      ],
+      "keyframes": [
+        {
+          "t": 146.03,
+          "path": "analysis/keyframes/src00_shot033_0.jpg"
+        },
+        {
+          "t": 146.971,
+          "path": "analysis/keyframes/src00_shot033_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_034",
+      "src_idx": 0,
+      "index": 34,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 148.357,
+      "end": 151.735,
+      "dur": 3.378,
+      "motion_mean": 0.00284,
+      "motion_max": 0.00326,
+      "brightness": 0.2164,
+      "action": false,
+      "motion_peaks": [
+        150.167,
+        148.917,
+        148.583,
+        149.25,
+        149.583,
+        149.75
+      ],
+      "keyframes": [
+        {
+          "t": 149.618,
+          "path": "analysis/keyframes/src00_shot034_0.jpg"
+        },
+        {
+          "t": 150.474,
+          "path": "analysis/keyframes/src00_shot034_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_035",
+      "src_idx": 0,
+      "index": 35,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 151.735,
+      "end": 159.242,
+      "dur": 7.507,
+      "motion_mean": 1e-05,
+      "motion_max": 0.00085,
+      "brightness": 0.6042,
+      "action": false,
+      "motion_peaks": [
+        155.167
+      ],
+      "keyframes": [
+        {
+          "t": 153.777,
+          "path": "analysis/keyframes/src00_shot035_0.jpg"
+        },
+        {
+          "t": 154.918,
+          "path": "analysis/keyframes/src00_shot035_1.jpg"
+        },
+        {
+          "t": 156.059,
+          "path": "analysis/keyframes/src00_shot035_2.jpg"
+        },
+        {
+          "t": 157.2,
+          "path": "analysis/keyframes/src00_shot035_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_036",
+      "src_idx": 0,
+      "index": 36,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 159.242,
+      "end": 165.207,
+      "dur": 5.965,
+      "motion_mean": 0.04398,
+      "motion_max": 0.0459,
+      "brightness": 0.2348,
+      "action": true,
+      "motion_peaks": [
+        161.917,
+        163.083,
+        162.167,
+        163.5,
+        162.583,
+        160.583
+      ],
+      "keyframes": [
+        {
+          "t": 160.583,
+          "path": "analysis/keyframes/src00_shot036_0.jpg"
+        },
+        {
+          "t": 161.917,
+          "path": "analysis/keyframes/src00_shot036_1.jpg"
+        },
+        {
+          "t": 162.583,
+          "path": "analysis/keyframes/src00_shot036_2.jpg"
+        },
+        {
+          "t": 163.083,
+          "path": "analysis/keyframes/src00_shot036_3.jpg"
+        },
+        {
+          "t": 163.5,
+          "path": "analysis/keyframes/src00_shot036_4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_037",
+      "src_idx": 0,
+      "index": 37,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 165.207,
+      "end": 168.001,
+      "dur": 2.794,
+      "motion_mean": 2e-05,
+      "motion_max": 3e-05,
+      "brightness": 0.3094,
+      "action": false,
+      "motion_peaks": [
+        167.667,
+        167.25,
+        166.667,
+        166.0,
+        165.917,
+        165.583
+      ],
+      "keyframes": [
+        {
+          "t": 166.25,
+          "path": "analysis/keyframes/src00_shot037_0.jpg"
+        },
+        {
+          "t": 166.958,
+          "path": "analysis/keyframes/src00_shot037_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_038",
+      "src_idx": 0,
+      "index": 38,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 168.001,
+      "end": 184.267,
+      "dur": 16.266,
+      "motion_mean": 0.00144,
+      "motion_max": 0.10492,
+      "brightness": 0.1088,
+      "action": false,
+      "motion_peaks": [
+        175.917,
+        180.25,
+        175.25,
+        182.583,
+        177.667,
+        170.25
+      ],
+      "keyframes": [
+        {
+          "t": 171.719,
+          "path": "analysis/keyframes/src00_shot038_0.jpg"
+        },
+        {
+          "t": 173.485,
+          "path": "analysis/keyframes/src00_shot038_1.jpg"
+        },
+        {
+          "t": 175.251,
+          "path": "analysis/keyframes/src00_shot038_2.jpg"
+        },
+        {
+          "t": 177.017,
+          "path": "analysis/keyframes/src00_shot038_3.jpg"
+        },
+        {
+          "t": 178.783,
+          "path": "analysis/keyframes/src00_shot038_4.jpg"
+        },
+        {
+          "t": 180.549,
+          "path": "analysis/keyframes/src00_shot038_5.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_039",
+      "src_idx": 0,
+      "index": 39,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 184.267,
+      "end": 192.776,
+      "dur": 8.509,
+      "motion_mean": 0.0013,
+      "motion_max": 0.00589,
+      "brightness": 0.1927,
+      "action": false,
+      "motion_peaks": [
+        191.75,
+        191.5,
+        192.083,
+        185.25,
+        190.25,
+        191.0
+      ],
+      "keyframes": [
+        {
+          "t": 186.366,
+          "path": "analysis/keyframes/src00_shot039_0.jpg"
+        },
+        {
+          "t": 187.444,
+          "path": "analysis/keyframes/src00_shot039_1.jpg"
+        },
+        {
+          "t": 188.522,
+          "path": "analysis/keyframes/src00_shot039_2.jpg"
+        },
+        {
+          "t": 189.599,
+          "path": "analysis/keyframes/src00_shot039_3.jpg"
+        },
+        {
+          "t": 190.677,
+          "path": "analysis/keyframes/src00_shot039_4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_040",
+      "src_idx": 0,
+      "index": 40,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 192.776,
+      "end": 199.7,
+      "dur": 6.924,
+      "motion_mean": 0.00485,
+      "motion_max": 0.00514,
+      "brightness": 0.2515,
+      "action": false,
+      "motion_peaks": [
+        197.917,
+        193.167,
+        193.917,
+        193.667,
+        195.917,
+        199.25
+      ],
+      "keyframes": [
+        {
+          "t": 194.659,
+          "path": "analysis/keyframes/src00_shot040_0.jpg"
+        },
+        {
+          "t": 195.712,
+          "path": "analysis/keyframes/src00_shot040_1.jpg"
+        },
+        {
+          "t": 196.764,
+          "path": "analysis/keyframes/src00_shot040_2.jpg"
+        },
+        {
+          "t": 197.817,
+          "path": "analysis/keyframes/src00_shot040_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_041",
+      "src_idx": 0,
+      "index": 41,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 199.7,
+      "end": 206.456,
+      "dur": 6.756,
+      "motion_mean": 0.00013,
+      "motion_max": 0.00156,
+      "brightness": 0.2519,
+      "action": false,
+      "motion_peaks": [
+        206.083,
+        205.5,
+        200.25,
+        205.833,
+        205.25
+      ],
+      "keyframes": [
+        {
+          "t": 201.538,
+          "path": "analysis/keyframes/src00_shot041_0.jpg"
+        },
+        {
+          "t": 202.565,
+          "path": "analysis/keyframes/src00_shot041_1.jpg"
+        },
+        {
+          "t": 203.591,
+          "path": "analysis/keyframes/src00_shot041_2.jpg"
+        },
+        {
+          "t": 204.618,
+          "path": "analysis/keyframes/src00_shot041_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_042",
+      "src_idx": 0,
+      "index": 42,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 206.456,
+      "end": 211.211,
+      "dur": 4.755,
+      "motion_mean": 3e-05,
+      "motion_max": 0.00095,
+      "brightness": 0.1645,
+      "action": false,
+      "motion_peaks": [
+        210.25,
+        208.333
+      ],
+      "keyframes": [
+        {
+          "t": 207.93,
+          "path": "analysis/keyframes/src00_shot042_0.jpg"
+        },
+        {
+          "t": 208.834,
+          "path": "analysis/keyframes/src00_shot042_1.jpg"
+        },
+        {
+          "t": 209.737,
+          "path": "analysis/keyframes/src00_shot042_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_043",
+      "src_idx": 0,
+      "index": 43,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 211.211,
+      "end": 213.213,
+      "dur": 2.002,
+      "motion_mean": 0.0027,
+      "motion_max": 0.00387,
+      "brightness": 0.286,
+      "action": false,
+      "motion_peaks": [
+        211.5,
+        213.0,
+        212.333,
+        211.75,
+        212.0,
+        212.5
+      ],
+      "keyframes": [
+        {
+          "t": 211.958,
+          "path": "analysis/keyframes/src00_shot043_0.jpg"
+        },
+        {
+          "t": 212.466,
+          "path": "analysis/keyframes/src00_shot043_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_044",
+      "src_idx": 0,
+      "index": 44,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 213.213,
+      "end": 215.465,
+      "dur": 2.252,
+      "motion_mean": 0.01372,
+      "motion_max": 0.01591,
+      "brightness": 0.2318,
+      "action": true,
+      "motion_peaks": [
+        213.5,
+        214.0,
+        214.583,
+        213.667,
+        213.833
+      ],
+      "keyframes": [
+        {
+          "t": 213.5,
+          "path": "analysis/keyframes/src00_shot044_0.jpg"
+        },
+        {
+          "t": 214.0,
+          "path": "analysis/keyframes/src00_shot044_1.jpg"
+        },
+        {
+          "t": 214.339,
+          "path": "analysis/keyframes/src00_shot044_2.jpg"
+        },
+        {
+          "t": 214.583,
+          "path": "analysis/keyframes/src00_shot044_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_045",
+      "src_idx": 0,
+      "index": 45,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 215.465,
+      "end": 217.759,
+      "dur": 2.294,
+      "motion_mean": 0.01726,
+      "motion_max": 0.05634,
+      "brightness": 0.6222,
+      "action": true,
+      "motion_peaks": [
+        217.417,
+        217.583,
+        216.083,
+        215.75,
+        217.25,
+        216.25
+      ],
+      "keyframes": [
+        {
+          "t": 215.75,
+          "path": "analysis/keyframes/src00_shot045_0.jpg"
+        },
+        {
+          "t": 216.083,
+          "path": "analysis/keyframes/src00_shot045_1.jpg"
+        },
+        {
+          "t": 216.612,
+          "path": "analysis/keyframes/src00_shot045_2.jpg"
+        },
+        {
+          "t": 217.417,
+          "path": "analysis/keyframes/src00_shot045_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_046",
+      "src_idx": 0,
+      "index": 46,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 217.759,
+      "end": 220.762,
+      "dur": 3.003,
+      "motion_mean": 0.01349,
+      "motion_max": 0.07264,
+      "brightness": 0.1336,
+      "action": false,
+      "motion_peaks": [
+        220.5,
+        219.25
+      ],
+      "keyframes": [
+        {
+          "t": 218.88,
+          "path": "analysis/keyframes/src00_shot046_0.jpg"
+        },
+        {
+          "t": 219.641,
+          "path": "analysis/keyframes/src00_shot046_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_047",
+      "src_idx": 0,
+      "index": 47,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 220.762,
+      "end": 226.268,
+      "dur": 5.506,
+      "motion_mean": 0.01433,
+      "motion_max": 0.11157,
+      "brightness": 0.1209,
+      "action": true,
+      "motion_peaks": [
+        223.75,
+        222.083,
+        222.333,
+        223.25,
+        223.583,
+        222.75
+      ],
+      "keyframes": [
+        {
+          "t": 221.0,
+          "path": "analysis/keyframes/src00_shot047_0.jpg"
+        },
+        {
+          "t": 222.083,
+          "path": "analysis/keyframes/src00_shot047_1.jpg"
+        },
+        {
+          "t": 222.75,
+          "path": "analysis/keyframes/src00_shot047_2.jpg"
+        },
+        {
+          "t": 223.25,
+          "path": "analysis/keyframes/src00_shot047_3.jpg"
+        },
+        {
+          "t": 223.75,
+          "path": "analysis/keyframes/src00_shot047_4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_048",
+      "src_idx": 0,
+      "index": 48,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 226.268,
+      "end": 230.897,
+      "dur": 4.629,
+      "motion_mean": 0.0003,
+      "motion_max": 0.0019,
+      "brightness": 0.1466,
+      "action": false,
+      "motion_peaks": [
+        230.25,
+        229.417,
+        229.167,
+        230.083,
+        228.0,
+        229.75
+      ],
+      "keyframes": [
+        {
+          "t": 227.703,
+          "path": "analysis/keyframes/src00_shot048_0.jpg"
+        },
+        {
+          "t": 228.582,
+          "path": "analysis/keyframes/src00_shot048_1.jpg"
+        },
+        {
+          "t": 229.462,
+          "path": "analysis/keyframes/src00_shot048_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_049",
+      "src_idx": 0,
+      "index": 49,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 230.897,
+      "end": 241.366,
+      "dur": 10.469,
+      "motion_mean": 0.00201,
+      "motion_max": 0.0076,
+      "brightness": 0.2826,
+      "action": false,
+      "motion_peaks": [
+        232.167,
+        239.0,
+        236.25,
+        239.667,
+        232.333,
+        235.167
+      ],
+      "keyframes": [
+        {
+          "t": 233.29,
+          "path": "analysis/keyframes/src00_shot049_0.jpg"
+        },
+        {
+          "t": 234.427,
+          "path": "analysis/keyframes/src00_shot049_1.jpg"
+        },
+        {
+          "t": 235.563,
+          "path": "analysis/keyframes/src00_shot049_2.jpg"
+        },
+        {
+          "t": 236.7,
+          "path": "analysis/keyframes/src00_shot049_3.jpg"
+        },
+        {
+          "t": 237.836,
+          "path": "analysis/keyframes/src00_shot049_4.jpg"
+        },
+        {
+          "t": 238.973,
+          "path": "analysis/keyframes/src00_shot049_5.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s00_050",
+      "src_idx": 0,
+      "index": 50,
+      "source": "C:/Users/beast/remotion-video/.claude/worktrees/autoedit-pipeline/public/footage.mp4",
+      "source_static": "footage.mp4",
+      "source_fps": 23.98,
+      "source_duration": 260.43,
+      "start": 241.366,
+      "end": 260.43,
+      "dur": 19.064,
+      "motion_mean": 0.0,
+      "motion_max": 0.0,
+      "brightness": 0.0153,
+      "action": false,
+      "motion_peaks": [],
+      "keyframes": [
+        {
+          "t": 245.723,
+          "path": "analysis/keyframes/src00_shot050_0.jpg"
+        },
+        {
+          "t": 247.793,
+          "path": "analysis/keyframes/src00_shot050_1.jpg"
+        },
+        {
+          "t": 249.863,
+          "path": "analysis/keyframes/src00_shot050_2.jpg"
+        },
+        {
+          "t": 251.933,
+          "path": "analysis/keyframes/src00_shot050_3.jpg"
+        },
+        {
+          "t": 254.003,
+          "path": "analysis/keyframes/src00_shot050_4.jpg"
+        },
+        {
+          "t": 256.073,
+          "path": "analysis/keyframes/src00_shot050_5.jpg"
+        }
+      ]
+    }
+  ]
+}

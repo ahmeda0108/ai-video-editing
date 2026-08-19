@@ -5,3 +5,21 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# --- pipeline artifacts ---
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Large / regenerable analysis blobs (kept out of git; regenerated on demand).
+analysis/keyframes/
+analysis/cache/
+analysis/*.png
+# Source media is large and lives outside git (drop your own into public/).
+public/*.mp4
+public/*.wav
+public/*.mov
+
+# NOTE: small structured metadata under analysis/*.json and edits/*.json IS
+# tracked on purpose so the intermediate analysis stays inspectable in-repo.
