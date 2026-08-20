@@ -19,6 +19,7 @@ Everything here is pure-local: nothing is uploaded.
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 from typing import Optional
 
@@ -32,7 +33,7 @@ MODEL_PATH = REF_DIR / "_model" / "clip_image.onnx"
 INDEX_PATH = config.CACHE / "ref_index.json"
 
 # cosine similarity above which a reference id is considered present
-THRESHOLD = float(__import__("os").environ.get("REF_THRESHOLD", "0.75"))
+THRESHOLD = float(os.environ.get("REF_THRESHOLD", "0.75"))
 _INPUT = 224  # CLIP ViT-B/32 input size
 
 
