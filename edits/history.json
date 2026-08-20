@@ -2,20 +2,13 @@
   "history": [
     {
       "version": 1,
-      "score": 55
+      "score": 85
     },
     {
       "version": 2,
-      "score": 91
-    },
-    {
-      "version": 3,
-      "score": 95
-    },
-    {
-      "version": 4,
-      "score": 100
+      "score": 85
     }
   ],
-  "final_version": 4
+  "final_version": 1,
+  "best_score": 85
 }

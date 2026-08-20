@@ -29,6 +29,21 @@ export interface PlanClip {
   intensity: number;
   impact: number;
   reason: string;
+  diegetic?: boolean; // if true, this clip's native movie audio plays (music ducks)
+  diegeticVolume?: number; // 0..1 gain for the native audio when diegetic
+}
+
+// "underlay" = subtle, low-opacity typographic text integrated into the frame
+// (e.g. a lyric fragment behind the action) — distinct from the bold overlays.
+export type CaptionStyle = "title" | "line" | "hit" | "end" | "underlay";
+
+export interface Caption {
+  text: string; // main line
+  sub?: string; // optional under/over line
+  start: number; // frame (timeline)
+  dur: number; // frames
+  style: CaptionStyle;
+  pos?: "center" | "lower" | "upper";
 }
 
 export interface PlanGrade {
@@ -54,11 +69,19 @@ export interface EditPlan {
     height: number;
     durationInFrames: number;
     audio: string;
+    audioStart?: number; // seconds into the track where playback begins
+    musicVolume?: number; // base music level (0..1); default 1
+    fadeInSec?: number; // fade up from black + music in, over this many seconds
+    fadeOutSec?: number; // fade down to black + music out, at the end
     tempo_bpm: number;
   };
   grade: PlanGrade;
   clips: PlanClip[];
   beatFlashes: number[];
+  captions?: Caption[];
+  // Frame windows where the music ducks (down to `to`) so a diegetic clip's
+  // native audio can punch through. Ramped in/out by the renderer.
+  audioDucks?: { start: number; dur: number; to: number }[];
   audioInfo?: unknown;
   notes?: unknown[];
 }

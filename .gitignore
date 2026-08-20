@@ -21,6 +21,17 @@ analysis/*.png
 public/*.mp4
 public/*.wav
 public/*.mov
+public/*.mp3
+
+# Character reference images + the local CLIP ONNX encoder (~350MB): large and
+# user/footage-supplied. Structure is documented in VISION_LOCAL.md.
+refs/
+
+# Per-shot intermediate vision dumps (regenerable); vision_tags.json is kept.
+analysis/vision/
+
+# Throwaway preview plans
+edits/*preview*.json
 
 # NOTE: small structured metadata under analysis/*.json and edits/*.json IS
 # tracked on purpose so the intermediate analysis stays inspectable in-repo.

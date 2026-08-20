@@ -35,16 +35,24 @@ HEIGHT = 1080
 COMPOSITION_ID = "AutoEdit"
 
 # ---- analysis knobs -------------------------------------------------------
+# All overridable via env so a feature-length film can use coarser settings than
+# the bundled sample without editing code (e.g. AE_MIN_SHOT_SEC=1.0).
+def _envf(name: str, default: float) -> float:
+    try:
+        return float(os.environ.get(name, default))
+    except (TypeError, ValueError):
+        return default
+
 # Scene detection sensitivity (ffmpeg scdet threshold, 0..100). Lower = more cuts.
-SCENE_THRESHOLD = 8.0
-MIN_SHOT_SEC = 0.4          # discard/merge shots shorter than this
-MAX_SHOT_SEC = 10.0         # very long shots get sub-sampled for keyframes
+SCENE_THRESHOLD = _envf("AE_SCENE_THRESHOLD", 8.0)
+MIN_SHOT_SEC = _envf("AE_MIN_SHOT_SEC", 0.4)     # discard/merge shots shorter than this
+MAX_SHOT_SEC = _envf("AE_MAX_SHOT_SEC", 10.0)    # very long shots get sub-sampled for keyframes
 
 # Adaptive keyframe sampling. Fast/high-motion shots must not be under-sampled,
 # or fight impacts get lost. We sample MORE frames when motion is high.
-KF_MIN_PER_SHOT = 1
-KF_MAX_PER_SHOT = 6
-KF_LONG_EDGE = 384          # keyframe jpeg long-edge px (small = cheap vision calls)
+KF_MIN_PER_SHOT = int(_envf("AE_KF_MIN", 1))
+KF_MAX_PER_SHOT = int(_envf("AE_KF_MAX", 6))
+KF_LONG_EDGE = int(_envf("AE_KF_LONG_EDGE", 384))  # keyframe jpeg long-edge px
 
 # Audio
 AUDIO_SR = 22050

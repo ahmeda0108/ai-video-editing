@@ -1,0 +1,7194 @@
+{
+  "_input_hash": "20da41783c90e9992daa325944a21072accf41a2",
+  "movie": "Chainsaw.Man.-.The.Movie.Reze.Arc.2025.2160p.4K.WEB.x265.10bit.AAC5.1-WORLD.mkv",
+  "dialogue_track": 4,
+  "sdh_track": 4,
+  "n_dialogue": 1011,
+  "n_cues": 277,
+  "speaker_lines": {
+    "denji": 30,
+    "pochita": 2,
+    "other": 28,
+    "makima": 8,
+    "aki": 7,
+    "reze": 24
+  },
+  "dialogue": [
+    {
+      "start": 38.614,
+      "end": 40.216,
+      "text": "ORIGINAL WORK TATSUKI FUJIMOTO",
+      "speaker": null
+    },
+    {
+      "start": 40.349,
+      "end": 42.452,
+      "text": "(SERIALIZED IN SHUEISHA'S SHONEN JUMP+)",
+      "speaker": null
+    },
+    {
+      "start": 68.377,
+      "end": 70.346,
+      "text": "It's that same dream again.",
+      "speaker": "denji"
+    },
+    {
+      "start": 70.479,
+      "end": 74.283,
+      "text": "It's that same dream I always dream... And always forget.",
+      "speaker": null
+    },
+    {
+      "start": 82.224,
+      "end": 83.259,
+      "text": "Denji.",
+      "speaker": "pochita"
+    },
+    {
+      "start": 85.728,
+      "end": 86.863,
+      "text": "Pochita!",
+      "speaker": null
+    },
+    {
+      "start": 87.596,
+      "end": 89.698,
+      "text": "Pochita, come out!",
+      "speaker": null
+    },
+    {
+      "start": 89.832,
+      "end": 92.167,
+      "text": "We're just in a dream right now. Let me pet you.",
+      "speaker": null
+    },
+    {
+      "start": 92.3,
+      "end": 93.436,
+      "text": "Denji.",
+      "speaker": "pochita"
+    },
+    {
+      "start": 99.575,
+      "end": 101.176,
+      "text": "Do not open the door. No matter what.",
+      "speaker": null
+    },
+    {
+      "start": 122.431,
+      "end": 124.699,
+      "text": "What's going on? You're so loud.",
+      "speaker": null
+    },
+    {
+      "start": 126.969,
+      "end": 128.538,
+      "text": "I had a bad dream.",
+      "speaker": null
+    },
+    {
+      "start": 138.146,
+      "end": 139.682,
+      "text": "Am I still in a dream?",
+      "speaker": null
+    },
+    {
+      "start": 139.815,
+      "end": 141.217,
+      "text": "What are you talking about?",
+      "speaker": null
+    },
+    {
+      "start": 147.79,
+      "end": 150.026,
+      "text": "What's going on?",
+      "speaker": null
+    },
+    {
+      "start": 150.159,
+      "end": 153.295,
+      "text": "Where did I get all this power?",
+      "speaker": null
+    },
+    {
+      "start": 153.429,
+      "end": 157.066,
+      "text": "So this isn't a dream.",
+      "speaker": "other"
+    },
+    {
+      "start": 178.554,
+      "end": 179.589,
+      "text": "CHAINSAW MAN",
+      "speaker": null
+    },
+    {
+      "start": 186.162,
+      "end": 187.897,
+      "text": "PUBLIC SAFETY DEVIL HUNTERS LARGE-SCALE ATTACK",
+      "speaker": null
+    },
+    {
+      "start": 274.95,
+      "end": 275.985,
+      "text": "ONE MOMENT PLEASE.",
+      "speaker": null
+    },
+    {
+      "start": 306.749,
+      "end": 309.752,
+      "text": "CHAINSAW MAN - THE MOVIE: REZE ARC",
+      "speaker": null
+    },
+    {
+      "start": 312.555,
+      "end": 315.024,
+      "text": "{\\an8}DEVIL HUNTER TOKYO HQ BUILDING",
+      "speaker": null
+    },
+    {
+      "start": 319.361,
+      "end": 320.929,
+      "text": "What are these horns?",
+      "speaker": null
+    },
+    {
+      "start": 321.063,
+      "end": 324.199,
+      "text": "Power, you drank too much blood, didn't you?",
+      "speaker": null
+    },
+    {
+      "start": 324.333,
+      "end": 326.301,
+      "text": "Maybe you drank too much blood",
+      "speaker": null
+    },
+    {
+      "start": 326.435,
+      "end": 328.604,
+      "text": "- in that fight against the zombies. -",
+      "speaker": null
+    },
+    {
+      "start": 328.737,
+      "end": 331.573,
+      "text": "We've got to drain some blood out of you. Okay!",
+      "speaker": null
+    },
+    {
+      "start": 331.706,
+      "end": 333.375,
+      "text": "Drain her blood?",
+      "speaker": null
+    },
+    {
+      "start": 333.508,
+      "end": 336.678,
+      "text": "Power has to have her blood drained every once in a while,",
+      "speaker": null
+    },
+    {
+      "start": 336.812,
+      "end": 338.88,
+      "text": "or else she becomes even more scary",
+      "speaker": null
+    },
+    {
+      "start": 339.014,
+      "end": 341.082,
+      "text": "- and self-centered than she normally is. -",
+      "speaker": null
+    },
+    {
+      "start": 341.216,
+      "end": 343.719,
+      "text": "So that's why... Denji... Huh?",
+      "speaker": "makima"
+    },
+    {
+      "start": 343.853,
+      "end": 346.188,
+      "text": "Is it okay if I borrow Power for a while?",
+      "speaker": null
+    },
+    {
+      "start": 347.923,
+      "end": 349.058,
+      "text": "Hmm...",
+      "speaker": null
+    },
+    {
+      "start": 352.628,
+      "end": 354.096,
+      "text": "Take as long as you need.",
+      "speaker": null
+    },
+    {
+      "start": 356.331,
+      "end": 358.867,
+      "text": "As for who's going to be your new buddy while I'm borrowing her,",
+      "speaker": null
+    },
+    {
+      "start": 359.0,
+      "end": 361.871,
+      "text": "this guy said he wants to team up with you.",
+      "speaker": null
+    },
+    {
+      "start": 367.075,
+      "end": 369.512,
+      "text": "Lord Chainsaw! Lord Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 374.115,
+      "end": 376.218,
+      "text": "Who is this guy?",
+      "speaker": null
+    },
+    {
+      "start": 376.351,
+      "end": 378.487,
+      "text": "He's the Shark Fiend.",
+      "speaker": "makima"
+    },
+    {
+      "start": 378.62,
+      "end": 381.456,
+      "text": "Normally, he's so ferocious that no one can even have a conversation with him.",
+      "speaker": null
+    },
+    {
+      "start": 381.589,
+      "end": 383.792,
+      "text": "But he said that as long as he gets to pair up with you, Denji,",
+      "speaker": null
+    },
+    {
+      "start": 383.925,
+      "end": 385.36,
+      "text": "he'll do whatever you tell him to.",
+      "speaker": null
+    },
+    {
+      "start": 385.494,
+      "end": 387.296,
+      "text": "He'll do whatever I tell him to do?",
+      "speaker": null
+    },
+    {
+      "start": 387.429,
+      "end": 389.832,
+      "text": "- How come? - I'm not sure.",
+      "speaker": null
+    },
+    {
+      "start": 389.965,
+      "end": 391.333,
+      "text": "Maybe it's because your faces look alike.",
+      "speaker": null
+    },
+    {
+      "start": 391.466,
+      "end": 393.068,
+      "text": "Lord Chainsaw! I'll do whatever you say!",
+      "speaker": null
+    },
+    {
+      "start": 393.202,
+      "end": 394.47,
+      "text": "No matter what! Lord Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 394.603,
+      "end": 396.038,
+      "text": "You're the best! You're the greatest!",
+      "speaker": null
+    },
+    {
+      "start": 396.171,
+      "end": 397.406,
+      "text": "Lord Chainsaw! You're the greatest!",
+      "speaker": null
+    },
+    {
+      "start": 397.54,
+      "end": 400.075,
+      "text": "Don't touch me! I'm not into men.",
+      "speaker": null
+    },
+    {
+      "start": 405.447,
+      "end": 408.551,
+      "text": "Hmm? You look unhappy.",
+      "speaker": null
+    },
+    {
+      "start": 410.752,
+      "end": 412.721,
+      "text": "I feel great.",
+      "speaker": null
+    },
+    {
+      "start": 416.792,
+      "end": 418.527,
+      "text": "If you really are feeling great,",
+      "speaker": null
+    },
+    {
+      "start": 418.66,
+      "end": 421.464,
+      "text": "then how about going on a date with me tomorrow on our day off?",
+      "speaker": null
+    },
+    {
+      "start": 422.397,
+      "end": 423.466,
+      "text": "A date?",
+      "speaker": null
+    },
+    {
+      "start": 427.435,
+      "end": 430.973,
+      "text": "Hooray! Hooray!",
+      "speaker": null
+    },
+    {
+      "start": 432.44,
+      "end": 435.144,
+      "text": "Huh? Denji, you're already here.",
+      "speaker": "makima"
+    },
+    {
+      "start": 435.277,
+      "end": 437.612,
+      "text": "You're an hour early.",
+      "speaker": null
+    },
+    {
+      "start": 440.649,
+      "end": 442.951,
+      "text": "She's so cute! She's so cute!",
+      "speaker": null
+    },
+    {
+      "start": 443.084,
+      "end": 444.786,
+      "text": "She's so cute!",
+      "speaker": null
+    },
+    {
+      "start": 444.919,
+      "end": 447.456,
+      "text": "Denji, what time did you get here?",
+      "speaker": null
+    },
+    {
+      "start": 447.589,
+      "end": 450.492,
+      "text": "I couldn't sleep last night. I got here at 5:00.",
+      "speaker": null
+    },
+    {
+      "start": 450.626,
+      "end": 453.829,
+      "text": "So... what's the plan for today?",
+      "speaker": null
+    },
+    {
+      "start": 453.962,
+      "end": 457.165,
+      "text": "I've never hung out with a girl before.",
+      "speaker": null
+    },
+    {
+      "start": 457.299,
+      "end": 463.506,
+      "text": "Today, from now until midnight, we're going to go movie-theater hopping.",
+      "speaker": null
+    },
+    {
+      "start": 464.707,
+      "end": 465.674,
+      "text": "What?",
+      "speaker": null
+    },
+    {
+      "start": 470.312,
+      "end": 472.515,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 474.983,
+      "end": 478.654,
+      "text": "Well, this isn't what I was expecting.",
+      "speaker": "denji"
+    },
+    {
+      "start": 482.157,
+      "end": 483.825,
+      "text": "Everyone's laughing.",
+      "speaker": "denji"
+    },
+    {
+      "start": 483.959,
+      "end": 486.328,
+      "text": "It wasn't that funny!",
+      "speaker": null
+    },
+    {
+      "start": 486.461,
+      "end": 489.498,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 491.467,
+      "end": 493.802,
+      "text": "Makima's not laughing either.",
+      "speaker": null
+    },
+    {
+      "start": 494.502,
+      "end": 496.171,
+      "text": "She's so cute.",
+      "speaker": null
+    },
+    {
+      "start": 498.307,
+      "end": 500.276,
+      "text": "That was disappointing.",
+      "speaker": null
+    },
+    {
+      "start": 500.409,
+      "end": 502.244,
+      "text": "It wasn't very interesting at all.",
+      "speaker": "makima"
+    },
+    {
+      "start": 502.377,
+      "end": 505.18,
+      "text": "It looked like they spent a lot of money making that movie though.",
+      "speaker": null
+    },
+    {
+      "start": 506.648,
+      "end": 509.051,
+      "text": "Well, then... let's go to the next one.",
+      "speaker": null
+    },
+    {
+      "start": 519.862,
+      "end": 521.163,
+      "text": "Everyone's crying.",
+      "speaker": "denji"
+    },
+    {
+      "start": 523.865,
+      "end": 525.634,
+      "text": "She's not crying.",
+      "speaker": null
+    },
+    {
+      "start": 525.767,
+      "end": 526.835,
+      "text": "She's so cute.",
+      "speaker": null
+    },
+    {
+      "start": 528.136,
+      "end": 530.071,
+      "text": "That was disappointing.",
+      "speaker": null
+    },
+    {
+      "start": 530.205,
+      "end": 531.773,
+      "text": "I didn't like how it felt",
+      "speaker": "makima"
+    },
+    {
+      "start": 531.907,
+      "end": 533.875,
+      "text": "when they were trying to force us to cry.",
+      "speaker": null
+    },
+    {
+      "start": 538.013,
+      "end": 540.115,
+      "text": "At least the music was good.",
+      "speaker": null
+    },
+    {
+      "start": 540.248,
+      "end": 542.384,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 542.517,
+      "end": 544.753,
+      "text": "The story seemed so fake.",
+      "speaker": null
+    },
+    {
+      "start": 549.724,
+      "end": 551.76,
+      "text": "It was just average.",
+      "speaker": null
+    },
+    {
+      "start": 551.893,
+      "end": 554.129,
+      "text": "The next movie is the last one.",
+      "speaker": null
+    },
+    {
+      "start": 554.262,
+      "end": 555.23,
+      "text": "CINEMA",
+      "speaker": null
+    },
+    {
+      "start": 555.364,
+      "end": 556.965,
+      "text": "Everyone says this movie",
+      "speaker": null
+    },
+    {
+      "start": 557.098,
+      "end": 558.634,
+      "text": "is hard to understand.",
+      "speaker": null
+    },
+    {
+      "start": 559.768,
+      "end": 561.437,
+      "text": "Do you want to try watching it, Denji?",
+      "speaker": null
+    },
+    {
+      "start": 563.905,
+      "end": 567.141,
+      "text": "Honestly, all the movies we've seen today are bad.",
+      "speaker": "denji"
+    },
+    {
+      "start": 567.275,
+      "end": 570.745,
+      "text": "Maybe I don't get movies or something.",
+      "speaker": null
+    },
+    {
+      "start": 570.879,
+      "end": 575.45,
+      "text": "I only find one good movie for every ten movies I watch too.",
+      "speaker": null
+    },
+    {
+      "start": 575.583,
+      "end": 577.086,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 577.219,
+      "end": 581.256,
+      "text": "But one of those was a movie that changed my life.",
+      "speaker": null
+    },
+    {
+      "start": 586.561,
+      "end": 589.231,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 627.302,
+      "end": 629.338,
+      "text": "Huh? Whoa.",
+      "speaker": "denji"
+    },
+    {
+      "start": 630.439,
+      "end": 633.508,
+      "text": "This scene isn't even that important.",
+      "speaker": null
+    },
+    {
+      "start": 633.642,
+      "end": 636.111,
+      "text": "I hope Makima doesn't see me!",
+      "speaker": null
+    },
+    {
+      "start": 654.262,
+      "end": 658.0,
+      "text": "I'm never going to forget that last scene until the day I die.",
+      "speaker": null
+    },
+    {
+      "start": 658.133,
+      "end": 662.171,
+      "text": "Me too. That last movie made the price of the ticket worth it.",
+      "speaker": null
+    },
+    {
+      "start": 666.141,
+      "end": 669.912,
+      "text": "Makima, do you think I have a heart?",
+      "speaker": null
+    },
+    {
+      "start": 671.146,
+      "end": 673.182,
+      "text": "Why are you asking that question?",
+      "speaker": null
+    },
+    {
+      "start": 674.549,
+      "end": 675.651,
+      "text": "Just because.",
+      "speaker": null
+    },
+    {
+      "start": 699.307,
+      "end": 700.508,
+      "text": "You do.",
+      "speaker": null
+    },
+    {
+      "start": 700.642,
+      "end": 702.745,
+      "text": "I...",
+      "speaker": null
+    },
+    {
+      "start": 703.712,
+      "end": 705.147,
+      "text": "I do.",
+      "speaker": null
+    },
+    {
+      "start": 733.308,
+      "end": 738.881,
+      "text": "I see... The fact that I felt butterflies means that I do have a heart!",
+      "speaker": null
+    },
+    {
+      "start": 739.014,
+      "end": 741.95,
+      "text": "Donations, please! Donations, please!",
+      "speaker": null
+    },
+    {
+      "start": 742.083,
+      "end": 745.954,
+      "text": "We're collecting donations for children who've been victimized by devils.",
+      "speaker": null
+    },
+    {
+      "start": 746.587,
+      "end": 748.023,
+      "text": "Donations, please!",
+      "speaker": null
+    },
+    {
+      "start": 748.156,
+      "end": 751.026,
+      "text": "I have a heart, so I can even make a donation!",
+      "speaker": null
+    },
+    {
+      "start": 752.527,
+      "end": 753.728,
+      "text": "Thank you very much!",
+      "speaker": null
+    },
+    {
+      "start": 753.862,
+      "end": 755.33,
+      "text": "We're giving away flowers",
+      "speaker": null
+    },
+    {
+      "start": 755.463,
+      "end": 757.533,
+      "text": "to everyone who makes a donation.",
+      "speaker": null
+    },
+    {
+      "start": 758.133,
+      "end": 759.701,
+      "text": "Ah...",
+      "speaker": null
+    },
+    {
+      "start": 760.468,
+      "end": 761.503,
+      "text": "It's beautiful.",
+      "speaker": null
+    },
+    {
+      "start": 762.237,
+      "end": 763.572,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 768.377,
+      "end": 770.311,
+      "text": "And the fact that I can feel that the flower is beautiful",
+      "speaker": null
+    },
+    {
+      "start": 770.445,
+      "end": 772.647,
+      "text": "also means I have a heart!",
+      "speaker": null
+    },
+    {
+      "start": 772.78,
+      "end": 773.816,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 775.784,
+      "end": 777.82,
+      "text": "Makima, you're incredible.",
+      "speaker": "denji"
+    },
+    {
+      "start": 778.92,
+      "end": 780.154,
+      "text": "I feel so much better",
+      "speaker": null
+    },
+    {
+      "start": 780.288,
+      "end": 781.657,
+      "text": "after talking to you!",
+      "speaker": null
+    },
+    {
+      "start": 783.558,
+      "end": 785.327,
+      "text": "Makima said that once I've gathered",
+      "speaker": null
+    },
+    {
+      "start": 785.46,
+      "end": 787.495,
+      "text": "all the pieces of the Gun Devil's flesh,",
+      "speaker": null
+    },
+    {
+      "start": 787.628,
+      "end": 789.298,
+      "text": "she'll grant me one wish.",
+      "speaker": null
+    },
+    {
+      "start": 789.431,
+      "end": 793.101,
+      "text": "In that case... I think I want to ask her to be my girlfriend.",
+      "speaker": null
+    },
+    {
+      "start": 802.244,
+      "end": 803.645,
+      "text": "Whenever I have a free moment,",
+      "speaker": null
+    },
+    {
+      "start": 803.779,
+      "end": 805.48,
+      "text": "I always start thinking about Makima.",
+      "speaker": null
+    },
+    {
+      "start": 805.613,
+      "end": 807.348,
+      "text": "I've squeezed other girls' boobs",
+      "speaker": null
+    },
+    {
+      "start": 807.482,
+      "end": 809.317,
+      "text": "and kissed other girls before too,",
+      "speaker": null
+    },
+    {
+      "start": 809.451,
+      "end": 812.654,
+      "text": "but my heart belongs completely to Makima!",
+      "speaker": null
+    },
+    {
+      "start": 812.788,
+      "end": 815.79,
+      "text": "There's no way I'm going to fall for anyone else!",
+      "speaker": null
+    },
+    {
+      "start": 820.395,
+      "end": 822.097,
+      "text": "Run away!",
+      "speaker": null
+    },
+    {
+      "start": 823.264,
+      "end": 824.299,
+      "text": "Whoo-hoo!",
+      "speaker": null
+    },
+    {
+      "start": 824.432,
+      "end": 825.567,
+      "text": "Water! Water!",
+      "speaker": null
+    },
+    {
+      "start": 825.701,
+      "end": 828.503,
+      "text": "Water!",
+      "speaker": null
+    },
+    {
+      "start": 829.971,
+      "end": 830.905,
+      "text": "Ah.",
+      "speaker": null
+    },
+    {
+      "start": 831.038,
+      "end": 833.508,
+      "text": "Beam! You stay hidden!",
+      "speaker": null
+    },
+    {
+      "start": 833.641,
+      "end": 836.578,
+      "text": "If anyone sees you, I won't be able to walk around in public anymore.",
+      "speaker": null
+    },
+    {
+      "start": 836.712,
+      "end": 837.746,
+      "text": "Okay!",
+      "speaker": null
+    },
+    {
+      "start": 839.848,
+      "end": 843.185,
+      "text": "Why do fiends all have such weird names?",
+      "speaker": null
+    },
+    {
+      "start": 853.127,
+      "end": 855.397,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 855.53,
+      "end": 858.133,
+      "text": "I should have brought an umbrella.",
+      "speaker": null
+    },
+    {
+      "start": 865.707,
+      "end": 869.577,
+      "text": "Whoa!",
+      "speaker": null
+    },
+    {
+      "start": 869.711,
+      "end": 872.08,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 872.213,
+      "end": 874.115,
+      "text": "Hello, hello.",
+      "speaker": null
+    },
+    {
+      "start": 874.248,
+      "end": 876.418,
+      "text": "It's raining so hard.",
+      "speaker": null
+    },
+    {
+      "start": 877.151,
+      "end": 879.353,
+      "text": "Huh? Uh...",
+      "speaker": null
+    },
+    {
+      "start": 879.487,
+      "end": 881.957,
+      "text": "The weather report said...",
+      "speaker": null
+    },
+    {
+      "start": 883.625,
+      "end": 884.726,
+      "text": "Hmm?",
+      "speaker": null
+    },
+    {
+      "start": 885.493,
+      "end": 888.063,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 889.196,
+      "end": 890.632,
+      "text": "Huh? What's wrong?",
+      "speaker": null
+    },
+    {
+      "start": 891.132,
+      "end": 892.968,
+      "text": "Sorry.",
+      "speaker": null
+    },
+    {
+      "start": 894.369,
+      "end": 895.904,
+      "text": "What's wrong with you?",
+      "speaker": null
+    },
+    {
+      "start": 900.676,
+      "end": 903.278,
+      "text": "Huh? How come you're crying?",
+      "speaker": "denji"
+    },
+    {
+      "start": 903.411,
+      "end": 905.08,
+      "text": "Sorry.",
+      "speaker": null
+    },
+    {
+      "start": 905.781,
+      "end": 907.448,
+      "text": "Your face...",
+      "speaker": null
+    },
+    {
+      "start": 907.582,
+      "end": 909.818,
+      "text": "looks like my dog that passed away.",
+      "speaker": null
+    },
+    {
+      "start": 909.951,
+      "end": 913.254,
+      "text": "Huh? You're saying I'm a dog?",
+      "speaker": null
+    },
+    {
+      "start": 913.388,
+      "end": 915.958,
+      "text": "I'm sorry! I'm sorry!",
+      "speaker": null
+    },
+    {
+      "start": 920.261,
+      "end": 922.331,
+      "text": "-  - Hmm? Are you okay?",
+      "speaker": null
+    },
+    {
+      "start": 925.3,
+      "end": 926.802,
+      "text": "Uh...",
+      "speaker": null
+    },
+    {
+      "start": 928.97,
+      "end": 931.473,
+      "text": "Hold on! I've got a handkerchief!",
+      "speaker": null
+    },
+    {
+      "start": 934.041,
+      "end": 935.811,
+      "text": "Ta-da!",
+      "speaker": null
+    },
+    {
+      "start": 936.444,
+      "end": 937.846,
+      "text": "What?",
+      "speaker": null
+    },
+    {
+      "start": 937.979,
+      "end": 939.014,
+      "text": "A magic trick?",
+      "speaker": null
+    },
+    {
+      "start": 939.714,
+      "end": 940.983,
+      "text": "That's amazing!",
+      "speaker": null
+    },
+    {
+      "start": 941.817,
+      "end": 944.353,
+      "text": "There's no trick to it.",
+      "speaker": null
+    },
+    {
+      "start": 948.123,
+      "end": 949.358,
+      "text": "Thanks.",
+      "speaker": null
+    },
+    {
+      "start": 963.605,
+      "end": 965.474,
+      "text": "Ah. It stopped raining!",
+      "speaker": null
+    },
+    {
+      "start": 966.841,
+      "end": 970.145,
+      "text": "I work at a café called Crossroads right down there.",
+      "speaker": null
+    },
+    {
+      "start": 970.278,
+      "end": 972.481,
+      "text": "If you drop by, I'll pay you back for this.",
+      "speaker": null
+    },
+    {
+      "start": 973.581,
+      "end": 975.05,
+      "text": "Make sure you come, okay?",
+      "speaker": null
+    },
+    {
+      "start": 1016.824,
+      "end": 1018.426,
+      "text": "All right.",
+      "speaker": null
+    },
+    {
+      "start": 1018.559,
+      "end": 1021.563,
+      "text": "You're late. I'm going to deduct it from your pay.",
+      "speaker": null
+    },
+    {
+      "start": 1021.696,
+      "end": 1022.697,
+      "text": "You're so stingy!",
+      "speaker": null
+    },
+    {
+      "start": 1022.831,
+      "end": 1025.066,
+      "text": "Take this water to table four.",
+      "speaker": null
+    },
+    {
+      "start": 1025.2,
+      "end": 1027.903,
+      "text": "Stingy! Stingy! Stingy! Stingy! Stingy!",
+      "speaker": null
+    },
+    {
+      "start": 1031.939,
+      "end": 1034.209,
+      "text": "Th... That was fast!",
+      "speaker": null
+    },
+    {
+      "start": 1034.342,
+      "end": 1037.746,
+      "text": "Huh? You got here faster than me!",
+      "speaker": null
+    },
+    {
+      "start": 1037.879,
+      "end": 1039.915,
+      "text": "Well, I guess you're right.",
+      "speaker": null
+    },
+    {
+      "start": 1041.382,
+      "end": 1043.451,
+      "text": "I just came so that you could pay me back.",
+      "speaker": null
+    },
+    {
+      "start": 1043.584,
+      "end": 1045.487,
+      "text": "Hmm?",
+      "speaker": null
+    },
+    {
+      "start": 1049.124,
+      "end": 1051.726,
+      "text": "Oh. Let's have a drink together!",
+      "speaker": null
+    },
+    {
+      "start": 1051.859,
+      "end": 1055.43,
+      "text": "Hey! Can you bring some coffee for me and him?",
+      "speaker": null
+    },
+    {
+      "start": 1056.231,
+      "end": 1057.966,
+      "text": "But you work here.",
+      "speaker": null
+    },
+    {
+      "start": 1058.099,
+      "end": 1059.968,
+      "text": "What's the big deal?",
+      "speaker": null
+    },
+    {
+      "start": 1060.101,
+      "end": 1062.737,
+      "text": "We only get customers in the morning anyway.",
+      "speaker": null
+    },
+    {
+      "start": 1065.073,
+      "end": 1066.341,
+      "text": "Well...",
+      "speaker": null
+    },
+    {
+      "start": 1067.775,
+      "end": 1069.811,
+      "text": "A cup of coffee is my gift back to you!",
+      "speaker": null
+    },
+    {
+      "start": 1070.712,
+      "end": 1071.813,
+      "text": "Do you like coffee?",
+      "speaker": null
+    },
+    {
+      "start": 1072.447,
+      "end": 1073.615,
+      "text": "I'll drink it.",
+      "speaker": null
+    },
+    {
+      "start": 1078.119,
+      "end": 1082.09,
+      "text": "What's with that face? You're just pretending you're fine!",
+      "speaker": null
+    },
+    {
+      "start": 1082.223,
+      "end": 1084.258,
+      "text": "Coffee tastes bad!",
+      "speaker": null
+    },
+    {
+      "start": 1084.392,
+      "end": 1086.328,
+      "text": "It tastes like it's from the gutter!",
+      "speaker": null
+    },
+    {
+      "start": 1089.463,
+      "end": 1091.266,
+      "text": "You're just like a little kid!",
+      "speaker": null
+    },
+    {
+      "start": 1093.335,
+      "end": 1097.304,
+      "text": "She's touching me a lot, and she's laughing at my jokes.",
+      "speaker": "denji"
+    },
+    {
+      "start": 1097.438,
+      "end": 1098.773,
+      "text": "Could it be that...",
+      "speaker": null
+    },
+    {
+      "start": 1099.573,
+      "end": 1101.143,
+      "text": "she likes me?",
+      "speaker": null
+    },
+    {
+      "start": 1102.777,
+      "end": 1104.679,
+      "text": "My name's Reze.",
+      "speaker": null
+    },
+    {
+      "start": 1104.812,
+      "end": 1105.914,
+      "text": "What's your name?",
+      "speaker": null
+    },
+    {
+      "start": 1106.848,
+      "end": 1107.983,
+      "text": "Denji.",
+      "speaker": null
+    },
+    {
+      "start": 1108.85,
+      "end": 1109.885,
+      "text": "Denji?",
+      "speaker": null
+    },
+    {
+      "start": 1110.685,
+      "end": 1112.12,
+      "text": "Denji...",
+      "speaker": null
+    },
+    {
+      "start": 1116.257,
+      "end": 1119.594,
+      "text": "Denji, I've never met someone as interesting as you.",
+      "speaker": null
+    },
+    {
+      "start": 1121.096,
+      "end": 1123.297,
+      "text": "Huh...",
+      "speaker": null
+    },
+    {
+      "start": 1123.431,
+      "end": 1125.734,
+      "text": "I'm sure about it now. She does like me.",
+      "speaker": null
+    },
+    {
+      "start": 1127.168,
+      "end": 1128.569,
+      "text": "What am I going to do?",
+      "speaker": null
+    },
+    {
+      "start": 1128.703,
+      "end": 1131.873,
+      "text": "I like people who like me too.",
+      "speaker": null
+    },
+    {
+      "start": 1133.074,
+      "end": 1135.177,
+      "text": "Makima... help.",
+      "speaker": null
+    },
+    {
+      "start": 1136.244,
+      "end": 1139.247,
+      "text": "I'm going to start falling for this girl.",
+      "speaker": null
+    },
+    {
+      "start": 1155.363,
+      "end": 1157.866,
+      "text": "You've had three already. That's enough.",
+      "speaker": null
+    },
+    {
+      "start": 1157.999,
+      "end": 1159.434,
+      "text": "We're going to go on patrol now.",
+      "speaker": null
+    },
+    {
+      "start": 1161.302,
+      "end": 1163.705,
+      "text": "Eating ice cream made me tired.",
+      "speaker": null
+    },
+    {
+      "start": 1163.838,
+      "end": 1166.341,
+      "text": "I heard that eating takes energy too.",
+      "speaker": null
+    },
+    {
+      "start": 1171.712,
+      "end": 1174.115,
+      "text": "I don't want to work anymore today.",
+      "speaker": null
+    },
+    {
+      "start": 1174.248,
+      "end": 1176.684,
+      "text": "They found out where the Gun Devil is.",
+      "speaker": null
+    },
+    {
+      "start": 1176.817,
+      "end": 1178.152,
+      "text": "There's going to be an expedition.",
+      "speaker": null
+    },
+    {
+      "start": 1178.286,
+      "end": 1180.155,
+      "text": "In order to participate,",
+      "speaker": null
+    },
+    {
+      "start": 1180.288,
+      "end": 1183.658,
+      "text": "I need to have more experience defeating big devils.",
+      "speaker": null
+    },
+    {
+      "start": 1183.791,
+      "end": 1187.128,
+      "text": "That's why I want to go look for more devils.",
+      "speaker": null
+    },
+    {
+      "start": 1187.262,
+      "end": 1190.565,
+      "text": "You're my buddy. Please help me out.",
+      "speaker": null
+    },
+    {
+      "start": 1190.698,
+      "end": 1192.033,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 1195.169,
+      "end": 1196.838,
+      "text": "Hmm...",
+      "speaker": null
+    },
+    {
+      "start": 1200.708,
+      "end": 1203.078,
+      "text": "How about I think about it a bit after I've had another ice cream?",
+      "speaker": null
+    },
+    {
+      "start": 1204.579,
+      "end": 1205.98,
+      "text": "Get up.",
+      "speaker": null
+    },
+    {
+      "start": 1206.113,
+      "end": 1208.616,
+      "text": "If I tell the leadership that you're useless,",
+      "speaker": null
+    },
+    {
+      "start": 1208.749,
+      "end": 1210.552,
+      "text": "they're going to kill you as a devil.",
+      "speaker": null
+    },
+    {
+      "start": 1210.685,
+      "end": 1211.92,
+      "text": "Are you sure you're okay with that?",
+      "speaker": null
+    },
+    {
+      "start": 1213.421,
+      "end": 1214.956,
+      "text": "Hmm.",
+      "speaker": null
+    },
+    {
+      "start": 1219.627,
+      "end": 1222.597,
+      "text": "I'd rather die than work.",
+      "speaker": null
+    },
+    {
+      "start": 1225.9,
+      "end": 1228.469,
+      "text": "He's the second-most powerful member of Division 4,",
+      "speaker": "makima"
+    },
+    {
+      "start": 1228.602,
+      "end": 1229.738,
+      "text": "after Captain Kishibe.",
+      "speaker": null
+    },
+    {
+      "start": 1231.072,
+      "end": 1234.442,
+      "text": "At least he would be if he weren't always so lazy.",
+      "speaker": null
+    },
+    {
+      "start": 1234.576,
+      "end": 1237.745,
+      "text": "If you want to join the expedition to defeat the Gun Devil,",
+      "speaker": null
+    },
+    {
+      "start": 1237.878,
+      "end": 1240.649,
+      "text": "then you should try to make good use of him.",
+      "speaker": null
+    },
+    {
+      "start": 1241.982,
+      "end": 1244.985,
+      "text": "I don't think I can get along well with a devil.",
+      "speaker": null
+    },
+    {
+      "start": 1245.119,
+      "end": 1248.355,
+      "text": "But you get along with Power, right?",
+      "speaker": null
+    },
+    {
+      "start": 1248.489,
+      "end": 1251.593,
+      "text": "We had a fistfight just this morning.",
+      "speaker": null
+    },
+    {
+      "start": 1253.494,
+      "end": 1256.898,
+      "text": "You don't have to become friends.",
+      "speaker": null
+    },
+    {
+      "start": 1257.031,
+      "end": 1259.901,
+      "text": "Just use him for your own benefit.",
+      "speaker": null
+    },
+    {
+      "start": 1260.034,
+      "end": 1262.771,
+      "text": "He's someone who killed every single person",
+      "speaker": null
+    },
+    {
+      "start": 1262.904,
+      "end": 1265.105,
+      "text": "in the village where he was born.",
+      "speaker": null
+    },
+    {
+      "start": 1265.239,
+      "end": 1266.64,
+      "text": "Or to put it more accurately:",
+      "speaker": null
+    },
+    {
+      "start": 1266.774,
+      "end": 1268.543,
+      "text": "He sucked the lifespans out of them",
+      "speaker": null
+    },
+    {
+      "start": 1268.676,
+      "end": 1270.478,
+      "text": "and transformed them into weapons.",
+      "speaker": null
+    },
+    {
+      "start": 1271.212,
+      "end": 1272.146,
+      "text": "Weapons?",
+      "speaker": null
+    },
+    {
+      "start": 1272.28,
+      "end": 1273.915,
+      "text": "He has the power",
+      "speaker": "makima"
+    },
+    {
+      "start": 1274.048,
+      "end": 1276.484,
+      "text": "to transform the life of anyone he touches into a weapon.",
+      "speaker": null
+    },
+    {
+      "start": 1276.617,
+      "end": 1280.388,
+      "text": "That katana you have is one of his weapons too.",
+      "speaker": null
+    },
+    {
+      "start": 1280.521,
+      "end": 1283.991,
+      "text": "Those weapons can do things like cut through ghosts that no one can touch...",
+      "speaker": null
+    },
+    {
+      "start": 1284.124,
+      "end": 1286.461,
+      "text": "and have different special powers.",
+      "speaker": null
+    },
+    {
+      "start": 1288.296,
+      "end": 1291.332,
+      "text": "It's okay if you have to pretend. Just be friendly with him.",
+      "speaker": null
+    },
+    {
+      "start": 1291.466,
+      "end": 1294.002,
+      "text": "I'm sure he'll be useful to you.",
+      "speaker": null
+    },
+    {
+      "start": 1315.289,
+      "end": 1317.225,
+      "text": "I've eliminated the devil!",
+      "speaker": null
+    },
+    {
+      "start": 1317.358,
+      "end": 1320.962,
+      "text": "Please make sure not to touch its blood or its flesh!",
+      "speaker": null
+    },
+    {
+      "start": 1327.669,
+      "end": 1329.904,
+      "text": "Whoa, that looks delicious.",
+      "speaker": null
+    },
+    {
+      "start": 1332.006,
+      "end": 1333.574,
+      "text": "Hey you, human.",
+      "speaker": null
+    },
+    {
+      "start": 1333.707,
+      "end": 1335.243,
+      "text": "Come over here.",
+      "speaker": null
+    },
+    {
+      "start": 1336.377,
+      "end": 1339.313,
+      "text": "He must be a private Devil Hunter.",
+      "speaker": null
+    },
+    {
+      "start": 1339.447,
+      "end": 1341.849,
+      "text": "He was being eaten up by this devil.",
+      "speaker": null
+    },
+    {
+      "start": 1341.983,
+      "end": 1345.186,
+      "text": "The lower half of his body is gone already. He's almost dead.",
+      "speaker": null
+    },
+    {
+      "start": 1350.824,
+      "end": 1353.861,
+      "text": "Kill me. Kill me.",
+      "speaker": null
+    },
+    {
+      "start": 1353.994,
+      "end": 1357.231,
+      "text": "Your power gives you the ability to kill him painlessly.",
+      "speaker": "aki"
+    },
+    {
+      "start": 1357.365,
+      "end": 1359.133,
+      "text": "Grant him his wish to die.",
+      "speaker": null
+    },
+    {
+      "start": 1359.267,
+      "end": 1360.602,
+      "text": "Huh? No way.",
+      "speaker": null
+    },
+    {
+      "start": 1360.735,
+      "end": 1363.604,
+      "text": "I may be an angel, but I'm also a devil.",
+      "speaker": null
+    },
+    {
+      "start": 1363.737,
+      "end": 1367.175,
+      "text": "I believe that humans should suffer when they die.",
+      "speaker": null
+    },
+    {
+      "start": 1386.261,
+      "end": 1388.83,
+      "text": "I don't think we can become friends. Even if I pretend.",
+      "speaker": null
+    },
+    {
+      "start": 1390.064,
+      "end": 1391.099,
+      "text": "I guess not.",
+      "speaker": null
+    },
+    {
+      "start": 1394.702,
+      "end": 1398.406,
+      "text": "Makima's the one who found my heart.",
+      "speaker": "denji"
+    },
+    {
+      "start": 1398.539,
+      "end": 1402.377,
+      "text": "So that's why my heart belongs to Makima.",
+      "speaker": null
+    },
+    {
+      "start": 1403.811,
+      "end": 1406.28,
+      "text": "But... my body...",
+      "speaker": null
+    },
+    {
+      "start": 1406.413,
+      "end": 1407.949,
+      "text": "It's moving on its own!",
+      "speaker": null
+    },
+    {
+      "start": 1410.084,
+      "end": 1412.153,
+      "text": "Oh, it's you!",
+      "speaker": null
+    },
+    {
+      "start": 1412.286,
+      "end": 1413.888,
+      "text": "I came to have lunch.",
+      "speaker": null
+    },
+    {
+      "start": 1414.922,
+      "end": 1416.457,
+      "text": "The food here's not that good.",
+      "speaker": null
+    },
+    {
+      "start": 1416.59,
+      "end": 1418.96,
+      "text": "No one would come every day for a whole week.",
+      "speaker": null
+    },
+    {
+      "start": 1419.56,
+      "end": 1420.795,
+      "text": "It's good.",
+      "speaker": null
+    },
+    {
+      "start": 1420.929,
+      "end": 1422.429,
+      "text": "It is good.",
+      "speaker": null
+    },
+    {
+      "start": 1422.563,
+      "end": 1424.466,
+      "text": "You have such bad taste.",
+      "speaker": null
+    },
+    {
+      "start": 1425.566,
+      "end": 1427.335,
+      "text": "Well...",
+      "speaker": null
+    },
+    {
+      "start": 1427.468,
+      "end": 1429.97,
+      "text": "I'll have some curry and some ice cream.",
+      "speaker": null
+    },
+    {
+      "start": 1430.104,
+      "end": 1431.672,
+      "text": "Ah! And some fried rice!",
+      "speaker": null
+    },
+    {
+      "start": 1431.805,
+      "end": 1435.609,
+      "text": "How about you come eat over here at this table?",
+      "speaker": null
+    },
+    {
+      "start": 1435.743,
+      "end": 1436.877,
+      "text": "I'm fine here.",
+      "speaker": null
+    },
+    {
+      "start": 1437.011,
+      "end": 1438.646,
+      "text": "You're studying right now, right?",
+      "speaker": null
+    },
+    {
+      "start": 1438.78,
+      "end": 1439.947,
+      "text": "Even though you're on the clock.",
+      "speaker": null
+    },
+    {
+      "start": 1440.08,
+      "end": 1442.749,
+      "text": "You don't go to school, right?",
+      "speaker": null
+    },
+    {
+      "start": 1442.883,
+      "end": 1444.786,
+      "text": "Even though you're 16.",
+      "speaker": null
+    },
+    {
+      "start": 1447.588,
+      "end": 1451.158,
+      "text": "I think that's even worse.",
+      "speaker": null
+    },
+    {
+      "start": 1451.292,
+      "end": 1453.127,
+      "text": "Do you really think so?",
+      "speaker": null
+    },
+    {
+      "start": 1453.261,
+      "end": 1454.461,
+      "text": "I see.",
+      "speaker": null
+    },
+    {
+      "start": 1454.595,
+      "end": 1456.063,
+      "text": "You're working as a Devil Hunter",
+      "speaker": null
+    },
+    {
+      "start": 1456.197,
+      "end": 1457.464,
+      "text": "instead of going to school.",
+      "speaker": null
+    },
+    {
+      "start": 1457.598,
+      "end": 1459.934,
+      "text": "You're a weird one.",
+      "speaker": null
+    },
+    {
+      "start": 1465.44,
+      "end": 1468.008,
+      "text": "I'm going to study over here.",
+      "speaker": null
+    },
+    {
+      "start": 1468.142,
+      "end": 1469.911,
+      "text": "Scoot over! Scoot over!",
+      "speaker": null
+    },
+    {
+      "start": 1474.248,
+      "end": 1476.383,
+      "text": "I want to learn how to read kanji.",
+      "speaker": null
+    },
+    {
+      "start": 1476.517,
+      "end": 1478.119,
+      "text": "You can't read kanji?",
+      "speaker": "reze"
+    },
+    {
+      "start": 1478.252,
+      "end": 1480.388,
+      "text": "Then I'll teach you!",
+      "speaker": null
+    },
+    {
+      "start": 1481.455,
+      "end": 1482.69,
+      "text": "Here's a question.",
+      "speaker": null
+    },
+    {
+      "start": 1483.224,
+      "end": 1484.225,
+      "text": "Ta-da!",
+      "speaker": null
+    },
+    {
+      "start": 1484.358,
+      "end": 1486.194,
+      "text": "What does this say?",
+      "speaker": null
+    },
+    {
+      "start": 1486.327,
+      "end": 1488.729,
+      "text": "That says \"balls,\" you sex-crazed girl.",
+      "speaker": "denji"
+    },
+    {
+      "start": 1488.863,
+      "end": 1491.131,
+      "text": "So you do know what it says.",
+      "speaker": null
+    },
+    {
+      "start": 1491.265,
+      "end": 1494.469,
+      "text": "\"Balls\" is the only one I can read.",
+      "speaker": null
+    },
+    {
+      "start": 1498.372,
+      "end": 1499.874,
+      "text": "That's crazy.",
+      "speaker": null
+    },
+    {
+      "start": 1505.379,
+      "end": 1508.482,
+      "text": "I wish I could have gone to school with you.",
+      "speaker": null
+    },
+    {
+      "start": 1508.616,
+      "end": 1510.184,
+      "text": "It would have been fun.",
+      "speaker": null
+    },
+    {
+      "start": 1515.89,
+      "end": 1517.759,
+      "text": "What am I saying?",
+      "speaker": "denji"
+    },
+    {
+      "start": 1522.029,
+      "end": 1523.697,
+      "text": "Do you want to go with me?",
+      "speaker": null
+    },
+    {
+      "start": 1523.831,
+      "end": 1525.666,
+      "text": "At night. At night?",
+      "speaker": null
+    },
+    {
+      "start": 1525.799,
+      "end": 1529.871,
+      "text": "Let's go explore a school building together at night.",
+      "speaker": null
+    },
+    {
+      "start": 1533.908,
+      "end": 1534.943,
+      "text": "Okay.",
+      "speaker": null
+    },
+    {
+      "start": 1535.976,
+      "end": 1538.079,
+      "text": "My heart belongs to Makima,",
+      "speaker": null
+    },
+    {
+      "start": 1539.146,
+      "end": 1542.083,
+      "text": "but my body won't listen to me!",
+      "speaker": null
+    },
+    {
+      "start": 1553.06,
+      "end": 1554.362,
+      "text": "Typhoon.",
+      "speaker": null
+    },
+    {
+      "start": 1555.062,
+      "end": 1556.029,
+      "text": "What is it?",
+      "speaker": "other"
+    },
+    {
+      "start": 1556.163,
+      "end": 1558.833,
+      "text": "Why do you devils",
+      "speaker": null
+    },
+    {
+      "start": 1558.966,
+      "end": 1561.302,
+      "text": "want Chainsaw's heart?",
+      "speaker": null
+    },
+    {
+      "start": 1562.937,
+      "end": 1564.938,
+      "text": "You don't need to know.",
+      "speaker": "other"
+    },
+    {
+      "start": 1565.072,
+      "end": 1566.941,
+      "text": "The only thing you need to focus on is holding up your end of the contract",
+      "speaker": null
+    },
+    {
+      "start": 1567.074,
+      "end": 1568.242,
+      "text": "between you and me.",
+      "speaker": null
+    },
+    {
+      "start": 1568.375,
+      "end": 1569.81,
+      "text": "Sounds like",
+      "speaker": null
+    },
+    {
+      "start": 1569.944,
+      "end": 1572.046,
+      "text": "we're going to be working together for a while.",
+      "speaker": null
+    },
+    {
+      "start": 1572.179,
+      "end": 1574.415,
+      "text": "So let's get more comfortable with each other.",
+      "speaker": null
+    },
+    {
+      "start": 1575.783,
+      "end": 1578.353,
+      "text": "Typhoon Devil.",
+      "speaker": null
+    },
+    {
+      "start": 1581.555,
+      "end": 1586.46,
+      "text": "The contract is that once I get my hands on Chainsaw's heart,",
+      "speaker": null
+    },
+    {
+      "start": 1586.594,
+      "end": 1589.097,
+      "text": "you'll let me use your powers forever.",
+      "speaker": null
+    },
+    {
+      "start": 1589.23,
+      "end": 1595.302,
+      "text": "Be careful. The human who has Chainsaw's heart has killed lots of devils.",
+      "speaker": "other"
+    },
+    {
+      "start": 1595.436,
+      "end": 1599.407,
+      "text": "That's because the devils aren't very bright.",
+      "speaker": null
+    },
+    {
+      "start": 1602.709,
+      "end": 1607.314,
+      "text": "I killed a Devil Hunter from China for a job once.",
+      "speaker": null
+    },
+    {
+      "start": 1607.448,
+      "end": 1613.353,
+      "text": "He was a merciless Devil Hunter. They said he had no blood or tears.",
+      "speaker": null
+    },
+    {
+      "start": 1613.487,
+      "end": 1615.79,
+      "text": "How did you kill him?",
+      "speaker": "other"
+    },
+    {
+      "start": 1622.763,
+      "end": 1626.133,
+      "text": "I looked for how I could make him bleed and cry.",
+      "speaker": null
+    },
+    {
+      "start": 1626.267,
+      "end": 1629.037,
+      "text": "I took his wife and kid as hostages.",
+      "speaker": null
+    },
+    {
+      "start": 1629.17,
+      "end": 1632.106,
+      "text": "Then I skinned them and showed him their hides.",
+      "speaker": null
+    },
+    {
+      "start": 1632.24,
+      "end": 1634.175,
+      "text": "He let me kill him after that.",
+      "speaker": null
+    },
+    {
+      "start": 1635.643,
+      "end": 1638.413,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 1649.023,
+      "end": 1650.491,
+      "text": "Denji, aren't you scared?",
+      "speaker": "reze"
+    },
+    {
+      "start": 1651.525,
+      "end": 1655.162,
+      "text": "Uh, I'm not really scared.",
+      "speaker": "denji"
+    },
+    {
+      "start": 1655.295,
+      "end": 1657.231,
+      "text": "This just feels weird.",
+      "speaker": null
+    },
+    {
+      "start": 1657.365,
+      "end": 1659.967,
+      "text": "What do you mean?",
+      "speaker": "other"
+    },
+    {
+      "start": 1665.94,
+      "end": 1668.242,
+      "text": "Hey. I'm a little scared.",
+      "speaker": null
+    },
+    {
+      "start": 1669.476,
+      "end": 1670.778,
+      "text": "Can I hold your hand?",
+      "speaker": null
+    },
+    {
+      "start": 1680.554,
+      "end": 1682.056,
+      "text": "Makima.",
+      "speaker": "denji"
+    },
+    {
+      "start": 1682.189,
+      "end": 1684.926,
+      "text": "To be honest, I don't want to hold her hand.",
+      "speaker": null
+    },
+    {
+      "start": 1686.694,
+      "end": 1689.764,
+      "text": "But my body just...",
+      "speaker": null
+    },
+    {
+      "start": 1694.167,
+      "end": 1696.67,
+      "text": "Who knows the answer?",
+      "speaker": null
+    },
+    {
+      "start": 1696.803,
+      "end": 1698.239,
+      "text": "Me! Me! Me!",
+      "speaker": null
+    },
+    {
+      "start": 1698.372,
+      "end": 1699.607,
+      "text": "Two! It's two!",
+      "speaker": null
+    },
+    {
+      "start": 1699.741,
+      "end": 1701.275,
+      "text": "That's right! You're a genius!",
+      "speaker": null
+    },
+    {
+      "start": 1702.576,
+      "end": 1706.28,
+      "text": "- What does this English word mean? - I have no idea!",
+      "speaker": null
+    },
+    {
+      "start": 1706.413,
+      "end": 1708.849,
+      "text": "The answer is: \"Big ass.\"",
+      "speaker": null
+    },
+    {
+      "start": 1708.982,
+      "end": 1710.351,
+      "text": "You sex-crazed girl!",
+      "speaker": null
+    },
+    {
+      "start": 1711.485,
+      "end": 1714.489,
+      "text": "Huh... So this is what school is like.",
+      "speaker": null
+    },
+    {
+      "start": 1714.622,
+      "end": 1716.256,
+      "text": "I think I've got the hang of it now.",
+      "speaker": null
+    },
+    {
+      "start": 1717.858,
+      "end": 1721.162,
+      "text": "Denji, is it really true that you didn't even go to elementary school?",
+      "speaker": null
+    },
+    {
+      "start": 1721.295,
+      "end": 1722.764,
+      "text": "Huh? Yeah.",
+      "speaker": null
+    },
+    {
+      "start": 1723.397,
+      "end": 1727.802,
+      "text": "Isn't that... bad?",
+      "speaker": null
+    },
+    {
+      "start": 1727.935,
+      "end": 1729.403,
+      "text": "Bad?",
+      "speaker": null
+    },
+    {
+      "start": 1730.237,
+      "end": 1731.639,
+      "text": "Well, not bad.",
+      "speaker": null
+    },
+    {
+      "start": 1732.306,
+      "end": 1733.508,
+      "text": "It's weird.",
+      "speaker": null
+    },
+    {
+      "start": 1735.576,
+      "end": 1738.746,
+      "text": "A 16-year-old is still a kid.",
+      "speaker": null
+    },
+    {
+      "start": 1738.88,
+      "end": 1741.081,
+      "text": "Normally, you'd study for entrance exams,",
+      "speaker": null
+    },
+    {
+      "start": 1741.215,
+      "end": 1744.718,
+      "text": "join school clubs, and go out with friends.",
+      "speaker": null
+    },
+    {
+      "start": 1744.852,
+      "end": 1750.091,
+      "text": "But you... you kill devils and almost get yourself killed by them.",
+      "speaker": null
+    },
+    {
+      "start": 1750.224,
+      "end": 1752.492,
+      "text": "Is Public Safety, that place you work at now,",
+      "speaker": null
+    },
+    {
+      "start": 1752.626,
+      "end": 1754.228,
+      "text": "is it really a good place?",
+      "speaker": null
+    },
+    {
+      "start": 1755.896,
+      "end": 1759.233,
+      "text": "Well, it's a really good place, you know.",
+      "speaker": null
+    },
+    {
+      "start": 1759.366,
+      "end": 1761.101,
+      "text": "I get to eat three meals a day.",
+      "speaker": null
+    },
+    {
+      "start": 1761.235,
+      "end": 1762.87,
+      "text": "And I get to sleep on a futon.",
+      "speaker": null
+    },
+    {
+      "start": 1764.672,
+      "end": 1768.375,
+      "text": "But that's the bare minimum for everyone in Japan.",
+      "speaker": null
+    },
+    {
+      "start": 1768.509,
+      "end": 1770.511,
+      "text": "It's something that's normal for everyone.",
+      "speaker": null
+    },
+    {
+      "start": 1771.579,
+      "end": 1772.98,
+      "text": "Uh...",
+      "speaker": null
+    },
+    {
+      "start": 1774.448,
+      "end": 1777.285,
+      "text": "My head's getting hot from thinking too hard.",
+      "speaker": null
+    },
+    {
+      "start": 1779.853,
+      "end": 1780.888,
+      "text": "In that case...",
+      "speaker": "reze"
+    },
+    {
+      "start": 1782.422,
+      "end": 1784.325,
+      "text": "Do you want to cool down a bit?",
+      "speaker": null
+    },
+    {
+      "start": 1794.802,
+      "end": 1797.738,
+      "text": "It's so cold!",
+      "speaker": null
+    },
+    {
+      "start": 1805.646,
+      "end": 1808.182,
+      "text": "I don't know how to swim that well, you know.",
+      "speaker": "denji"
+    },
+    {
+      "start": 1814.655,
+      "end": 1816.49,
+      "text": "Hmm?",
+      "speaker": null
+    },
+    {
+      "start": 1817.758,
+      "end": 1820.194,
+      "text": "Then I'll teach you how to swim.",
+      "speaker": null
+    },
+    {
+      "start": 1824.398,
+      "end": 1827.735,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 1829.403,
+      "end": 1830.671,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 1830.804,
+      "end": 1832.506,
+      "text": "Take off your clothes.",
+      "speaker": null
+    },
+    {
+      "start": 1832.639,
+      "end": 1834.675,
+      "text": "Your clothes are going to pull you down.",
+      "speaker": null
+    },
+    {
+      "start": 1834.809,
+      "end": 1836.677,
+      "text": "You're so sexy.",
+      "speaker": "denji"
+    },
+    {
+      "start": 1836.811,
+      "end": 1839.38,
+      "text": "Don't you want to learn how to swim?",
+      "speaker": null
+    },
+    {
+      "start": 1841.148,
+      "end": 1842.917,
+      "text": "I am starting to want to learn.",
+      "speaker": null
+    },
+    {
+      "start": 1847.855,
+      "end": 1850.524,
+      "text": "Denji, you should get naked too.",
+      "speaker": null
+    },
+    {
+      "start": 1851.826,
+      "end": 1854.362,
+      "text": "It's dark. I can't see anyway.",
+      "speaker": null
+    },
+    {
+      "start": 1855.562,
+      "end": 1857.431,
+      "text": "- Calm down! - I can see everything!",
+      "speaker": null
+    },
+    {
+      "start": 1857.564,
+      "end": 1859.2,
+      "text": "It's my first time seeing nipples!",
+      "speaker": null
+    },
+    {
+      "start": 1859.333,
+      "end": 1861.469,
+      "text": "If I take off my clothes now, I'll be betraying Makima!",
+      "speaker": null
+    },
+    {
+      "start": 1866.974,
+      "end": 1868.109,
+      "text": "Damn!",
+      "speaker": null
+    },
+    {
+      "start": 1874.081,
+      "end": 1877.385,
+      "text": "Come on! Come over here, Denji!",
+      "speaker": null
+    },
+    {
+      "start": 1878.352,
+      "end": 1879.853,
+      "text": "No, Denji.",
+      "speaker": null
+    },
+    {
+      "start": 1879.986,
+      "end": 1882.456,
+      "text": "If I go, then my heart will go too.",
+      "speaker": null
+    },
+    {
+      "start": 1882.59,
+      "end": 1884.725,
+      "text": "I know what's going on.",
+      "speaker": null
+    },
+    {
+      "start": 1884.859,
+      "end": 1887.827,
+      "text": "You're scared to get in the pool because you can't swim.",
+      "speaker": null
+    },
+    {
+      "start": 1891.465,
+      "end": 1893.633,
+      "text": "Come on! It feels good!",
+      "speaker": null
+    },
+    {
+      "start": 1895.035,
+      "end": 1896.403,
+      "text": "Hurry up! Come on!",
+      "speaker": null
+    },
+    {
+      "start": 1976.316,
+      "end": 1977.518,
+      "text": "I'll teach you.",
+      "speaker": "reze"
+    },
+    {
+      "start": 1978.986,
+      "end": 1981.254,
+      "text": "I'll teach you things you don't know.",
+      "speaker": null
+    },
+    {
+      "start": 1981.388,
+      "end": 1982.89,
+      "text": "Things you don't know how to do.",
+      "speaker": null
+    },
+    {
+      "start": 1983.958,
+      "end": 1987.128,
+      "text": "I'll teach you everything.",
+      "speaker": null
+    },
+    {
+      "start": 1993.367,
+      "end": 1995.569,
+      "text": "Denji! Breathe! Breathe!",
+      "speaker": null
+    },
+    {
+      "start": 2009.85,
+      "end": 2011.184,
+      "text": "It's raining!",
+      "speaker": null
+    },
+    {
+      "start": 2011.318,
+      "end": 2012.386,
+      "text": "Yeah!",
+      "speaker": null
+    },
+    {
+      "start": 2016.857,
+      "end": 2017.925,
+      "text": "Hyah!",
+      "speaker": "denji"
+    },
+    {
+      "start": 2035.742,
+      "end": 2038.446,
+      "text": "-  The rain's not stopping. -  Mmm.",
+      "speaker": null
+    },
+    {
+      "start": 2045.685,
+      "end": 2047.755,
+      "text": "Denji...",
+      "speaker": "reze"
+    },
+    {
+      "start": 2047.888,
+      "end": 2051.391,
+      "text": "The country mouse or the city mouse.",
+      "speaker": null
+    },
+    {
+      "start": 2051.525,
+      "end": 2053.094,
+      "text": "Which one would you rather be?",
+      "speaker": null
+    },
+    {
+      "start": 2054.028,
+      "end": 2055.362,
+      "text": "What are you talking about?",
+      "speaker": null
+    },
+    {
+      "start": 2056.563,
+      "end": 2058.499,
+      "text": "It's one of Aesop's fables.",
+      "speaker": null
+    },
+    {
+      "start": 2061.401,
+      "end": 2064.238,
+      "text": "The country mouse lives a safe life,",
+      "speaker": null
+    },
+    {
+      "start": 2064.371,
+      "end": 2067.474,
+      "text": "but doesn't have delicious food like the city mouse.",
+      "speaker": null
+    },
+    {
+      "start": 2067.608,
+      "end": 2070.778,
+      "text": "The city mouse can find good food,",
+      "speaker": null
+    },
+    {
+      "start": 2070.911,
+      "end": 2073.614,
+      "text": "but he's in danger of getting killed by a cat or a human.",
+      "speaker": null
+    },
+    {
+      "start": 2078.051,
+      "end": 2080.554,
+      "text": "I wanted to be the country mouse.",
+      "speaker": null
+    },
+    {
+      "start": 2081.688,
+      "end": 2083.757,
+      "text": "But Makima captured me",
+      "speaker": null
+    },
+    {
+      "start": 2083.891,
+      "end": 2086.56,
+      "text": "and brought me to the city.",
+      "speaker": null
+    },
+    {
+      "start": 2091.165,
+      "end": 2093.867,
+      "text": "My heart belongs in the countryside.",
+      "speaker": null
+    },
+    {
+      "start": 2094.001,
+      "end": 2097.371,
+      "text": "I don't want to follow around a city mouse like you and put myself in danger.",
+      "speaker": null
+    },
+    {
+      "start": 2099.24,
+      "end": 2100.274,
+      "text": "Hey...",
+      "speaker": null
+    },
+    {
+      "start": 2104.545,
+      "end": 2107.08,
+      "text": "I want to be the city mouse.",
+      "speaker": "denji"
+    },
+    {
+      "start": 2107.214,
+      "end": 2108.282,
+      "text": "What?",
+      "speaker": null
+    },
+    {
+      "start": 2108.415,
+      "end": 2110.918,
+      "text": "Being the country mouse is better!",
+      "speaker": null
+    },
+    {
+      "start": 2111.051,
+      "end": 2113.12,
+      "text": "A peaceful life is what's best.",
+      "speaker": null
+    },
+    {
+      "start": 2113.254,
+      "end": 2115.255,
+      "text": "The city has more good food.",
+      "speaker": "denji"
+    },
+    {
+      "start": 2115.389,
+      "end": 2116.523,
+      "text": "And it looks fun.",
+      "speaker": null
+    },
+    {
+      "start": 2118.258,
+      "end": 2120.727,
+      "text": "Are you saying you just want to eat and have fun?",
+      "speaker": null
+    },
+    {
+      "start": 2120.861,
+      "end": 2122.196,
+      "text": "Yeah.",
+      "speaker": null
+    },
+    {
+      "start": 2125.598,
+      "end": 2129.069,
+      "text": "In that case, there's a festival going on nearby tomorrow.",
+      "speaker": null
+    },
+    {
+      "start": 2129.202,
+      "end": 2132.706,
+      "text": "Do you want to go together? I'm sure it'll be fun. And delicious.",
+      "speaker": null
+    },
+    {
+      "start": 2134.975,
+      "end": 2137.277,
+      "text": "I can go if it's after work.",
+      "speaker": null
+    },
+    {
+      "start": 2137.411,
+      "end": 2140.881,
+      "text": "Yay! It's a promise, okay?",
+      "speaker": null
+    },
+    {
+      "start": 2143.417,
+      "end": 2145.986,
+      "text": "I'm going to the restroom.",
+      "speaker": null
+    },
+    {
+      "start": 2152.359,
+      "end": 2154.061,
+      "text": "She's so damn cute.",
+      "speaker": null
+    },
+    {
+      "start": 2222.596,
+      "end": 2223.831,
+      "text": "Denji?",
+      "speaker": "reze"
+    },
+    {
+      "start": 2228.702,
+      "end": 2232.139,
+      "text": "That's right. I'm Denji.",
+      "speaker": null
+    },
+    {
+      "start": 2233.373,
+      "end": 2237.711,
+      "text": "I was just about to go pee myself.",
+      "speaker": null
+    },
+    {
+      "start": 2242.082,
+      "end": 2244.418,
+      "text": "Let's go to the bathroom together.",
+      "speaker": null
+    },
+    {
+      "start": 2245.219,
+      "end": 2246.587,
+      "text": "Okay?",
+      "speaker": null
+    },
+    {
+      "start": 2256.596,
+      "end": 2258.031,
+      "text": "Pochita.",
+      "speaker": null
+    },
+    {
+      "start": 2258.165,
+      "end": 2260.401,
+      "text": "I have feelings for two different people now.",
+      "speaker": null
+    },
+    {
+      "start": 2261.969,
+      "end": 2263.437,
+      "text": "Do you know who I'm talking about?",
+      "speaker": null
+    },
+    {
+      "start": 2264.804,
+      "end": 2266.539,
+      "text": "I'm not talking about that angel.",
+      "speaker": null
+    },
+    {
+      "start": 2267.14,
+      "end": 2268.776,
+      "text": "He's a guy.",
+      "speaker": null
+    },
+    {
+      "start": 2275.281,
+      "end": 2278.151,
+      "text": "The small girl has a pretty face,",
+      "speaker": "denji"
+    },
+    {
+      "start": 2278.285,
+      "end": 2280.487,
+      "text": "but she tried to kill me.",
+      "speaker": null
+    },
+    {
+      "start": 2282.923,
+      "end": 2284.525,
+      "text": "Come on!",
+      "speaker": null
+    },
+    {
+      "start": 2284.658,
+      "end": 2288.528,
+      "text": "Power still tries to kill me sometimes too.",
+      "speaker": "denji"
+    },
+    {
+      "start": 2288.661,
+      "end": 2290.23,
+      "text": "She's a narcissist, she's selfish,",
+      "speaker": null
+    },
+    {
+      "start": 2290.364,
+      "end": 2293.167,
+      "text": "she's a pathological liar, and she's a bigot.",
+      "speaker": null
+    },
+    {
+      "start": 2294.835,
+      "end": 2296.803,
+      "text": "How come you're running away?",
+      "speaker": null
+    },
+    {
+      "start": 2296.936,
+      "end": 2299.773,
+      "text": "You promised you'd go to the bathroom with me!",
+      "speaker": null
+    },
+    {
+      "start": 2304.811,
+      "end": 2306.347,
+      "text": "What am I going to do?",
+      "speaker": "denji"
+    },
+    {
+      "start": 2307.981,
+      "end": 2310.851,
+      "text": "When I close my eyes, there's two of them!",
+      "speaker": null
+    },
+    {
+      "start": 2313.186,
+      "end": 2315.022,
+      "text": "Pochita. Which one would you choose?",
+      "speaker": null
+    },
+    {
+      "start": 2338.745,
+      "end": 2340.214,
+      "text": "Hello!",
+      "speaker": null
+    },
+    {
+      "start": 2341.314,
+      "end": 2344.284,
+      "text": "Are you going to pee on the roof?",
+      "speaker": null
+    },
+    {
+      "start": 2344.417,
+      "end": 2346.887,
+      "text": "Who... Who are you?",
+      "speaker": null
+    },
+    {
+      "start": 2350.056,
+      "end": 2351.624,
+      "text": "You're asking me,",
+      "speaker": null
+    },
+    {
+      "start": 2351.758,
+      "end": 2354.495,
+      "text": "but do you have any idea who you are?",
+      "speaker": null
+    },
+    {
+      "start": 2355.362,
+      "end": 2357.597,
+      "text": "I know who you are.",
+      "speaker": null
+    },
+    {
+      "start": 2357.731,
+      "end": 2360.2,
+      "text": "You're a piece of cheese.",
+      "speaker": null
+    },
+    {
+      "start": 2360.334,
+      "end": 2363.837,
+      "text": "You're a piece of cheese for luring out the mouse.",
+      "speaker": null
+    },
+    {
+      "start": 2363.971,
+      "end": 2366.707,
+      "text": "What are you talking about? Please stop!",
+      "speaker": null
+    },
+    {
+      "start": 2368.141,
+      "end": 2371.578,
+      "text": "I'm going to skin your face, carve out your eyes",
+      "speaker": null
+    },
+    {
+      "start": 2371.712,
+      "end": 2373.38,
+      "text": "and show it all to Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 2373.513,
+      "end": 2375.416,
+      "text": "And this is what I'm going to tell him.",
+      "speaker": null
+    },
+    {
+      "start": 2376.416,
+      "end": 2380.621,
+      "text": "\"Your precious woman is still alive.\"",
+      "speaker": null
+    },
+    {
+      "start": 2383.89,
+      "end": 2385.425,
+      "text": "And whenever I do that,",
+      "speaker": null
+    },
+    {
+      "start": 2385.559,
+      "end": 2388.862,
+      "text": "everyone starts listening to me for some reason.",
+      "speaker": null
+    },
+    {
+      "start": 2388.996,
+      "end": 2390.898,
+      "text": "Then all that's left for me to do is to kill him.",
+      "speaker": null
+    },
+    {
+      "start": 2391.031,
+      "end": 2395.102,
+      "text": "The only piece of your body I want is your skin and your eyeballs!",
+      "speaker": null
+    },
+    {
+      "start": 2396.202,
+      "end": 2399.273,
+      "text": "I don't need to take your life!",
+      "speaker": null
+    },
+    {
+      "start": 2438.478,
+      "end": 2441.981,
+      "text": "♪ I have a date With Jane today ♪",
+      "speaker": null
+    },
+    {
+      "start": 2442.115,
+      "end": 2443.95,
+      "text": "♪ All is ready ♪",
+      "speaker": null
+    },
+    {
+      "start": 2444.084,
+      "end": 2449.69,
+      "text": "♪ In the morning We'll go to church together ♪",
+      "speaker": null
+    },
+    {
+      "start": 2449.823,
+      "end": 2453.66,
+      "text": "♪ We will drink coffee ♪",
+      "speaker": null
+    },
+    {
+      "start": 2455.161,
+      "end": 2459.199,
+      "text": "♪ And eat omelets at a café ♪",
+      "speaker": null
+    },
+    {
+      "start": 2460.634,
+      "end": 2464.237,
+      "text": "♪ After a walk ♪",
+      "speaker": null
+    },
+    {
+      "start": 2464.37,
+      "end": 2469.076,
+      "text": "♪ In a park ♪",
+      "speaker": null
+    },
+    {
+      "start": 2470.043,
+      "end": 2473.881,
+      "text": "♪ We will go to an aquarium ♪",
+      "speaker": null
+    },
+    {
+      "start": 2475.548,
+      "end": 2479.386,
+      "text": "♪ And we will see dolphins And penguins ♪",
+      "speaker": null
+    },
+    {
+      "start": 2480.921,
+      "end": 2485.692,
+      "text": "♪ Loved by Jane ♪",
+      "speaker": null
+    },
+    {
+      "start": 2485.826,
+      "end": 2489.63,
+      "text": "♪ We will rest after lunch ♪",
+      "speaker": null
+    },
+    {
+      "start": 2489.763,
+      "end": 2495.669,
+      "text": "♪ So, what did we do In the morning? ♪",
+      "speaker": null
+    },
+    {
+      "start": 2495.802,
+      "end": 2499.773,
+      "text": "♪ We will speak about it ♪",
+      "speaker": null
+    },
+    {
+      "start": 2501.174,
+      "end": 2505.045,
+      "text": "♪ Until we remember ♪",
+      "speaker": null
+    },
+    {
+      "start": 2506.479,
+      "end": 2510.484,
+      "text": "♪ We won't remember ♪",
+      "speaker": null
+    },
+    {
+      "start": 2511.518,
+      "end": 2513.519,
+      "text": "♪ And we will sleep ♪",
+      "speaker": null
+    },
+    {
+      "start": 2513.653,
+      "end": 2516.59,
+      "text": "♪ At the church that night ♪",
+      "speaker": null
+    },
+    {
+      "start": 2545.885,
+      "end": 2549.055,
+      "text": "You're the one who made the storm to trap us inside the building.",
+      "speaker": null
+    },
+    {
+      "start": 2549.189,
+      "end": 2554.361,
+      "text": "- Right, Typhoon? -  I didn't know you were here, Lady Reze.",
+      "speaker": null
+    },
+    {
+      "start": 2554.494,
+      "end": 2556.763,
+      "text": "I'll turn a blind eye to what you did today.",
+      "speaker": null
+    },
+    {
+      "start": 2556.897,
+      "end": 2559.332,
+      "text": "In exchange, you'll obey me for a while.",
+      "speaker": null
+    },
+    {
+      "start": 2559.465,
+      "end": 2562.602,
+      "text": "Go deal with his body.",
+      "speaker": null
+    },
+    {
+      "start": 2579.919,
+      "end": 2582.322,
+      "text": "Hmm.",
+      "speaker": null
+    },
+    {
+      "start": 2582.455,
+      "end": 2583.824,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 2595.769,
+      "end": 2597.471,
+      "text": "- Boo! - Whoa!",
+      "speaker": null
+    },
+    {
+      "start": 2689.095,
+      "end": 2692.966,
+      "text": "I heard about this place from the owner of the café I work at.",
+      "speaker": null
+    },
+    {
+      "start": 2693.099,
+      "end": 2695.134,
+      "text": "He said it's the best spot to watch fireworks.",
+      "speaker": null
+    },
+    {
+      "start": 2695.268,
+      "end": 2698.071,
+      "text": "No one else ever comes here. It's a secret spot.",
+      "speaker": null
+    },
+    {
+      "start": 2699.005,
+      "end": 2701.074,
+      "text": "Huh...",
+      "speaker": null
+    },
+    {
+      "start": 2715.055,
+      "end": 2716.255,
+      "text": "Hey, Denji.",
+      "speaker": "reze"
+    },
+    {
+      "start": 2716.389,
+      "end": 2719.926,
+      "text": "I've been thinking a lot these days.",
+      "speaker": null
+    },
+    {
+      "start": 2720.059,
+      "end": 2723.263,
+      "text": "I think your current situation is weird.",
+      "speaker": null
+    },
+    {
+      "start": 2723.396,
+      "end": 2726.265,
+      "text": "You're only 16, but they're not letting you go to school.",
+      "speaker": null
+    },
+    {
+      "start": 2726.399,
+      "end": 2728.768,
+      "text": "And they're making you kill devils.",
+      "speaker": null
+    },
+    {
+      "start": 2728.902,
+      "end": 2730.971,
+      "text": "It's not something this country should allow.",
+      "speaker": null
+    },
+    {
+      "start": 2737.543,
+      "end": 2740.88,
+      "text": "Why don't you quit your job and run away with me.",
+      "speaker": null
+    },
+    {
+      "start": 2741.014,
+      "end": 2743.85,
+      "text": "I'll make you happy.",
+      "speaker": null
+    },
+    {
+      "start": 2743.983,
+      "end": 2746.586,
+      "text": "I'll protect you for the rest of your life.",
+      "speaker": null
+    },
+    {
+      "start": 2747.921,
+      "end": 2749.122,
+      "text": "Please.",
+      "speaker": null
+    },
+    {
+      "start": 2754.627,
+      "end": 2757.33,
+      "text": "Run away? Where?",
+      "speaker": null
+    },
+    {
+      "start": 2758.164,
+      "end": 2759.933,
+      "text": "I'll ask my friend.",
+      "speaker": null
+    },
+    {
+      "start": 2760.066,
+      "end": 2763.403,
+      "text": "My friend has a place where Public Safety will never find you.",
+      "speaker": null
+    },
+    {
+      "start": 2763.536,
+      "end": 2765.405,
+      "text": "It won't happen right away,",
+      "speaker": null
+    },
+    {
+      "start": 2765.538,
+      "end": 2767.574,
+      "text": "but we can go to school together there someday.",
+      "speaker": null
+    },
+    {
+      "start": 2768.774,
+      "end": 2770.577,
+      "text": "Why would you do all that for me?",
+      "speaker": null
+    },
+    {
+      "start": 2771.944,
+      "end": 2773.647,
+      "text": "Because...",
+      "speaker": "reze"
+    },
+    {
+      "start": 2774.447,
+      "end": 2776.316,
+      "text": "I like you, Denji.",
+      "speaker": null
+    },
+    {
+      "start": 2786.292,
+      "end": 2788.628,
+      "text": "Why are you having such a hard time deciding?",
+      "speaker": null
+    },
+    {
+      "start": 2789.528,
+      "end": 2791.198,
+      "text": "Denji, do you hate me?",
+      "speaker": null
+    },
+    {
+      "start": 2791.798,
+      "end": 2793.133,
+      "text": "I like you!",
+      "speaker": null
+    },
+    {
+      "start": 2794.467,
+      "end": 2795.434,
+      "text": "But...",
+      "speaker": null
+    },
+    {
+      "start": 2795.568,
+      "end": 2797.136,
+      "text": "I've just recently started",
+      "speaker": null
+    },
+    {
+      "start": 2797.27,
+      "end": 2799.605,
+      "text": "to feel appreciated at work.",
+      "speaker": null
+    },
+    {
+      "start": 2799.739,
+      "end": 2803.342,
+      "text": "I can go farther away without supervision.",
+      "speaker": null
+    },
+    {
+      "start": 2803.476,
+      "end": 2807.38,
+      "text": "I'm gradually learning how to deal with my buddy, who has a shitty personality.",
+      "speaker": null
+    },
+    {
+      "start": 2808.848,
+      "end": 2810.75,
+      "text": "And I've finally started to become friends",
+      "speaker": null
+    },
+    {
+      "start": 2810.884,
+      "end": 2813.553,
+      "text": "with my difficult senior colleague.",
+      "speaker": null
+    },
+    {
+      "start": 2813.686,
+      "end": 2816.089,
+      "text": "And I've found a goal to work towards at work.",
+      "speaker": null
+    },
+    {
+      "start": 2816.222,
+      "end": 2819.392,
+      "text": "Things are starting to get fun now.",
+      "speaker": null
+    },
+    {
+      "start": 2820.693,
+      "end": 2824.798,
+      "text": "Can't I keep seeing you while I continue to work?",
+      "speaker": null
+    },
+    {
+      "start": 2827.967,
+      "end": 2830.537,
+      "text": "- The fireworks are about to begin! - This way, please!",
+      "speaker": null
+    },
+    {
+      "start": 2833.373,
+      "end": 2834.541,
+      "text": "I see.",
+      "speaker": "reze"
+    },
+    {
+      "start": 2835.174,
+      "end": 2836.243,
+      "text": "I understand.",
+      "speaker": null
+    },
+    {
+      "start": 2838.744,
+      "end": 2839.946,
+      "text": "Denji.",
+      "speaker": null
+    },
+    {
+      "start": 2840.08,
+      "end": 2844.25,
+      "text": "There's someone else you like, right?",
+      "speaker": null
+    },
+    {
+      "start": 2927.266,
+      "end": 2928.435,
+      "text": "It hurts, doesn't it?",
+      "speaker": null
+    },
+    {
+      "start": 2928.935,
+      "end": 2930.47,
+      "text": "I'm sorry.",
+      "speaker": null
+    },
+    {
+      "start": 2938.41,
+      "end": 2941.848,
+      "text": "Denji, I'm going to take your heart. Okay?",
+      "speaker": null
+    },
+    {
+      "start": 2948.288,
+      "end": 2950.29,
+      "text": "Dash!",
+      "speaker": null
+    },
+    {
+      "start": 2950.423,
+      "end": 2951.858,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 2959.298,
+      "end": 2961.901,
+      "text": "Run away! Run away! We're in trouble! We're in trouble!",
+      "speaker": "other"
+    },
+    {
+      "start": 2962.035,
+      "end": 2965.038,
+      "text": "How come I didn't notice anything from the smell?",
+      "speaker": null
+    },
+    {
+      "start": 2965.171,
+      "end": 2967.54,
+      "text": "She's dangerous, Lord Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 2967.673,
+      "end": 2970.543,
+      "text": "That smell...",
+      "speaker": null
+    },
+    {
+      "start": 2971.177,
+      "end": 2974.914,
+      "text": "She's the Bomb Devil!",
+      "speaker": null
+    },
+    {
+      "start": 2978.952,
+      "end": 2980.353,
+      "text": "Boom.",
+      "speaker": null
+    },
+    {
+      "start": 3006.178,
+      "end": 3007.213,
+      "text": "You thief.",
+      "speaker": null
+    },
+    {
+      "start": 3035.208,
+      "end": 3036.543,
+      "text": "Lord Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 3050.089,
+      "end": 3053.259,
+      "text": "Are you from Division 4 too?",
+      "speaker": "reze"
+    },
+    {
+      "start": 3053.393,
+      "end": 3056.262,
+      "text": "I'll let you go if you leave Denji there and leave right now.",
+      "speaker": null
+    },
+    {
+      "start": 3064.07,
+      "end": 3065.805,
+      "text": "Oh. I see.",
+      "speaker": null
+    },
+    {
+      "start": 3080.252,
+      "end": 3081.788,
+      "text": "Hmm?",
+      "speaker": null
+    },
+    {
+      "start": 3095.501,
+      "end": 3099.338,
+      "text": "Damn. I wanted to go to the festival.",
+      "speaker": null
+    },
+    {
+      "start": 3099.471,
+      "end": 3101.607,
+      "text": "Whoa. She's killing something.",
+      "speaker": null
+    },
+    {
+      "start": 3101.74,
+      "end": 3104.244,
+      "text": "We've encountered a devil near the festival.",
+      "speaker": null
+    },
+    {
+      "start": 3105.144,
+      "end": 3107.247,
+      "text": "2034.",
+      "speaker": null
+    },
+    {
+      "start": 3107.88,
+      "end": 3110.149,
+      "text": "The battle begins.",
+      "speaker": null
+    },
+    {
+      "start": 3110.283,
+      "end": 3112.651,
+      "text": "Are you private Devil Hunters?",
+      "speaker": null
+    },
+    {
+      "start": 3112.785,
+      "end": 3114.753,
+      "text": "Whoa. She said something.",
+      "speaker": null
+    },
+    {
+      "start": 3114.887,
+      "end": 3116.923,
+      "text": "This one's really strong.",
+      "speaker": null
+    },
+    {
+      "start": 3137.91,
+      "end": 3140.446,
+      "text": "They sure ran away fast!",
+      "speaker": "reze"
+    },
+    {
+      "start": 3140.58,
+      "end": 3142.515,
+      "text": "{\\an8}DEVIL EXTERMINATION DIVISION 2 FUCHU TRAINING FACILITY",
+      "speaker": null
+    },
+    {
+      "start": 3154.526,
+      "end": 3155.695,
+      "text": "Match over!",
+      "speaker": null
+    },
+    {
+      "start": 3156.328,
+      "end": 3158.031,
+      "text": "Thank you.",
+      "speaker": null
+    },
+    {
+      "start": 3160.299,
+      "end": 3163.036,
+      "text": "Thank you for your instruction.",
+      "speaker": null
+    },
+    {
+      "start": 3164.37,
+      "end": 3165.738,
+      "text": "Aki.",
+      "speaker": "other"
+    },
+    {
+      "start": 3166.606,
+      "end": 3169.308,
+      "text": "Thanks for coming.",
+      "speaker": null
+    },
+    {
+      "start": 3169.441,
+      "end": 3171.377,
+      "text": "I can't say no to you, Nomo.",
+      "speaker": null
+    },
+    {
+      "start": 3171.51,
+      "end": 3175.681,
+      "text": "Whoa! Really? Then come back to Division 2!",
+      "speaker": null
+    },
+    {
+      "start": 3175.815,
+      "end": 3179.285,
+      "text": "All the stories I hear about the Special Division sound so gory anyway.",
+      "speaker": null
+    },
+    {
+      "start": 3179.418,
+      "end": 3183.455,
+      "text": "If everything goes well, I'm going to become the sub-captain in five years.",
+      "speaker": null
+    },
+    {
+      "start": 3183.589,
+      "end": 3186.125,
+      "text": "When that happens, I'm going to invite you to join.",
+      "speaker": null
+    },
+    {
+      "start": 3187.893,
+      "end": 3189.395,
+      "text": "Thank you very much.",
+      "speaker": null
+    },
+    {
+      "start": 3192.565,
+      "end": 3196.736,
+      "text": "Hey. You haven't told him that you'll be dead in five years?",
+      "speaker": null
+    },
+    {
+      "start": 3197.87,
+      "end": 3200.339,
+      "text": "Who did you hear that from?",
+      "speaker": "aki"
+    },
+    {
+      "start": 3200.473,
+      "end": 3201.908,
+      "text": "From Power.",
+      "speaker": null
+    },
+    {
+      "start": 3202.508,
+      "end": 3204.01,
+      "text": "That damn devil.",
+      "speaker": null
+    },
+    {
+      "start": 3205.477,
+      "end": 3207.046,
+      "text": "Don't tell anyone.",
+      "speaker": null
+    },
+    {
+      "start": 3208.714,
+      "end": 3210.449,
+      "text": "You're so lucky.",
+      "speaker": null
+    },
+    {
+      "start": 3210.583,
+      "end": 3212.719,
+      "text": "I want to die soon too.",
+      "speaker": null
+    },
+    {
+      "start": 3213.886,
+      "end": 3216.489,
+      "text": "As long as I'm alive, I have to work hard.",
+      "speaker": null
+    },
+    {
+      "start": 3216.622,
+      "end": 3218.758,
+      "text": "If I die, I won't have to work hard anymore.",
+      "speaker": null
+    },
+    {
+      "start": 3220.225,
+      "end": 3222.161,
+      "text": "Oh, that reminds me...",
+      "speaker": null
+    },
+    {
+      "start": 3222.294,
+      "end": 3225.064,
+      "text": "You have a contract with the Future Devil, right?",
+      "speaker": null
+    },
+    {
+      "start": 3225.197,
+      "end": 3226.865,
+      "text": "Why don't you try asking it?",
+      "speaker": null
+    },
+    {
+      "start": 3226.999,
+      "end": 3228.735,
+      "text": "Ask it when I'm going to die.",
+      "speaker": null
+    },
+    {
+      "start": 3229.935,
+      "end": 3231.204,
+      "text": "I refuse.",
+      "speaker": null
+    },
+    {
+      "start": 3232.738,
+      "end": 3235.474,
+      "text": "Aki! Come downstairs! Now!",
+      "speaker": null
+    },
+    {
+      "start": 3237.376,
+      "end": 3238.745,
+      "text": "He showed up at the entrance",
+      "speaker": "other"
+    },
+    {
+      "start": 3238.878,
+      "end": 3240.28,
+      "text": "and claimed he's from the Special Division.",
+      "speaker": null
+    },
+    {
+      "start": 3241.246,
+      "end": 3243.849,
+      "text": "Is this fiend really on our side?",
+      "speaker": null
+    },
+    {
+      "start": 3243.983,
+      "end": 3245.784,
+      "text": "Y-Yes.",
+      "speaker": "aki"
+    },
+    {
+      "start": 3245.918,
+      "end": 3249.188,
+      "text": "Did a devil do this to Denji?",
+      "speaker": null
+    },
+    {
+      "start": 3250.255,
+      "end": 3253.593,
+      "text": "Bomb is coming... Bomb...",
+      "speaker": null
+    },
+    {
+      "start": 3253.726,
+      "end": 3256.261,
+      "text": "She's one of the Gun Devil's allies!",
+      "speaker": null
+    },
+    {
+      "start": 3258.397,
+      "end": 3260.632,
+      "text": "How do you know that?",
+      "speaker": null
+    },
+    {
+      "start": 3263.101,
+      "end": 3264.403,
+      "text": "Answer me.",
+      "speaker": "aki"
+    },
+    {
+      "start": 3264.536,
+      "end": 3267.44,
+      "text": "I could kill you right here if I wanted to.",
+      "speaker": null
+    },
+    {
+      "start": 3268.541,
+      "end": 3270.509,
+      "text": "If I tell you, they'll kill me.",
+      "speaker": null
+    },
+    {
+      "start": 3270.642,
+      "end": 3272.411,
+      "text": "I promised Makima.",
+      "speaker": null
+    },
+    {
+      "start": 3272.545,
+      "end": 3273.879,
+      "text": "Makima?",
+      "speaker": null
+    },
+    {
+      "start": 3274.012,
+      "end": 3275.514,
+      "text": "Ah!",
+      "speaker": null
+    },
+    {
+      "start": 3275.647,
+      "end": 3277.717,
+      "text": "There she is! Bomb's here!",
+      "speaker": null
+    },
+    {
+      "start": 3285.491,
+      "end": 3286.825,
+      "text": "Hey, beautiful lady!",
+      "speaker": "other"
+    },
+    {
+      "start": 3286.959,
+      "end": 3289.862,
+      "text": "Don't come any closer!",
+      "speaker": null
+    },
+    {
+      "start": 3289.995,
+      "end": 3291.43,
+      "text": "This place is a training facility",
+      "speaker": null
+    },
+    {
+      "start": 3291.564,
+      "end": 3292.932,
+      "text": "for Devil Extermination Division 2.",
+      "speaker": null
+    },
+    {
+      "start": 3293.065,
+      "end": 3295.601,
+      "text": "Members of the public are not allowed to enter.",
+      "speaker": null
+    },
+    {
+      "start": 3297.336,
+      "end": 3299.138,
+      "text": "Excuse me!",
+      "speaker": null
+    },
+    {
+      "start": 3301.273,
+      "end": 3302.274,
+      "text": "Reze...",
+      "speaker": null
+    },
+    {
+      "start": 3302.408,
+      "end": 3303.642,
+      "text": "Reze?",
+      "speaker": null
+    },
+    {
+      "start": 3303.775,
+      "end": 3306.178,
+      "text": "Please help me!",
+      "speaker": null
+    },
+    {
+      "start": 3306.311,
+      "end": 3308.88,
+      "text": "I'm being attacked by a devil!",
+      "speaker": null
+    },
+    {
+      "start": 3309.014,
+      "end": 3310.516,
+      "text": "Oh.",
+      "speaker": null
+    },
+    {
+      "start": 3310.65,
+      "end": 3313.219,
+      "text": "She's sure smiling a lot for someone under attack.",
+      "speaker": null
+    },
+    {
+      "start": 3313.352,
+      "end": 3315.188,
+      "text": "Nomo. Yeah.",
+      "speaker": null
+    },
+    {
+      "start": 3315.321,
+      "end": 3317.389,
+      "text": "Take your friend with you and stay in the back.",
+      "speaker": null
+    },
+    {
+      "start": 3317.523,
+      "end": 3318.757,
+      "text": "Okay.",
+      "speaker": null
+    },
+    {
+      "start": 3318.891,
+      "end": 3320.826,
+      "text": "Contact headquarters and the vice-captain.",
+      "speaker": null
+    },
+    {
+      "start": 3320.96,
+      "end": 3322.561,
+      "text": "Summon all Division 2 members.",
+      "speaker": null
+    },
+    {
+      "start": 3322.695,
+      "end": 3324.129,
+      "text": "Okay!",
+      "speaker": null
+    },
+    {
+      "start": 3324.263,
+      "end": 3325.531,
+      "text": "And...",
+      "speaker": null
+    },
+    {
+      "start": 3325.665,
+      "end": 3328.667,
+      "text": "Have you seen that beauty somewhere before?",
+      "speaker": null
+    },
+    {
+      "start": 3328.801,
+      "end": 3331.671,
+      "text": "Now's not the right time to try to pick up women.",
+      "speaker": null
+    },
+    {
+      "start": 3331.804,
+      "end": 3334.24,
+      "text": "No, I'm being serious.",
+      "speaker": null
+    },
+    {
+      "start": 3337.51,
+      "end": 3340.546,
+      "text": "It can't be true. There's no way.",
+      "speaker": null
+    },
+    {
+      "start": 3340.679,
+      "end": 3343.282,
+      "text": "Thanks. I'm counting on you.",
+      "speaker": null
+    },
+    {
+      "start": 3343.415,
+      "end": 3344.751,
+      "text": "You owe me one.",
+      "speaker": null
+    },
+    {
+      "start": 3346.652,
+      "end": 3348.187,
+      "text": "Kato! Tanabe!",
+      "speaker": null
+    },
+    {
+      "start": 3348.32,
+      "end": 3351.657,
+      "text": "I'll treat you to dinner if you can kill that woman.",
+      "speaker": null
+    },
+    {
+      "start": 3351.791,
+      "end": 3354.693,
+      "text": "Don't assume she's a human. Handle her like you would a devil.",
+      "speaker": null
+    },
+    {
+      "start": 3354.827,
+      "end": 3358.03,
+      "text": "I guess it didn't work.",
+      "speaker": "reze"
+    },
+    {
+      "start": 3358.163,
+      "end": 3359.665,
+      "text": "It's not working.",
+      "speaker": null
+    },
+    {
+      "start": 3360.966,
+      "end": 3362.668,
+      "text": "In that case, I've got no choice.",
+      "speaker": null
+    },
+    {
+      "start": 3364.736,
+      "end": 3367.039,
+      "text": "I'll just have to kill everyone.",
+      "speaker": null
+    },
+    {
+      "start": 3373.345,
+      "end": 3374.446,
+      "text": "Blood?",
+      "speaker": null
+    },
+    {
+      "start": 3374.58,
+      "end": 3375.714,
+      "text": "We've caused mold to grow",
+      "speaker": "other"
+    },
+    {
+      "start": 3375.848,
+      "end": 3377.55,
+      "text": "in her heart and intestines.",
+      "speaker": null
+    },
+    {
+      "start": 3377.683,
+      "end": 3380.219,
+      "text": "She's throwing up blood. It's working.",
+      "speaker": "other"
+    },
+    {
+      "start": 3380.353,
+      "end": 3381.854,
+      "text": "Even if she drinks blood and regenerates,",
+      "speaker": null
+    },
+    {
+      "start": 3381.988,
+      "end": 3383.289,
+      "text": "the mold's not going to disappear.",
+      "speaker": null
+    },
+    {
+      "start": 3384.19,
+      "end": 3386.292,
+      "text": "Now we just need to buy some time.",
+      "speaker": null
+    },
+    {
+      "start": 3389.361,
+      "end": 3390.563,
+      "text": "Hmm?",
+      "speaker": null
+    },
+    {
+      "start": 3393.599,
+      "end": 3395.101,
+      "text": "She inflicted damage to herself!",
+      "speaker": "other"
+    },
+    {
+      "start": 3397.903,
+      "end": 3399.572,
+      "text": "Are you able to grow mold on her brain?",
+      "speaker": null
+    },
+    {
+      "start": 3399.705,
+      "end": 3401.841,
+      "text": "We can only do it if the target's alive.",
+      "speaker": null
+    },
+    {
+      "start": 3411.483,
+      "end": 3412.484,
+      "text": "Boo.",
+      "speaker": null
+    },
+    {
+      "start": 3420.426,
+      "end": 3422.795,
+      "text": "She's a devil! A devil is here!",
+      "speaker": "other"
+    },
+    {
+      "start": 3422.928,
+      "end": 3425.631,
+      "text": "She went right! Don't let her get near Aki!",
+      "speaker": null
+    },
+    {
+      "start": 3425.764,
+      "end": 3427.433,
+      "text": "Nomo! Behind you!",
+      "speaker": null
+    },
+    {
+      "start": 3429.902,
+      "end": 3431.17,
+      "text": "Kon!",
+      "speaker": null
+    },
+    {
+      "start": 3435.607,
+      "end": 3437.109,
+      "text": "Ah--",
+      "speaker": null
+    },
+    {
+      "start": 3448.754,
+      "end": 3451.524,
+      "text": "There she is! There's the devil!",
+      "speaker": null
+    },
+    {
+      "start": 3454.96,
+      "end": 3457.462,
+      "text": "Masaki Ando, requesting permission to fire!",
+      "speaker": null
+    },
+    {
+      "start": 3457.596,
+      "end": 3458.931,
+      "text": "Permission granted!",
+      "speaker": null
+    },
+    {
+      "start": 3470.342,
+      "end": 3472.645,
+      "text": "In Japan, do you need permission to fire a gun?",
+      "speaker": null
+    },
+    {
+      "start": 3473.946,
+      "end": 3474.981,
+      "text": "Kon!",
+      "speaker": "other"
+    },
+    {
+      "start": 3480.953,
+      "end": 3482.989,
+      "text": "You're pretty stubborn.",
+      "speaker": "reze"
+    },
+    {
+      "start": 3484.023,
+      "end": 3486.893,
+      "text": "Now that's a real sight for sore eyes.",
+      "speaker": null
+    },
+    {
+      "start": 3492.464,
+      "end": 3493.699,
+      "text": "Kon.",
+      "speaker": null
+    },
+    {
+      "start": 3500.573,
+      "end": 3502.441,
+      "text": "Excuse me for a moment.",
+      "speaker": null
+    },
+    {
+      "start": 3502.574,
+      "end": 3504.209,
+      "text": "Vice-captain!",
+      "speaker": null
+    },
+    {
+      "start": 3504.342,
+      "end": 3507.38,
+      "text": "That was close.",
+      "speaker": null
+    },
+    {
+      "start": 3508.547,
+      "end": 3511.083,
+      "text": "-  -  What's that taste?",
+      "speaker": null
+    },
+    {
+      "start": 3511.216,
+      "end": 3514.419,
+      "text": "- Huh? -  I hate this taste.",
+      "speaker": null
+    },
+    {
+      "start": 3514.553,
+      "end": 3515.721,
+      "text": "I'm going home now.",
+      "speaker": null
+    },
+    {
+      "start": 3520.359,
+      "end": 3523.195,
+      "text": "I was supposed to go to a singles mixer today.",
+      "speaker": null
+    },
+    {
+      "start": 3523.329,
+      "end": 3526.098,
+      "text": "Take me with you next time.",
+      "speaker": null
+    },
+    {
+      "start": 3527.999,
+      "end": 3531.303,
+      "text": "I'll drive. You have them drink some of your blood.",
+      "speaker": null
+    },
+    {
+      "start": 3531.436,
+      "end": 3532.905,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 3533.038,
+      "end": 3534.64,
+      "text": "I guess I've got no choice.",
+      "speaker": null
+    },
+    {
+      "start": 3538.21,
+      "end": 3540.68,
+      "text": "Aren't you going to start the car?",
+      "speaker": null
+    },
+    {
+      "start": 3541.48,
+      "end": 3542.848,
+      "text": "Damn.",
+      "speaker": null
+    },
+    {
+      "start": 3542.981,
+      "end": 3546.352,
+      "text": "It showed me a future I didn't want to see.",
+      "speaker": null
+    },
+    {
+      "start": 3546.485,
+      "end": 3547.419,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 3558.73,
+      "end": 3560.332,
+      "text": "That monster.",
+      "speaker": null
+    },
+    {
+      "start": 3560.465,
+      "end": 3564.103,
+      "text": "I killed them to show you how powerful I am.",
+      "speaker": null
+    },
+    {
+      "start": 3564.236,
+      "end": 3566.572,
+      "text": "I don't want to kill anyone if possible.",
+      "speaker": null
+    },
+    {
+      "start": 3567.873,
+      "end": 3570.809,
+      "text": "Take Denji out of the car and leave.",
+      "speaker": null
+    },
+    {
+      "start": 3585.958,
+      "end": 3589.695,
+      "text": "The gasoline is going to make that car burn to a crisp.",
+      "speaker": null
+    },
+    {
+      "start": 3593.833,
+      "end": 3596.268,
+      "text": "What a pain.",
+      "speaker": null
+    },
+    {
+      "start": 3597.77,
+      "end": 3599.305,
+      "text": "Acho!",
+      "speaker": null
+    },
+    {
+      "start": 3603.876,
+      "end": 3605.811,
+      "text": "I asked the Special Division for backup.",
+      "speaker": null
+    },
+    {
+      "start": 3605.945,
+      "end": 3607.179,
+      "text": "They saved us.",
+      "speaker": null
+    },
+    {
+      "start": 3613.752,
+      "end": 3615.154,
+      "text": "No way!",
+      "speaker": null
+    },
+    {
+      "start": 3616.655,
+      "end": 3619.659,
+      "text": "I kicked with everything I got just now.",
+      "speaker": null
+    },
+    {
+      "start": 3620.593,
+      "end": 3622.194,
+      "text": "Nice kick.",
+      "speaker": "reze"
+    },
+    {
+      "start": 3625.764,
+      "end": 3627.033,
+      "text": "Want to fight?",
+      "speaker": null
+    },
+    {
+      "start": 3628.533,
+      "end": 3631.603,
+      "text": "Kobeni! We're changing strategies!",
+      "speaker": null
+    },
+    {
+      "start": 3633.072,
+      "end": 3636.041,
+      "text": "This one's a lot stronger than us!",
+      "speaker": null
+    },
+    {
+      "start": 3636.175,
+      "end": 3638.444,
+      "text": "Time for a strategic retreat!",
+      "speaker": null
+    },
+    {
+      "start": 3639.011,
+      "end": 3640.479,
+      "text": "Anyways, bye.",
+      "speaker": null
+    },
+    {
+      "start": 3642.747,
+      "end": 3645.05,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 3645.183,
+      "end": 3648.22,
+      "text": "My legs... My legs...",
+      "speaker": null
+    },
+    {
+      "start": 3648.353,
+      "end": 3650.156,
+      "text": "My legs gave out...",
+      "speaker": null
+    },
+    {
+      "start": 3651.323,
+      "end": 3654.16,
+      "text": "My legs... My legs...",
+      "speaker": null
+    },
+    {
+      "start": 3659.198,
+      "end": 3662.067,
+      "text": "I'm sorry! I'm sorry!",
+      "speaker": null
+    },
+    {
+      "start": 3662.2,
+      "end": 3665.004,
+      "text": "I'll quit my job. So please forgive me!",
+      "speaker": null
+    },
+    {
+      "start": 3685.524,
+      "end": 3686.559,
+      "text": "There she is!",
+      "speaker": null
+    },
+    {
+      "start": 3694.233,
+      "end": 3697.869,
+      "text": "Hey. Chainsaw's awake now.",
+      "speaker": null
+    },
+    {
+      "start": 3698.003,
+      "end": 3700.506,
+      "text": "But the bomb girl's right behind us.",
+      "speaker": null
+    },
+    {
+      "start": 3702.04,
+      "end": 3704.009,
+      "text": "Shit! Damn!",
+      "speaker": null
+    },
+    {
+      "start": 3704.142,
+      "end": 3707.012,
+      "text": "The transmitter's broken on this car.",
+      "speaker": null
+    },
+    {
+      "start": 3708.48,
+      "end": 3710.149,
+      "text": "What's wrong with this car?",
+      "speaker": null
+    },
+    {
+      "start": 3711.25,
+      "end": 3712.484,
+      "text": "If it comes down to it,",
+      "speaker": null
+    },
+    {
+      "start": 3712.618,
+      "end": 3713.986,
+      "text": "I'm going to crash this car into her!",
+      "speaker": null
+    },
+    {
+      "start": 3714.119,
+      "end": 3716.822,
+      "text": "I can't let her have Denji!",
+      "speaker": null
+    },
+    {
+      "start": 3718.624,
+      "end": 3720.325,
+      "text": "-  -  What's going on?",
+      "speaker": null
+    },
+    {
+      "start": 3720.459,
+      "end": 3722.394,
+      "text": "He's cutting the top of the car!",
+      "speaker": "other"
+    },
+    {
+      "start": 3722.527,
+      "end": 3723.662,
+      "text": "Huh?",
+      "speaker": "aki"
+    },
+    {
+      "start": 3726.599,
+      "end": 3727.866,
+      "text": "Stop, Denji!",
+      "speaker": null
+    },
+    {
+      "start": 3728.0,
+      "end": 3730.469,
+      "text": "You haven't had that much blood yet!",
+      "speaker": null
+    },
+    {
+      "start": 3730.602,
+      "end": 3734.205,
+      "text": "It hurt so much, I thought I was going to die.",
+      "speaker": "denji"
+    },
+    {
+      "start": 3734.339,
+      "end": 3737.275,
+      "text": "My brain's all mixed-up.",
+      "speaker": null
+    },
+    {
+      "start": 3737.409,
+      "end": 3739.979,
+      "text": "But I spent some time looking back on what's happened.",
+      "speaker": null
+    },
+    {
+      "start": 3741.279,
+      "end": 3744.149,
+      "text": "And I just realized",
+      "speaker": null
+    },
+    {
+      "start": 3744.283,
+      "end": 3747.753,
+      "text": "that every single girl I ever meet always tries to kill me!",
+      "speaker": null
+    },
+    {
+      "start": 3747.886,
+      "end": 3752.091,
+      "text": "Everyone always wants Chainsaw's heart!",
+      "speaker": null
+    },
+    {
+      "start": 3752.224,
+      "end": 3756.261,
+      "text": "Doesn't anyone want Denji's heart? Huh?",
+      "speaker": null
+    },
+    {
+      "start": 3756.394,
+      "end": 3759.998,
+      "text": "I really do like you, Denji. It's true.",
+      "speaker": null
+    },
+    {
+      "start": 3760.132,
+      "end": 3762.0,
+      "text": "Huh? Really?",
+      "speaker": null
+    },
+    {
+      "start": 3762.133,
+      "end": 3764.503,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 3764.637,
+      "end": 3768.007,
+      "text": "Don't listen to the enemy! You're so gullible!",
+      "speaker": null
+    },
+    {
+      "start": 3770.642,
+      "end": 3773.778,
+      "text": "That was close. I was about to get tricked.",
+      "speaker": null
+    },
+    {
+      "start": 3773.912,
+      "end": 3777.549,
+      "text": "I don't know why you're trying to kill me.",
+      "speaker": null
+    },
+    {
+      "start": 3777.682,
+      "end": 3779.852,
+      "text": "But I don't care!",
+      "speaker": null
+    },
+    {
+      "start": 3780.519,
+      "end": 3782.52,
+      "text": "I've got Makima!",
+      "speaker": null
+    },
+    {
+      "start": 3782.654,
+      "end": 3784.789,
+      "text": "Makima?",
+      "speaker": null
+    },
+    {
+      "start": 3784.923,
+      "end": 3789.427,
+      "text": "Denji, I didn't know that witch has got you in the palm of her hand.",
+      "speaker": null
+    },
+    {
+      "start": 3789.561,
+      "end": 3792.531,
+      "text": "Then it would have been no use even if we ran away together.",
+      "speaker": null
+    },
+    {
+      "start": 3792.664,
+      "end": 3794.199,
+      "text": "Aw.",
+      "speaker": null
+    },
+    {
+      "start": 3794.333,
+      "end": 3797.636,
+      "text": "I wish I never kissed you! Aw.",
+      "speaker": null
+    },
+    {
+      "start": 3800.805,
+      "end": 3802.574,
+      "text": "If anyone else dies because of me,",
+      "speaker": null
+    },
+    {
+      "start": 3802.708,
+      "end": 3805.077,
+      "text": "I'm going to have trouble getting out of bed in the morning.",
+      "speaker": null
+    },
+    {
+      "start": 3806.178,
+      "end": 3808.813,
+      "text": "I'm going to arrest you!",
+      "speaker": null
+    },
+    {
+      "start": 3808.947,
+      "end": 3810.816,
+      "text": "Come here, Denji.",
+      "speaker": null
+    },
+    {
+      "start": 3810.95,
+      "end": 3814.553,
+      "text": "I'm going to show you how we fight.",
+      "speaker": null
+    },
+    {
+      "start": 3814.686,
+      "end": 3817.356,
+      "text": "Then show me!",
+      "speaker": null
+    },
+    {
+      "start": 3840.179,
+      "end": 3843.248,
+      "text": "Denji. You're not applying what you've learned.",
+      "speaker": "reze"
+    },
+    {
+      "start": 3843.381,
+      "end": 3846.085,
+      "text": "You can't just swing your chainsaws around.",
+      "speaker": null
+    },
+    {
+      "start": 3846.218,
+      "end": 3848.887,
+      "text": "You've got to understand your own power better.",
+      "speaker": null
+    },
+    {
+      "start": 3849.02,
+      "end": 3850.089,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 3853.692,
+      "end": 3854.76,
+      "text": "Boom.",
+      "speaker": null
+    },
+    {
+      "start": 3908.713,
+      "end": 3910.015,
+      "text": "Regeneration?",
+      "speaker": "reze"
+    },
+    {
+      "start": 3911.083,
+      "end": 3912.584,
+      "text": "So you were revving the engine",
+      "speaker": null
+    },
+    {
+      "start": 3912.718,
+      "end": 3914.954,
+      "text": "- before you got kicked. -",
+      "speaker": null
+    },
+    {
+      "start": 3949.254,
+      "end": 3950.622,
+      "text": "You Devil!",
+      "speaker": null
+    },
+    {
+      "start": 3970.709,
+      "end": 3972.911,
+      "text": "If I mess up even a single move, I'm going to die.",
+      "speaker": "aki"
+    },
+    {
+      "start": 3973.044,
+      "end": 3977.049,
+      "text": "I can see the future, but only a few seconds in advance.",
+      "speaker": null
+    },
+    {
+      "start": 3977.182,
+      "end": 3980.119,
+      "text": "I don't know if my body will be able to react in time.",
+      "speaker": null
+    },
+    {
+      "start": 3986.024,
+      "end": 3987.693,
+      "text": "Perfect judgment.",
+      "speaker": null
+    },
+    {
+      "start": 3992.964,
+      "end": 3994.199,
+      "text": "Perfect judgment.",
+      "speaker": null
+    },
+    {
+      "start": 3996.2,
+      "end": 3998.037,
+      "text": "Perfect judgment.",
+      "speaker": null
+    },
+    {
+      "start": 4003.809,
+      "end": 4005.244,
+      "text": "Perfect--",
+      "speaker": null
+    },
+    {
+      "start": 4012.684,
+      "end": 4013.852,
+      "text": "That was close!",
+      "speaker": "other"
+    },
+    {
+      "start": 4013.985,
+      "end": 4016.854,
+      "text": "-  - Sorry I'm late.",
+      "speaker": null
+    },
+    {
+      "start": 4016.988,
+      "end": 4020.025,
+      "text": "This is the first time I've ever wanted to be friends with a Devil!",
+      "speaker": null
+    },
+    {
+      "start": 4020.158,
+      "end": 4021.427,
+      "text": "Here you go.",
+      "speaker": "other"
+    },
+    {
+      "start": 4024.896,
+      "end": 4027.031,
+      "text": "Time-out!",
+      "speaker": null
+    },
+    {
+      "start": 4027.165,
+      "end": 4029.867,
+      "text": "I'm anemic and I'm almost naked over here.",
+      "speaker": null
+    },
+    {
+      "start": 4030.001,
+      "end": 4032.103,
+      "text": "And you've got the two of you. That's not fair.",
+      "speaker": null
+    },
+    {
+      "start": 4032.237,
+      "end": 4035.606,
+      "text": "You're right. Should we give her a break?",
+      "speaker": null
+    },
+    {
+      "start": 4035.74,
+      "end": 4037.008,
+      "text": "No.",
+      "speaker": null
+    },
+    {
+      "start": 4037.141,
+      "end": 4039.11,
+      "text": "That's what he said. Sorry!",
+      "speaker": null
+    },
+    {
+      "start": 4039.243,
+      "end": 4040.412,
+      "text": "The time-out is over.",
+      "speaker": null
+    },
+    {
+      "start": 4046.585,
+      "end": 4050.856,
+      "text": "Lady Reze! Typhoon is here!",
+      "speaker": null
+    },
+    {
+      "start": 4051.956,
+      "end": 4053.926,
+      "text": "That's not fair!",
+      "speaker": null
+    },
+    {
+      "start": 4072.911,
+      "end": 4074.012,
+      "text": "It's okay.",
+      "speaker": "other"
+    },
+    {
+      "start": 4074.846,
+      "end": 4076.782,
+      "text": "You're going to go to heaven.",
+      "speaker": null
+    },
+    {
+      "start": 4082.02,
+      "end": 4083.755,
+      "text": "I'm going to take your blood.",
+      "speaker": null
+    },
+    {
+      "start": 4083.889,
+      "end": 4085.09,
+      "text": "Sorry.",
+      "speaker": null
+    },
+    {
+      "start": 4105.644,
+      "end": 4109.013,
+      "text": "A normal devil would have been dead.",
+      "speaker": null
+    },
+    {
+      "start": 4109.147,
+      "end": 4112.984,
+      "text": "You're so impressive, Lord Chainsaw! You're amazing!",
+      "speaker": null
+    },
+    {
+      "start": 4113.118,
+      "end": 4116.021,
+      "text": "Your girlfriend has killed too many people.",
+      "speaker": "other"
+    },
+    {
+      "start": 4116.154,
+      "end": 4119.491,
+      "text": "If we let her run free, then many more will die.",
+      "speaker": null
+    },
+    {
+      "start": 4120.425,
+      "end": 4123.027,
+      "text": "Chainsaw. Make your choice.",
+      "speaker": null
+    },
+    {
+      "start": 4123.161,
+      "end": 4127.031,
+      "text": "Either let her kill you and minimize the damage,",
+      "speaker": null
+    },
+    {
+      "start": 4127.165,
+      "end": 4128.967,
+      "text": "or kill her instead.",
+      "speaker": null
+    },
+    {
+      "start": 4131.035,
+      "end": 4134.339,
+      "text": "Well, that's an easy decision.",
+      "speaker": "denji"
+    },
+    {
+      "start": 4135.44,
+      "end": 4137.91,
+      "text": "Reze is incredibly powerful, though.",
+      "speaker": null
+    },
+    {
+      "start": 4139.978,
+      "end": 4143.848,
+      "text": "Shark, you know about the Chainsaw Devil, right?",
+      "speaker": "other"
+    },
+    {
+      "start": 4143.981,
+      "end": 4147.519,
+      "text": "If you don't want to die today, then you should tell us what you know.",
+      "speaker": null
+    },
+    {
+      "start": 4149.488,
+      "end": 4152.623,
+      "text": "Lord Chainsaw runs really fast!",
+      "speaker": null
+    },
+    {
+      "start": 4152.757,
+      "end": 4157.462,
+      "text": "But when he goes places, he doesn't just use his legs.",
+      "speaker": null
+    },
+    {
+      "start": 4157.596,
+      "end": 4160.164,
+      "text": "He uses the chains on his chainsaws to get around.",
+      "speaker": null
+    },
+    {
+      "start": 4160.298,
+      "end": 4162.033,
+      "text": "He flings his chains through the air and hooks them on buildings,",
+      "speaker": null
+    },
+    {
+      "start": 4162.166,
+      "end": 4164.068,
+      "text": "and then he swings from building to building!",
+      "speaker": null
+    },
+    {
+      "start": 4164.202,
+      "end": 4168.372,
+      "text": "I see! Samurai Sword draws his sword to get around.",
+      "speaker": null
+    },
+    {
+      "start": 4168.506,
+      "end": 4171.142,
+      "text": "And Reze uses explosions.",
+      "speaker": null
+    },
+    {
+      "start": 4171.275,
+      "end": 4173.511,
+      "text": "I need to apply my own powers too!",
+      "speaker": null
+    },
+    {
+      "start": 4173.644,
+      "end": 4176.782,
+      "text": "Lord Chainsaw, you're a genius! Lord Chainsaw, you're a genius!",
+      "speaker": null
+    },
+    {
+      "start": 4176.915,
+      "end": 4181.62,
+      "text": "I should use chains to get around! I see! I get it!",
+      "speaker": null
+    },
+    {
+      "start": 4183.321,
+      "end": 4186.057,
+      "text": "That's right! That's right!",
+      "speaker": null
+    },
+    {
+      "start": 4186.191,
+      "end": 4187.926,
+      "text": "I'm going to try it!",
+      "speaker": null
+    },
+    {
+      "start": 4188.06,
+      "end": 4190.929,
+      "text": "- Beam! Turn into a shark! - Okay!",
+      "speaker": null
+    },
+    {
+      "start": 4193.364,
+      "end": 4194.399,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 4195.434,
+      "end": 4197.936,
+      "text": "This is it!",
+      "speaker": null
+    },
+    {
+      "start": 4199.203,
+      "end": 4201.573,
+      "text": "I'm going to use chains to control Beam,",
+      "speaker": null
+    },
+    {
+      "start": 4201.706,
+      "end": 4204.576,
+      "text": "and Beam is going to run like a horse!",
+      "speaker": null
+    },
+    {
+      "start": 4206.177,
+      "end": 4208.747,
+      "text": "That's not it... That's not it...",
+      "speaker": null
+    },
+    {
+      "start": 4208.88,
+      "end": 4211.35,
+      "text": "Are you sure? I don't think that's it.",
+      "speaker": null
+    },
+    {
+      "start": 4211.483,
+      "end": 4214.285,
+      "text": "I think you're supposed to shoot out the chains from your arms",
+      "speaker": null
+    },
+    {
+      "start": 4214.419,
+      "end": 4215.954,
+      "text": "and hook them onto buildings.",
+      "speaker": null
+    },
+    {
+      "start": 4216.087,
+      "end": 4219.725,
+      "text": "Huh? This is the right way! Right, Beam?",
+      "speaker": null
+    },
+    {
+      "start": 4219.858,
+      "end": 4221.96,
+      "text": "You're right! You're right! You're right!",
+      "speaker": null
+    },
+    {
+      "start": 4222.093,
+      "end": 4224.395,
+      "text": "All right! Run, Beam!",
+      "speaker": null
+    },
+    {
+      "start": 4224.529,
+      "end": 4227.399,
+      "text": "You're right!",
+      "speaker": null
+    },
+    {
+      "start": 4227.532,
+      "end": 4229.067,
+      "text": "You're right! You're right!",
+      "speaker": null
+    },
+    {
+      "start": 4236.675,
+      "end": 4239.444,
+      "text": "What are you doing?",
+      "speaker": "other"
+    },
+    {
+      "start": 4240.278,
+      "end": 4242.013,
+      "text": "Denji!",
+      "speaker": "aki"
+    },
+    {
+      "start": 4242.147,
+      "end": 4244.582,
+      "text": "There you are, Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 4244.716,
+      "end": 4248.287,
+      "text": "Denji! I'm going to make you regret coming back to life!",
+      "speaker": null
+    },
+    {
+      "start": 4249.588,
+      "end": 4253.758,
+      "text": "Beam! Don't make me regret this!",
+      "speaker": null
+    },
+    {
+      "start": 4253.892,
+      "end": 4255.127,
+      "text": "Okay!",
+      "speaker": "other"
+    },
+    {
+      "start": 4257.295,
+      "end": 4259.164,
+      "text": "Damn! Those guys...",
+      "speaker": null
+    },
+    {
+      "start": 4259.297,
+      "end": 4261.166,
+      "text": "It's a monster battle!",
+      "speaker": "other"
+    },
+    {
+      "start": 4261.299,
+      "end": 4264.136,
+      "text": "We're just going to have to sit it out and watch.",
+      "speaker": null
+    },
+    {
+      "start": 4277.081,
+      "end": 4280.018,
+      "text": "You keep missing!",
+      "speaker": null
+    },
+    {
+      "start": 4280.152,
+      "end": 4281.819,
+      "text": "You're like a cockroach.",
+      "speaker": null
+    },
+    {
+      "start": 4281.953,
+      "end": 4285.023,
+      "text": "-  -  I'm tired of the explosions!",
+      "speaker": null
+    },
+    {
+      "start": 4285.156,
+      "end": 4287.426,
+      "text": "Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 4296.267,
+      "end": 4298.036,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 4298.169,
+      "end": 4300.205,
+      "text": "- Take that! - Ouch!",
+      "speaker": null
+    },
+    {
+      "start": 4302.206,
+      "end": 4304.476,
+      "text": "What a waste.",
+      "speaker": "denji"
+    },
+    {
+      "start": 4304.609,
+      "end": 4307.144,
+      "text": "I cut off a beautiful woman's leg.",
+      "speaker": null
+    },
+    {
+      "start": 4307.278,
+      "end": 4310.515,
+      "text": "Lady Reze! Take my blood!",
+      "speaker": null
+    },
+    {
+      "start": 4315.987,
+      "end": 4317.855,
+      "text": "Oh! Good!",
+      "speaker": "denji"
+    },
+    {
+      "start": 4317.989,
+      "end": 4319.724,
+      "text": "Wait, that's not good!",
+      "speaker": null
+    },
+    {
+      "start": 4319.857,
+      "end": 4322.928,
+      "text": "This is crazy.",
+      "speaker": null
+    },
+    {
+      "start": 4324.629,
+      "end": 4325.664,
+      "text": "Oh!",
+      "speaker": null
+    },
+    {
+      "start": 4333.004,
+      "end": 4335.073,
+      "text": "Grab on to something!",
+      "speaker": null
+    },
+    {
+      "start": 4335.84,
+      "end": 4338.21,
+      "text": "I can't! I can't!",
+      "speaker": null
+    },
+    {
+      "start": 4347.385,
+      "end": 4348.42,
+      "text": "It's okay.",
+      "speaker": null
+    },
+    {
+      "start": 4349.987,
+      "end": 4352.857,
+      "text": "It's okay! You can let go!",
+      "speaker": null
+    },
+    {
+      "start": 4352.99,
+      "end": 4354.859,
+      "text": "If I'm going to die, I don't care!",
+      "speaker": null
+    },
+    {
+      "start": 4354.992,
+      "end": 4356.928,
+      "text": "It just means today was my day to die.",
+      "speaker": null
+    },
+    {
+      "start": 4357.495,
+      "end": 4359.497,
+      "text": "I'll be fine.",
+      "speaker": null
+    },
+    {
+      "start": 4359.63,
+      "end": 4362.1,
+      "text": "I've been ready to die for a long time.",
+      "speaker": null
+    },
+    {
+      "start": 4376.38,
+      "end": 4380.085,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 4389.394,
+      "end": 4391.396,
+      "text": "Why?",
+      "speaker": "other"
+    },
+    {
+      "start": 4391.529,
+      "end": 4393.331,
+      "text": "Why did you touch my hand?",
+      "speaker": null
+    },
+    {
+      "start": 4393.464,
+      "end": 4396.268,
+      "text": "- Do you want to die? - Of course I don't want to die!",
+      "speaker": null
+    },
+    {
+      "start": 4400.772,
+      "end": 4403.742,
+      "text": "How much did my lifespan decrease just now?",
+      "speaker": null
+    },
+    {
+      "start": 4407.278,
+      "end": 4408.447,
+      "text": "About two months.",
+      "speaker": null
+    },
+    {
+      "start": 4415.72,
+      "end": 4417.255,
+      "text": "If you want to die,",
+      "speaker": null
+    },
+    {
+      "start": 4417.389,
+      "end": 4418.924,
+      "text": "then die somewhere far away from me.",
+      "speaker": null
+    },
+    {
+      "start": 4419.057,
+      "end": 4422.06,
+      "text": "I can't take it anymore, watching someone die",
+      "speaker": null
+    },
+    {
+      "start": 4422.76,
+      "end": 4424.429,
+      "text": "right in front of me.",
+      "speaker": null
+    },
+    {
+      "start": 4445.449,
+      "end": 4448.453,
+      "text": "Lord Chainsaw! We're in trouble! Something's coming!",
+      "speaker": "other"
+    },
+    {
+      "start": 4448.586,
+      "end": 4450.522,
+      "text": "Lord Chainsaw--",
+      "speaker": null
+    },
+    {
+      "start": 4455.292,
+      "end": 4457.162,
+      "text": "Hmm? Huh?",
+      "speaker": "reze"
+    },
+    {
+      "start": 4479.918,
+      "end": 4482.821,
+      "text": "Lord Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 4546.25,
+      "end": 4547.786,
+      "text": "Whoa.",
+      "speaker": "denji"
+    },
+    {
+      "start": 4556.027,
+      "end": 4557.963,
+      "text": "You were hanging in there for a pretty long time.",
+      "speaker": "reze"
+    },
+    {
+      "start": 4559.597,
+      "end": 4560.832,
+      "text": "But I think it's time now...",
+      "speaker": null
+    },
+    {
+      "start": 4563.434,
+      "end": 4564.97,
+      "text": "to put an end to this.",
+      "speaker": null
+    },
+    {
+      "start": 4575.747,
+      "end": 4578.249,
+      "text": "That was close!",
+      "speaker": "denji"
+    },
+    {
+      "start": 4579.384,
+      "end": 4580.452,
+      "text": "Beam!",
+      "speaker": null
+    },
+    {
+      "start": 4580.585,
+      "end": 4581.886,
+      "text": "Lord Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 4582.019,
+      "end": 4584.055,
+      "text": "I'll make sure you won't regret this!",
+      "speaker": null
+    },
+    {
+      "start": 4594.565,
+      "end": 4596.401,
+      "text": "Hey! This is bad!",
+      "speaker": "denji"
+    },
+    {
+      "start": 4596.534,
+      "end": 4598.67,
+      "text": "He's going to turn the whole city into mincemeat at this rate!",
+      "speaker": null
+    },
+    {
+      "start": 4598.803,
+      "end": 4602.506,
+      "text": "Beam! We've got to get that fat-ass to shut up first!",
+      "speaker": null
+    },
+    {
+      "start": 4602.64,
+      "end": 4603.775,
+      "text": "Okay!",
+      "speaker": null
+    },
+    {
+      "start": 4615.019,
+      "end": 4617.055,
+      "text": "I found you!",
+      "speaker": "other"
+    },
+    {
+      "start": 4622.961,
+      "end": 4626.564,
+      "text": "Die! Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 4655.627,
+      "end": 4656.795,
+      "text": "Yeah!",
+      "speaker": null
+    },
+    {
+      "start": 4657.494,
+      "end": 4659.964,
+      "text": "Beam! Send me flying!",
+      "speaker": null
+    },
+    {
+      "start": 4660.097,
+      "end": 4662.033,
+      "text": "Yeah!",
+      "speaker": null
+    },
+    {
+      "start": 4669.607,
+      "end": 4672.243,
+      "text": "This makes it easy for me!",
+      "speaker": null
+    },
+    {
+      "start": 4672.376,
+      "end": 4675.68,
+      "text": "All I have to do is swing my chainsaws around...",
+      "speaker": null
+    },
+    {
+      "start": 4676.247,
+      "end": 4679.417,
+      "text": "like crazy!",
+      "speaker": null
+    },
+    {
+      "start": 4683.588,
+      "end": 4684.789,
+      "text": "Whoa!",
+      "speaker": null
+    },
+    {
+      "start": 4686.024,
+      "end": 4688.259,
+      "text": "Beam!",
+      "speaker": null
+    },
+    {
+      "start": 4688.392,
+      "end": 4691.196,
+      "text": "Lord Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 4709.513,
+      "end": 4711.882,
+      "text": "Stay away!",
+      "speaker": null
+    },
+    {
+      "start": 4715.653,
+      "end": 4717.521,
+      "text": "Come on!",
+      "speaker": null
+    },
+    {
+      "start": 4752.656,
+      "end": 4754.525,
+      "text": "We did it! Beam!",
+      "speaker": null
+    },
+    {
+      "start": 4754.659,
+      "end": 4756.261,
+      "text": "Where's Reze?",
+      "speaker": null
+    },
+    {
+      "start": 4757.661,
+      "end": 4759.364,
+      "text": "Ah! Lord Chainsaw!",
+      "speaker": null
+    },
+    {
+      "start": 4817.956,
+      "end": 4819.324,
+      "text": "Whoa!",
+      "speaker": null
+    },
+    {
+      "start": 4866.104,
+      "end": 4867.438,
+      "text": "Ouch!",
+      "speaker": null
+    },
+    {
+      "start": 4867.571,
+      "end": 4869.073,
+      "text": "You saved me, Beam!",
+      "speaker": null
+    },
+    {
+      "start": 4872.243,
+      "end": 4875.947,
+      "text": "Denji. Don't you think it's about time you gave up?",
+      "speaker": null
+    },
+    {
+      "start": 4876.547,
+      "end": 4877.916,
+      "text": "Uh...",
+      "speaker": null
+    },
+    {
+      "start": 4878.683,
+      "end": 4879.717,
+      "text": "No.",
+      "speaker": null
+    },
+    {
+      "start": 4900.271,
+      "end": 4904.709,
+      "text": "You're being a huge pain in the ass. Just hurry up and die already.",
+      "speaker": null
+    },
+    {
+      "start": 4904.842,
+      "end": 4910.114,
+      "text": "Then you should have just killed me when we first met!",
+      "speaker": null
+    },
+    {
+      "start": 4912.216,
+      "end": 4913.651,
+      "text": "There's nowhere left to run.",
+      "speaker": null
+    },
+    {
+      "start": 4913.784,
+      "end": 4915.653,
+      "text": "I wouldn't be so sure about that.",
+      "speaker": null
+    },
+    {
+      "start": 4915.786,
+      "end": 4919.89,
+      "text": "You shouldn't have taught me how to swim.",
+      "speaker": null
+    },
+    {
+      "start": 4920.024,
+      "end": 4922.727,
+      "text": "Huh... You're going to swim?",
+      "speaker": "reze"
+    },
+    {
+      "start": 4952.023,
+      "end": 4953.491,
+      "text": "Chains?",
+      "speaker": "reze"
+    },
+    {
+      "start": 4972.81,
+      "end": 4976.981,
+      "text": "Can you still explode when you're wet?",
+      "speaker": null
+    },
+    {
+      "start": 5084.955,
+      "end": 5086.457,
+      "text": "I can't believe it.",
+      "speaker": "reze"
+    },
+    {
+      "start": 5087.458,
+      "end": 5089.927,
+      "text": "Why did you resurrect me?",
+      "speaker": null
+    },
+    {
+      "start": 5092.262,
+      "end": 5095.566,
+      "text": "I have a great life.",
+      "speaker": null
+    },
+    {
+      "start": 5095.7,
+      "end": 5099.636,
+      "text": "No matter how many times I get beat up or die,",
+      "speaker": null
+    },
+    {
+      "start": 5099.77,
+      "end": 5103.407,
+      "text": "as long as I get to eat good food the next day, I can forgive.",
+      "speaker": null
+    },
+    {
+      "start": 5104.741,
+      "end": 5105.743,
+      "text": "But...",
+      "speaker": null
+    },
+    {
+      "start": 5107.211,
+      "end": 5110.614,
+      "text": "if I capture you and hand you over to Public Safety,",
+      "speaker": null
+    },
+    {
+      "start": 5110.747,
+      "end": 5114.685,
+      "text": "I'd feel like I had a fish bone stuck in my throat.",
+      "speaker": null
+    },
+    {
+      "start": 5118.823,
+      "end": 5121.391,
+      "text": "Even if I were living a good life every day,",
+      "speaker": null
+    },
+    {
+      "start": 5121.525,
+      "end": 5124.862,
+      "text": "it would feel bad, having something poking the back of my throat.",
+      "speaker": null
+    },
+    {
+      "start": 5130.267,
+      "end": 5133.704,
+      "text": "Do you think you would still say that if I killed you right now?",
+      "speaker": "reze"
+    },
+    {
+      "start": 5135.706,
+      "end": 5137.574,
+      "text": "If someone's going to kill me,",
+      "speaker": null
+    },
+    {
+      "start": 5137.708,
+      "end": 5139.31,
+      "text": "then I'd rather be killed by a beautiful woman.",
+      "speaker": null
+    },
+    {
+      "start": 5150.354,
+      "end": 5151.622,
+      "text": "Ah...",
+      "speaker": null
+    },
+    {
+      "start": 5153.157,
+      "end": 5158.728,
+      "text": "Do you really still believe that I like you for real?",
+      "speaker": null
+    },
+    {
+      "start": 5158.862,
+      "end": 5162.633,
+      "text": "The look on my face when I met you, and the way I blushed...",
+      "speaker": null
+    },
+    {
+      "start": 5162.767,
+      "end": 5164.534,
+      "text": "It was all a lie.",
+      "speaker": null
+    },
+    {
+      "start": 5164.668,
+      "end": 5166.636,
+      "text": "I just trained myself how to do it.",
+      "speaker": null
+    },
+    {
+      "start": 5168.138,
+      "end": 5170.641,
+      "text": "I failed.",
+      "speaker": null
+    },
+    {
+      "start": 5170.775,
+      "end": 5173.544,
+      "text": "I took too much time before I fought you.",
+      "speaker": null
+    },
+    {
+      "start": 5175.146,
+      "end": 5177.515,
+      "text": "I'm going to run away now.",
+      "speaker": null
+    },
+    {
+      "start": 5184.221,
+      "end": 5185.856,
+      "text": "Do you want to run away together?",
+      "speaker": "denji"
+    },
+    {
+      "start": 5187.257,
+      "end": 5189.025,
+      "text": "Huh?",
+      "speaker": null
+    },
+    {
+      "start": 5189.159,
+      "end": 5192.23,
+      "text": "I can fight too. You'll have a better chance at escaping.",
+      "speaker": null
+    },
+    {
+      "start": 5194.231,
+      "end": 5196.934,
+      "text": "I killed lots of people.",
+      "speaker": null
+    },
+    {
+      "start": 5197.068,
+      "end": 5202.306,
+      "text": "If you let me get away, that would make you complicit in murder.",
+      "speaker": null
+    },
+    {
+      "start": 5202.439,
+      "end": 5204.041,
+      "text": "Do you understand what that means?",
+      "speaker": null
+    },
+    {
+      "start": 5205.209,
+      "end": 5206.677,
+      "text": "Uh...",
+      "speaker": null
+    },
+    {
+      "start": 5206.811,
+      "end": 5209.513,
+      "text": "I know I shouldn't, but I've got no choice.",
+      "speaker": null
+    },
+    {
+      "start": 5209.646,
+      "end": 5211.215,
+      "text": "I still like you.",
+      "speaker": null
+    },
+    {
+      "start": 5212.316,
+      "end": 5214.084,
+      "text": "You said it was all a lie.",
+      "speaker": null
+    },
+    {
+      "start": 5214.218,
+      "end": 5217.255,
+      "text": "But you did teach me how to swim. Right?",
+      "speaker": null
+    },
+    {
+      "start": 5254.091,
+      "end": 5255.459,
+      "text": "-  -",
+      "speaker": null
+    },
+    {
+      "start": 5259.429,
+      "end": 5260.598,
+      "text": "Hey!",
+      "speaker": null
+    },
+    {
+      "start": 5260.731,
+      "end": 5263.534,
+      "text": "You should learn to be smarter.",
+      "speaker": "reze"
+    },
+    {
+      "start": 5263.667,
+      "end": 5266.304,
+      "text": "Reze! Hey, Reze!",
+      "speaker": null
+    },
+    {
+      "start": 5271.942,
+      "end": 5276.313,
+      "text": "I'm going to be waiting at the café at lunch!",
+      "speaker": null
+    },
+    {
+      "start": 5276.446,
+      "end": 5278.115,
+      "text": "You'd better--",
+      "speaker": null
+    },
+    {
+      "start": 5281.719,
+      "end": 5285.156,
+      "text": "Get up, Beam! My hand won't move!",
+      "speaker": null
+    },
+    {
+      "start": 5286.289,
+      "end": 5288.092,
+      "text": "Rev up my engine!",
+      "speaker": null
+    },
+    {
+      "start": 5332.603,
+      "end": 5335.905,
+      "text": "There's a fairy tale that mothers in the Soviet Union tell",
+      "speaker": "other"
+    },
+    {
+      "start": 5336.039,
+      "end": 5337.041,
+      "text": "when scolding their children.",
+      "speaker": null
+    },
+    {
+      "start": 5338.209,
+      "end": 5341.345,
+      "text": "The story says that there's a secret room",
+      "speaker": null
+    },
+    {
+      "start": 5341.478,
+      "end": 5344.515,
+      "text": "in the military's munitions storehouse.",
+      "speaker": null
+    },
+    {
+      "start": 5344.648,
+      "end": 5346.584,
+      "text": "And the secret room is filled with orphans.",
+      "speaker": null
+    },
+    {
+      "start": 5349.787,
+      "end": 5352.223,
+      "text": "The kids who live there don't have any freedom.",
+      "speaker": null
+    },
+    {
+      "start": 5352.356,
+      "end": 5353.924,
+      "text": "They're not allowed to go outside.",
+      "speaker": null
+    },
+    {
+      "start": 5354.892,
+      "end": 5356.727,
+      "text": "They're treated like objects.",
+      "speaker": null
+    },
+    {
+      "start": 5356.86,
+      "end": 5359.896,
+      "text": "And the military uses their bodies for experiments until they die.",
+      "speaker": null
+    },
+    {
+      "start": 5360.03,
+      "end": 5362.933,
+      "text": "It was supposed to be just a fairy tale.",
+      "speaker": null
+    },
+    {
+      "start": 5363.067,
+      "end": 5365.202,
+      "text": "But one day, a newspaper reported that",
+      "speaker": null
+    },
+    {
+      "start": 5365.335,
+      "end": 5368.038,
+      "text": "that secret room really did exist.",
+      "speaker": null
+    },
+    {
+      "start": 5368.172,
+      "end": 5370.14,
+      "text": "An American journalist was the one who uncovered the story.",
+      "speaker": null
+    },
+    {
+      "start": 5370.274,
+      "end": 5372.542,
+      "text": "It was all over the news.",
+      "speaker": null
+    },
+    {
+      "start": 5372.676,
+      "end": 5376.48,
+      "text": "They published photos of the children who were there.",
+      "speaker": null
+    },
+    {
+      "start": 5376.613,
+      "end": 5378.882,
+      "text": "But the story soon disappeared.",
+      "speaker": null
+    },
+    {
+      "start": 5379.016,
+      "end": 5382.119,
+      "text": "The girl who lured Denji in was one of the kids from that room.",
+      "speaker": null
+    },
+    {
+      "start": 5382.252,
+      "end": 5383.554,
+      "text": "TYPHOON DEVIL DAMAGE RELIEF FUND",
+      "speaker": null
+    },
+    {
+      "start": 5383.687,
+      "end": 5385.422,
+      "text": "YOUR SUPPORT AND COOPERATION ARE APPRECIATED",
+      "speaker": null
+    },
+    {
+      "start": 5385.555,
+      "end": 5389.627,
+      "text": "A fighter created by the Soviet Union to serve their country.",
+      "speaker": null
+    },
+    {
+      "start": 5393.43,
+      "end": 5396.967,
+      "text": "They're called guinea pigs.",
+      "speaker": null
+    },
+    {
+      "start": 5399.903,
+      "end": 5404.375,
+      "text": "The Yamabiko train bound for Sendai will soon depart from Platform 12.",
+      "speaker": null
+    },
+    {
+      "start": 5405.109,
+      "end": 5407.077,
+      "text": "The next stop will be Ueno.",
+      "speaker": null
+    },
+    {
+      "start": 5407.211,
+      "end": 5408.479,
+      "text": "The train will now depart.",
+      "speaker": null
+    },
+    {
+      "start": 5408.612,
+      "end": 5410.714,
+      "text": "This is the Yamabiko train bound for Sendai.",
+      "speaker": null
+    },
+    {
+      "start": 5410.847,
+      "end": 5413.317,
+      "text": "The train will now depart. Doors are closing.",
+      "speaker": null
+    },
+    {
+      "start": 5413.45,
+      "end": 5415.486,
+      "text": "Please stand clear of the closing doors.",
+      "speaker": null
+    },
+    {
+      "start": 5488.158,
+      "end": 5489.159,
+      "text": "Me too.",
+      "speaker": "makima"
+    },
+    {
+      "start": 5491.862,
+      "end": 5494.398,
+      "text": "I like the country mouse too.",
+      "speaker": null
+    },
+    {
+      "start": 5496.9,
+      "end": 5501.038,
+      "text": "One of my friends has a field in the countryside.",
+      "speaker": null
+    },
+    {
+      "start": 5501.171,
+      "end": 5505.542,
+      "text": "I go there to help out my friend every year in the fall.",
+      "speaker": null
+    },
+    {
+      "start": 5505.676,
+      "end": 5511.281,
+      "text": "The field has mice hiding in the soil that damage the crops.",
+      "speaker": null
+    },
+    {
+      "start": 5511.415,
+      "end": 5516.519,
+      "text": "We have to exterminate the mice before the fields get covered in snow.",
+      "speaker": null
+    },
+    {
+      "start": 5516.653,
+      "end": 5522.159,
+      "text": "So we dig up the fields and have the dogs kill the mice hiding inside.",
+      "speaker": null
+    },
+    {
+      "start": 5523.326,
+      "end": 5524.562,
+      "text": "I wonder why...",
+      "speaker": null
+    },
+    {
+      "start": 5525.395,
+      "end": 5526.997,
+      "text": "whenever I watch...",
+      "speaker": null
+    },
+    {
+      "start": 5528.365,
+      "end": 5529.9,
+      "text": "I feel so comforted.",
+      "speaker": null
+    },
+    {
+      "start": 5534.905,
+      "end": 5537.508,
+      "text": "That's why I like the country mouse.",
+      "speaker": null
+    },
+    {
+      "start": 5573.243,
+      "end": 5578.849,
+      "text": "Why... I wonder why I didn't kill you the first time we met.",
+      "speaker": "reze"
+    },
+    {
+      "start": 5580.183,
+      "end": 5583.253,
+      "text": "Denji, to be honest...",
+      "speaker": null
+    },
+    {
+      "start": 5584.954,
+      "end": 5588.092,
+      "text": "I've never been to school either.",
+      "speaker": null
+    },
+    {
+      "start": 5601.205,
+      "end": 5604.641,
+      "text": "I told you to come with Hayakawa.",
+      "speaker": null
+    },
+    {
+      "start": 5604.774,
+      "end": 5608.412,
+      "text": "You didn't want to make Hayakawa kill a girl.",
+      "speaker": null
+    },
+    {
+      "start": 5609.312,
+      "end": 5610.514,
+      "text": "You're so kind.",
+      "speaker": null
+    },
+    {
+      "start": 5611.515,
+      "end": 5613.951,
+      "text": "It's because I'm an angel.",
+      "speaker": null
+    },
+    {
+      "start": 5625.128,
+      "end": 5626.163,
+      "text": "Hey.",
+      "speaker": null
+    },
+    {
+      "start": 5627.03,
+      "end": 5628.732,
+      "text": "Is the city a good place?",
+      "speaker": null
+    },
+    {
+      "start": 5876.379,
+      "end": 5879.449,
+      "text": "Denji. I've got to close the café now.",
+      "speaker": null
+    },
+    {
+      "start": 5881.017,
+      "end": 5883.386,
+      "text": "That girl was too cute.",
+      "speaker": null
+    },
+    {
+      "start": 5883.519,
+      "end": 5885.389,
+      "text": "She was from a different world.",
+      "speaker": null
+    },
+    {
+      "start": 5887.189,
+      "end": 5891.028,
+      "text": "I'm sure you'll meet a girl who's perfect for you someday.",
+      "speaker": null
+    },
+    {
+      "start": 5902.038,
+      "end": 5903.74,
+      "text": "RECOMMENDATIONS",
+      "speaker": null
+    },
+    {
+      "start": 5917.554,
+      "end": 5920.156,
+      "text": "P-P-P-Power!",
+      "speaker": null
+    },
+    {
+      "start": 5922.225,
+      "end": 5927.096,
+      "text": "I'm back! I tracked you down by following your scent.",
+      "speaker": null
+    },
+    {
+      "start": 5927.229,
+      "end": 5929.766,
+      "text": "What a tiny café!",
+      "speaker": null
+    },
+    {
+      "start": 5936.973,
+      "end": 5938.341,
+      "text": "Hmm?",
+      "speaker": null
+    },
+    {
+      "start": 5938.474,
+      "end": 5941.043,
+      "text": "Oh. What are you doing with those flowers?",
+      "speaker": null
+    },
+    {
+      "start": 5941.177,
+      "end": 5944.715,
+      "text": "They would really suit me! Give them to me!",
+      "speaker": null
+    },
+    {
+      "start": 5959.228,
+      "end": 5963.5,
+      "text": "Hey! Don't eat them! They're mine! You thief!",
+      "speaker": null
+    },
+    {
+      "start": 5963.633,
+      "end": 5965.535,
+      "text": "You idiot!",
+      "speaker": null
+    },
+    {
+      "start": 5965.669,
+      "end": 5967.77,
+      "text": "Spit them out right now!",
+      "speaker": null
+    },
+    {
+      "start": 5967.904,
+      "end": 5971.674,
+      "text": "- Spit them out! Spit them out! -",
+      "speaker": null
+    }
+  ],
+  "sound_cues": [
+    {
+      "t": 49.692,
+      "cue": "footsteps"
+    },
+    {
+      "t": 93.569,
+      "cue": "high-pitched ringing"
+    },
+    {
+      "t": 99.575,
+      "cue": "distorted"
+    },
+    {
+      "t": 101.31,
+      "cue": "gasps"
+    },
+    {
+      "t": 112.654,
+      "cue": "panting"
+    },
+    {
+      "t": 124.833,
+      "cue": "sighs"
+    },
+    {
+      "t": 135.811,
+      "cue": "groans"
+    },
+    {
+      "t": 141.35,
+      "cue": "grunting"
+    },
+    {
+      "t": 145.788,
+      "cue": "yowls"
+    },
+    {
+      "t": 147.79,
+      "cue": "sighs"
+    },
+    {
+      "t": 161.336,
+      "cue": "\"iris out\" playing"
+    },
+    {
+      "t": 220.629,
+      "cue": "no audible dialogue"
+    },
+    {
+      "t": 326.435,
+      "cue": "yawns"
+    },
+    {
+      "t": 339.014,
+      "cue": "yelps"
+    },
+    {
+      "t": 354.229,
+      "cue": "exclaims"
+    },
+    {
+      "t": 364.24,
+      "cue": "screaming"
+    },
+    {
+      "t": 370.445,
+      "cue": "screams"
+    },
+    {
+      "t": 437.746,
+      "cue": "gasps"
+    },
+    {
+      "t": 438.914,
+      "cue": "screams"
+    },
+    {
+      "t": 465.807,
+      "cue": "action music playing"
+    },
+    {
+      "t": 468.31,
+      "cue": "panting, exclaims"
+    },
+    {
+      "t": 470.312,
+      "cue": "characters grunting"
+    },
+    {
+      "t": 470.312,
+      "cue": "weapon slashes"
+    },
+    {
+      "t": 479.487,
+      "cue": "laughing"
+    },
+    {
+      "t": 486.461,
+      "cue": "blows landing"
+    },
+    {
+      "t": 486.461,
+      "cue": "characters grunting, exclaiming"
+    },
+    {
+      "t": 509.851,
+      "cue": "somber music playing"
+    },
+    {
+      "t": 515.023,
+      "cue": "viewers sniffling"
+    },
+    {
+      "t": 534.009,
+      "cue": "classical music playing"
+    },
+    {
+      "t": 540.248,
+      "cue": "creature growls"
+    },
+    {
+      "t": 540.248,
+      "cue": "character shrieks"
+    },
+    {
+      "t": 544.886,
+      "cue": "tense music playing"
+    },
+    {
+      "t": 586.561,
+      "cue": "birds chirping"
+    },
+    {
+      "t": 586.561,
+      "cue": "footsteps"
+    },
+    {
+      "t": 590.065,
+      "cue": "slow piano music playing"
+    },
+    {
+      "t": 681.756,
+      "cue": "gasps"
+    },
+    {
+      "t": 685.56,
+      "cue": "sighs"
+    },
+    {
+      "t": 687.562,
+      "cue": "heartbeat thumping"
+    },
+    {
+      "t": 691.166,
+      "cue": "sniffs"
+    },
+    {
+      "t": 696.905,
+      "cue": "gasps"
+    },
+    {
+      "t": 700.642,
+      "cue": "gasps"
+    },
+    {
+      "t": 739.014,
+      "cue": "fundraisers"
+    },
+    {
+      "t": 752.527,
+      "cue": "fundraiser"
+    },
+    {
+      "t": 772.78,
+      "cue": "fundraisers"
+    },
+    {
+      "t": 799.507,
+      "cue": "inhales"
+    },
+    {
+      "t": 815.923,
+      "cue": "thunder rumbles"
+    },
+    {
+      "t": 850.058,
+      "cue": "footsteps approaching"
+    },
+    {
+      "t": 853.127,
+      "cue": "door opens"
+    },
+    {
+      "t": 853.127,
+      "cue": "denji sighs"
+    },
+    {
+      "t": 863.704,
+      "cue": "liquid shaking"
+    },
+    {
+      "t": 865.707,
+      "cue": "person"
+    },
+    {
+      "t": 865.707,
+      "cue": "giggling"
+    },
+    {
+      "t": 869.711,
+      "cue": "door opens"
+    },
+    {
+      "t": 869.711,
+      "cue": "chuckles"
+    },
+    {
+      "t": 885.493,
+      "cue": "laughing"
+    },
+    {
+      "t": 897.104,
+      "cue": "person crying"
+    },
+    {
+      "t": 903.411,
+      "cue": "person"
+    },
+    {
+      "t": 920.261,
+      "cue": "gags"
+    },
+    {
+      "t": 925.3,
+      "cue": "retches"
+    },
+    {
+      "t": 936.444,
+      "cue": "gasps"
+    },
+    {
+      "t": 950.391,
+      "cue": "gentle music playing"
+    },
+    {
+      "t": 1029.871,
+      "cue": "scoffs"
+    },
+    {
+      "t": 1062.871,
+      "cue": "groans"
+    },
+    {
+      "t": 1067.775,
+      "cue": "person"
+    },
+    {
+      "t": 1078.119,
+      "cue": "laughs"
+    },
+    {
+      "t": 1121.096,
+      "cue": "stammers"
+    },
+    {
+      "t": 1198.706,
+      "cue": "sighs"
+    },
+    {
+      "t": 1297.805,
+      "cue": "crows cawing"
+    },
+    {
+      "t": 1322.53,
+      "cue": "sighs"
+    },
+    {
+      "t": 1345.887,
+      "cue": "sputtering"
+    },
+    {
+      "t": 1375.783,
+      "cue": "gasps, sputtering"
+    },
+    {
+      "t": 1380.321,
+      "cue": "sputtering stops"
+    },
+    {
+      "t": 1446.42,
+      "cue": "sighs"
+    },
+    {
+      "t": 1468.142,
+      "cue": "stammers"
+    },
+    {
+      "t": 1473.013,
+      "cue": "food sizzling"
+    },
+    {
+      "t": 1513.02,
+      "cue": "chuckles"
+    },
+    {
+      "t": 1522.029,
+      "cue": "gasps"
+    },
+    {
+      "t": 1546.12,
+      "cue": "water running"
+    },
+    {
+      "t": 1553.06,
+      "cue": "person"
+    },
+    {
+      "t": 1556.163,
+      "cue": "person"
+    },
+    {
+      "t": 1568.375,
+      "cue": "person chuckles"
+    },
+    {
+      "t": 1613.487,
+      "cue": "thud"
+    },
+    {
+      "t": 1616.423,
+      "cue": "grunting"
+    },
+    {
+      "t": 1634.308,
+      "cue": "blade scrapes"
+    },
+    {
+      "t": 1635.643,
+      "cue": "blade stabbing"
+    },
+    {
+      "t": 1635.643,
+      "cue": "screaming"
+    },
+    {
+      "t": 1689.897,
+      "cue": "chuckles"
+    },
+    {
+      "t": 1785.392,
+      "cue": "calm music playing"
+    },
+    {
+      "t": 1794.802,
+      "cue": "giggling"
+    },
+    {
+      "t": 1822.83,
+      "cue": "gasps"
+    },
+    {
+      "t": 1824.398,
+      "cue": "gasping"
+    },
+    {
+      "t": 1846.687,
+      "cue": "gasps"
+    },
+    {
+      "t": 1861.602,
+      "cue": "screams"
+    },
+    {
+      "t": 1869.343,
+      "cue": "gasps"
+    },
+    {
+      "t": 1871.011,
+      "cue": "giggling"
+    },
+    {
+      "t": 1882.59,
+      "cue": "chuckles"
+    },
+    {
+      "t": 1887.961,
+      "cue": "groans"
+    },
+    {
+      "t": 1893.767,
+      "cue": "groans"
+    },
+    {
+      "t": 1896.537,
+      "cue": "groans"
+    },
+    {
+      "t": 1899.005,
+      "cue": "screams"
+    },
+    {
+      "t": 1904.578,
+      "cue": "shouts"
+    },
+    {
+      "t": 1909.283,
+      "cue": "classical music playing"
+    },
+    {
+      "t": 1960.1,
+      "cue": "music fades"
+    },
+    {
+      "t": 1965.672,
+      "cue": "coughing"
+    },
+    {
+      "t": 1969.309,
+      "cue": "giggling"
+    },
+    {
+      "t": 1988.461,
+      "cue": "splashing"
+    },
+    {
+      "t": 1999.005,
+      "cue": "grunting"
+    },
+    {
+      "t": 2008.281,
+      "cue": "chuckles"
+    },
+    {
+      "t": 2013.153,
+      "cue": "both laughing"
+    },
+    {
+      "t": 2018.058,
+      "cue": "both laughing"
+    },
+    {
+      "t": 2029.736,
+      "cue": "sniffing"
+    },
+    {
+      "t": 2035.742,
+      "cue": "reze"
+    },
+    {
+      "t": 2035.742,
+      "cue": "denji"
+    },
+    {
+      "t": 2101.141,
+      "cue": "no audible dialogue"
+    },
+    {
+      "t": 2146.119,
+      "cue": "giggles"
+    },
+    {
+      "t": 2194.334,
+      "cue": "feet splashing"
+    },
+    {
+      "t": 2218.625,
+      "cue": "metal scrapes"
+    },
+    {
+      "t": 2226.533,
+      "cue": "person cackles"
+    },
+    {
+      "t": 2268.909,
+      "cue": "panting"
+    },
+    {
+      "t": 2272.646,
+      "cue": "gasps"
+    },
+    {
+      "t": 2280.621,
+      "cue": "strains, panting"
+    },
+    {
+      "t": 2282.923,
+      "cue": "person"
+    },
+    {
+      "t": 2300.507,
+      "cue": "whimpering"
+    },
+    {
+      "t": 2338.745,
+      "cue": "person"
+    },
+    {
+      "t": 2348.488,
+      "cue": "cackles"
+    },
+    {
+      "t": 2400.64,
+      "cue": "screams"
+    },
+    {
+      "t": 2407.214,
+      "cue": "grunts"
+    },
+    {
+      "t": 2416.589,
+      "cue": "choking"
+    },
+    {
+      "t": 2438.478,
+      "cue": "in russian"
+    },
+    {
+      "t": 2549.189,
+      "cue": "typhoon"
+    },
+    {
+      "t": 2562.736,
+      "cue": "airplane passing overhead"
+    },
+    {
+      "t": 2579.919,
+      "cue": "footsteps approaching"
+    },
+    {
+      "t": 2598.171,
+      "cue": "giggles"
+    },
+    {
+      "t": 2606.145,
+      "cue": "chuckles"
+    },
+    {
+      "t": 2608.548,
+      "cue": "calm piano music playing"
+    },
+    {
+      "t": 2619.158,
+      "cue": "no audible dialogue"
+    },
+    {
+      "t": 2681.521,
+      "cue": "music ends"
+    },
+    {
+      "t": 2733.072,
+      "cue": "sighs"
+    },
+    {
+      "t": 2844.384,
+      "cue": "gasps"
+    },
+    {
+      "t": 2867.373,
+      "cue": "child exclaims"
+    },
+    {
+      "t": 2869.509,
+      "cue": "giggles"
+    },
+    {
+      "t": 2871.177,
+      "cue": "gasps"
+    },
+    {
+      "t": 2872.244,
+      "cue": "crowd chattering"
+    },
+    {
+      "t": 2881.02,
+      "cue": "chattering increases"
+    },
+    {
+      "t": 2883.089,
+      "cue": "crunch"
+    },
+    {
+      "t": 2906.112,
+      "cue": "gasping"
+    },
+    {
+      "t": 2918.758,
+      "cue": "gasping"
+    },
+    {
+      "t": 3026.265,
+      "cue": "grunts"
+    },
+    {
+      "t": 3029.201,
+      "cue": "strains"
+    },
+    {
+      "t": 3039.412,
+      "cue": "exclaiming"
+    },
+    {
+      "t": 3042.882,
+      "cue": "shouts"
+    },
+    {
+      "t": 3048.02,
+      "cue": "growling"
+    },
+    {
+      "t": 3061.934,
+      "cue": "roars"
+    },
+    {
+      "t": 3067.707,
+      "cue": "growls"
+    },
+    {
+      "t": 3073.746,
+      "cue": "screams"
+    },
+    {
+      "t": 3153.325,
+      "cue": "panting"
+    },
+    {
+      "t": 3154.526,
+      "cue": "referee"
+    },
+    {
+      "t": 3235.607,
+      "cue": "panting"
+    },
+    {
+      "t": 3256.395,
+      "cue": "whimpering"
+    },
+    {
+      "t": 3260.766,
+      "cue": "gasps, stammers"
+    },
+    {
+      "t": 3274.012,
+      "cue": "gasps"
+    },
+    {
+      "t": 3392.064,
+      "cue": "all gasp"
+    },
+    {
+      "t": 3404.109,
+      "cue": "gasps"
+    },
+    {
+      "t": 3412.618,
+      "cue": "screaming"
+    },
+    {
+      "t": 3415.187,
+      "cue": "grunts"
+    },
+    {
+      "t": 3453.325,
+      "cue": "gasps"
+    },
+    {
+      "t": 3457.596,
+      "cue": "superior"
+    },
+    {
+      "t": 3464.503,
+      "cue": "alarm blaring"
+    },
+    {
+      "t": 3489.461,
+      "cue": "gasping"
+    },
+    {
+      "t": 3492.464,
+      "cue": "person"
+    },
+    {
+      "t": 3495.201,
+      "cue": "grunts, whimpers"
+    },
+    {
+      "t": 3508.547,
+      "cue": "gasps"
+    },
+    {
+      "t": 3508.547,
+      "cue": "fox devil"
+    },
+    {
+      "t": 3511.216,
+      "cue": "fox devil"
+    },
+    {
+      "t": 3518.857,
+      "cue": "sighs"
+    },
+    {
+      "t": 3547.553,
+      "cue": "thud"
+    },
+    {
+      "t": 3570.943,
+      "cue": "grunts"
+    },
+    {
+      "t": 3576.248,
+      "cue": "honking"
+    },
+    {
+      "t": 3580.285,
+      "cue": "sighs"
+    },
+    {
+      "t": 3610.315,
+      "cue": "shouts"
+    },
+    {
+      "t": 3631.737,
+      "cue": "gasps"
+    },
+    {
+      "t": 3642.747,
+      "cue": "kobeni whimpering"
+    },
+    {
+      "t": 3642.747,
+      "cue": "thuds"
+    },
+    {
+      "t": 3657.395,
+      "cue": "shrieks"
+    },
+    {
+      "t": 3665.704,
+      "cue": "whimpering"
+    },
+    {
+      "t": 3690.863,
+      "cue": "gasps"
+    },
+    {
+      "t": 3692.431,
+      "cue": "static"
+    },
+    {
+      "t": 3702.04,
+      "cue": "music faintly playing over static"
+    },
+    {
+      "t": 3704.142,
+      "cue": "grunts"
+    },
+    {
+      "t": 3707.146,
+      "cue": "heavy metal music playing"
+    },
+    {
+      "t": 3718.624,
+      "cue": "gasps"
+    },
+    {
+      "t": 3718.624,
+      "cue": "aki"
+    },
+    {
+      "t": 3762.133,
+      "cue": "horn honks"
+    },
+    {
+      "t": 3762.133,
+      "cue": "gasps"
+    },
+    {
+      "t": 3792.664,
+      "cue": "chuckles"
+    },
+    {
+      "t": 3818.49,
+      "cue": "music continues"
+    },
+    {
+      "t": 3826.998,
+      "cue": "grunts, groans"
+    },
+    {
+      "t": 3868.039,
+      "cue": "chainsaws whirring"
+    },
+    {
+      "t": 3896.001,
+      "cue": "pedestrians scream"
+    },
+    {
+      "t": 3906.077,
+      "cue": "pedestrian whimpers"
+    },
+    {
+      "t": 3912.718,
+      "cue": "chainsaw whirs"
+    },
+    {
+      "t": 3982.187,
+      "cue": "pedestrians screaming"
+    },
+    {
+      "t": 4013.985,
+      "cue": "aki gasps"
+    },
+    {
+      "t": 4043.748,
+      "cue": "gasps"
+    },
+    {
+      "t": 4065.47,
+      "cue": "whimpers, strains"
+    },
+    {
+      "t": 4078.216,
+      "cue": "kisses"
+    },
+    {
+      "t": 4102.14,
+      "cue": "chainsaw whirs"
+    },
+    {
+      "t": 4104.409,
+      "cue": "gasps"
+    },
+    {
+      "t": 4206.177,
+      "cue": "straining"
+    },
+    {
+      "t": 4265.603,
+      "cue": "grunts"
+    },
+    {
+      "t": 4267.605,
+      "cue": "grunts"
+    },
+    {
+      "t": 4281.953,
+      "cue": "denji cackles"
+    },
+    {
+      "t": 4281.953,
+      "cue": "beam"
+    },
+    {
+      "t": 4296.267,
+      "cue": "gasps"
+    },
+    {
+      "t": 4296.267,
+      "cue": "chainsaw whirring"
+    },
+    {
+      "t": 4319.857,
+      "cue": "chuckling"
+    },
+    {
+      "t": 4330.368,
+      "cue": "straining"
+    },
+    {
+      "t": 4362.234,
+      "cue": "straining"
+    },
+    {
+      "t": 4376.38,
+      "cue": "screams"
+    },
+    {
+      "t": 4376.38,
+      "cue": "gasps"
+    },
+    {
+      "t": 4448.586,
+      "cue": "screams"
+    },
+    {
+      "t": 4460.332,
+      "cue": "exclaiming"
+    },
+    {
+      "t": 4467.105,
+      "cue": "both exclaim"
+    },
+    {
+      "t": 4479.918,
+      "cue": "grunts"
+    },
+    {
+      "t": 4538.142,
+      "cue": "chainsaw whirs"
+    },
+    {
+      "t": 4546.25,
+      "cue": "grunts"
+    },
+    {
+      "t": 4572.21,
+      "cue": "chuckles"
+    },
+    {
+      "t": 4574.645,
+      "cue": "gasps"
+    },
+    {
+      "t": 4618.789,
+      "cue": "chainsaws whir"
+    },
+    {
+      "t": 4629.1,
+      "cue": "baby crying"
+    },
+    {
+      "t": 4639.777,
+      "cue": "gasps"
+    },
+    {
+      "t": 4642.013,
+      "cue": "shouts"
+    },
+    {
+      "t": 4643.681,
+      "cue": "cackling"
+    },
+    {
+      "t": 4660.097,
+      "cue": "exclaims"
+    },
+    {
+      "t": 4667.438,
+      "cue": "screaming"
+    },
+    {
+      "t": 4680.851,
+      "cue": "screams, grunts"
+    },
+    {
+      "t": 4694.498,
+      "cue": "chuckles"
+    },
+    {
+      "t": 4696.867,
+      "cue": "chainsaws whirring"
+    },
+    {
+      "t": 4717.655,
+      "cue": "shouts"
+    },
+    {
+      "t": 4779.05,
+      "cue": "shouts"
+    },
+    {
+      "t": 4800.671,
+      "cue": "exclaims"
+    },
+    {
+      "t": 4802.473,
+      "cue": "shouts"
+    },
+    {
+      "t": 4807.678,
+      "cue": "screams"
+    },
+    {
+      "t": 4810.948,
+      "cue": "gasps"
+    },
+    {
+      "t": 4831.835,
+      "cue": "grunts, groans"
+    },
+    {
+      "t": 4836.974,
+      "cue": "grunts"
+    },
+    {
+      "t": 4862.9,
+      "cue": "gasping"
+    },
+    {
+      "t": 4864.568,
+      "cue": "strains"
+    },
+    {
+      "t": 4880.684,
+      "cue": "wind whistling"
+    },
+    {
+      "t": 4892.697,
+      "cue": "grunts"
+    },
+    {
+      "t": 4894.031,
+      "cue": "groaning"
+    },
+    {
+      "t": 4943.814,
+      "cue": "grunts"
+    },
+    {
+      "t": 4970.441,
+      "cue": "gasps"
+    },
+    {
+      "t": 5070.641,
+      "cue": "snoring"
+    },
+    {
+      "t": 5133.837,
+      "cue": "chuckles"
+    },
+    {
+      "t": 5141.612,
+      "cue": "laughing"
+    },
+    {
+      "t": 5166.77,
+      "cue": "gasps"
+    },
+    {
+      "t": 5254.091,
+      "cue": "crack"
+    },
+    {
+      "t": 5254.091,
+      "cue": "denji groans"
+    },
+    {
+      "t": 5270.207,
+      "cue": "sighs"
+    },
+    {
+      "t": 5280.15,
+      "cue": "coughs"
+    },
+    {
+      "t": 5304.541,
+      "cue": "purrs"
+    },
+    {
+      "t": 5315.486,
+      "cue": "meows"
+    },
+    {
+      "t": 5322.025,
+      "cue": "meows"
+    },
+    {
+      "t": 5399.903,
+      "cue": "announcer"
+    },
+    {
+      "t": 5407.211,
+      "cue": "announcer 2"
+    },
+    {
+      "t": 5489.66,
+      "cue": "gasps"
+    },
+    {
+      "t": 5533.57,
+      "cue": "winces"
+    },
+    {
+      "t": 5633.103,
+      "cue": "\"jane doe\" playing"
+    },
+    {
+      "t": 5870.54,
+      "cue": "footsteps approaching"
+    },
+    {
+      "t": 5893.096,
+      "cue": "door closes"
+    },
+    {
+      "t": 5915.685,
+      "cue": "gasps"
+    },
+    {
+      "t": 5920.29,
+      "cue": "gasps"
+    },
+    {
+      "t": 5922.225,
+      "cue": "sniffs"
+    },
+    {
+      "t": 5935.672,
+      "cue": "sighs"
+    },
+    {
+      "t": 5967.904,
+      "cue": "chomping"
+    },
+    {
+      "t": 5971.807,
+      "cue": "rhythmic ticking"
+    }
+  ]
+}

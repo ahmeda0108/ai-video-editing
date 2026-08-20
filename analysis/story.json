@@ -1,0 +1,53 @@
+{
+  "focus": "reze",
+  "arc": [
+    1456.5,
+    5593.2
+  ],
+  "fight": [
+    2787.5,
+    5007.5
+  ],
+  "acts": [
+    {
+      "name": "happy",
+      "t0": 1456.5,
+      "t1": 2787.5,
+      "emotions": [
+        "tender",
+        "happy"
+      ],
+      "characters": [
+        "reze",
+        "denji"
+      ]
+    },
+    {
+      "name": "fight",
+      "t0": 2787.5,
+      "t1": 5007.5,
+      "emotions": [
+        "action",
+        "tense",
+        "fear"
+      ],
+      "characters": [
+        "reze"
+      ]
+    },
+    {
+      "name": "aftermath",
+      "t0": 5007.5,
+      "t1": 5593.2,
+      "emotions": [
+        "grief",
+        "tender",
+        "neutral"
+      ],
+      "characters": [
+        "reze"
+      ]
+    }
+  ],
+  "tagged": true
+}
