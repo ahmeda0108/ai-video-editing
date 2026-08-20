@@ -71,10 +71,23 @@ def load_dotenv() -> None:
 load_dotenv()
 
 # Which vision provider to use for semantic tagging + critique.
-#   "auto"      -> anthropic if ANTHROPIC_API_KEY present, else local
-#   "anthropic" -> force Anthropic multimodal
+#   "auto"      -> anthropic if ANTHROPIC_API_KEY present,
+#                  else ollama if a local Ollama server is reachable,
+#                  else local metrics-only heuristics
+#   "ollama"    -> force local VLM via Ollama (100% local, zero cost, no key)
+#   "anthropic" -> force Anthropic multimodal (needs a paid key)
 #   "local"     -> force local metrics-only heuristics (no network, no key)
 VISION_PROVIDER = os.environ.get("VISION_PROVIDER", "auto")
+
+# ---- local VLM (Ollama) ---------------------------------------------------
+# Default is a small, CPU-friendly vision model so it runs on modest hardware
+# (no dedicated GPU / limited RAM). Swap freely: `VISION_MODEL=moondream` is
+# lighter/faster; `qwen2.5vl:7b` / `llama3.2-vision` are stronger if you have
+# the RAM/VRAM. `python -m pipeline.run doctor` recommends one for your machine.
+VISION_MODEL = os.environ.get("VISION_MODEL", "qwen2.5vl:3b")
+OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+
+# ---- Anthropic (optional, paid) -------------------------------------------
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 # Vision model id (multimodal). Swappable; kept current. Defaults to the most
 # capable Claude vision model; set ANTHROPIC_MODEL=claude-haiku-4-5 (or
@@ -86,7 +99,22 @@ def has_anthropic() -> bool:
     return bool(ANTHROPIC_API_KEY)
 
 
+def ollama_reachable(timeout: float = 1.5) -> bool:
+    """True if a local Ollama server answers. Cheap check, swallows all errors."""
+    import urllib.request
+    try:
+        with urllib.request.urlopen(f"{OLLAMA_HOST.rstrip('/')}/api/tags",
+                                    timeout=timeout) as r:
+            return r.status == 200
+    except Exception:
+        return False
+
+
 def active_vision_provider() -> str:
     if VISION_PROVIDER == "auto":
-        return "anthropic" if has_anthropic() else "local"
+        if has_anthropic():
+            return "anthropic"
+        if ollama_reachable():
+            return "ollama"
+        return "local"
     return VISION_PROVIDER
