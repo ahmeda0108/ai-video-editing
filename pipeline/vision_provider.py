@@ -1,20 +1,25 @@
 """
 Vision provider abstraction.
 
-Two responsibilities, behind one swappable interface:
-  1. tag_clips()  -> semantic tags per clip (subject, setting, camera, mood...)
-  2. critique()   -> structured, timestamped feedback on a rendered draft
+Three responsibilities, behind one swappable interface:
+  1. tag_clips()     -> semantic tags per clip (subject, setting, camera, mood...)
+  2. critique()      -> structured, timestamped feedback on a rendered draft
+  3. analyze_image() -> general-purpose structured analysis of one image/frame
 
 Providers:
   * LocalProvider     - no network, no key. Tags from CV metrics; critique is
     the metrics critic (critic_metrics). Always available, so the whole
     build -> render -> critique -> revise loop runs today without credentials.
-  * AnthropicProvider - true multimodal understanding via the Claude API.
-    Tags keyframes and critiques sampled frames of the rendered video. Enabled
-    automatically when ANTHROPIC_API_KEY is in .env.
+    Metrics-only: no analyze_image (raises, rather than hallucinating).
+  * OllamaProvider    - 100% local, zero-cost multimodal via an Ollama vision
+    model (e.g. qwen2.5vl:3b) over Ollama's local HTTP API. No key, no network
+    egress, no per-call cost; stdlib-only (adds no pip dependency). This is the
+    default whenever a local Ollama server is reachable and no key is set.
+  * AnthropicProvider - true multimodal understanding via the Claude API
+    (optional, paid). Enabled automatically when ANTHROPIC_API_KEY is in .env.
 
-Both cache results by content hash so unchanged footage / unchanged drafts are
-never re-sent to the API (a hard cost rule).
+Every provider caches results by content hash so unchanged footage / unchanged
+drafts are never re-analyzed (a hard cost + latency rule).
 """
 from __future__ import annotations
 
@@ -525,8 +530,12 @@ class OllamaProvider(VisionProvider):
             "severity (1-3 int), note, suggestion, action (one of replace, "
             "shorten, lengthen, inject, diversify, reorder)}]}."
         )
+        # Critique sends many frames in one local pass; on CPU that can take
+        # far longer than a single-image call. Scale the timeout with the frame
+        # count so a slow-but-working local run doesn't spuriously "time out".
+        timeout = max(300.0, 60.0 * len(frames))
         text = self._chat(prompt, [p for _, p in frames],
-                          schema=CRITIQUE_SCHEMA, max_tokens=2000, timeout=300.0)
+                          schema=CRITIQUE_SCHEMA, max_tokens=2000, timeout=timeout)
         vision = self._parse_json(text) or {
             "score": base["score"], "summary": text[:300], "issues": []}
 

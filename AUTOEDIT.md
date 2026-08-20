@@ -5,10 +5,15 @@ both, builds a searchable clip library, edits a beat-synced video in Remotion,
 renders it, critiques the result, revises the edit, and repeats until the edit
 stops improving.
 
-It is a **general visual-model editing pipeline**, not an AMV-only tool. "AMV"
-is just one *profile* (`amv` / `hype` / `montage` — add your own); the core
-(ingest → analysis → library → edit-plan → render → critique → revise) is
-edit-type-agnostic.
+It is a **general visual-model editing pipeline**, not an AMV-only tool. A
+*profile* just parametrises the generic engine (cut density, transitions,
+grade, pacing, audio behaviour), and a *driver* pins a concrete edit (song +
+window + optional captions). The shipped profiles — `amv`/`hype`/`montage`
+(beat-cut), `story` (slow emotional), `bomb` (hard on-beat hype), `action_arc`
+(vision-aware arc) — are **examples, not limits**: mix the knobs freely or add
+your own to express any style. The core (ingest → analysis → library →
+edit-plan → render → critique → revise) is **edit-type-agnostic** — nothing
+about the footage, song, character focus, or style is baked in.
 
 ---
 
