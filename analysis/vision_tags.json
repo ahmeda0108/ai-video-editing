@@ -1,0 +1,524 @@
+{
+  "_meta": {
+    "model": "qwen2.5vl:3b",
+    "generated": 1787231779,
+    "n": 60,
+    "refs": []
+  },
+  "tags": {
+    "s00_010": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A top-down view of a grid-like pattern on a surface, possibly a map or a grid of objects.",
+      "confidence": 0.9
+    },
+    "s00_396": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "action",
+      "description": "A hand is reaching out towards a glowing blue object.",
+      "confidence": 0.8
+    },
+    "s00_530": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tender",
+      "scene_type": "reaction",
+      "description": "Two characters are embracing in front of a vibrant fireworks display, suggesting a moment of affection or reconciliation.",
+      "confidence": 0.9
+    },
+    "s00_555": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A character is holding a flaming torch in a dark, forested area.",
+      "confidence": 0.8
+    },
+    "s00_556": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A red crane is lifting a large object towards a fiery explosion.",
+      "confidence": 0.9
+    },
+    "s00_557": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A dark, menacing figure is attacking a city with fiery weapons.",
+      "confidence": 0.9
+    },
+    "s00_558": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "fear",
+      "scene_type": "reaction",
+      "description": "A character is looking up in fear as a large, menacing creature looms in the background.",
+      "confidence": 0.9
+    },
+    "s00_562": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is being propelled forward with a burst of energy or force.",
+      "confidence": 0.9
+    },
+    "s00_564": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A wide shot of a cityscape with tall buildings and a clear sky.",
+      "confidence": 0.9
+    },
+    "s00_565": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A small creature is running across a road at night, with its shadow visible on the ground.",
+      "confidence": 0.8
+    },
+    "s00_570": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "action",
+      "description": "A character is lying on the ground, possibly injured or exhausted, with a gun nearby.",
+      "confidence": 0.8
+    },
+    "s00_571": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A wide shot of a forest floor with a small, orange and black creature walking away from the camera.",
+      "confidence": 0.9
+    },
+    "s00_573": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A colorful, abstract image with a large eye and radiating lines, suggesting a wide, possibly surreal scene.",
+      "confidence": 0.9
+    },
+    "s00_574": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is in a powerful stance, surrounded by intense yellow light, suggesting a moment of intense action or transformation.",
+      "confidence": 0.9
+    },
+    "s00_575": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is being attacked by a swarm of birds in a dark, intense scene.",
+      "confidence": 0.9
+    },
+    "s00_587": {
+      "characters": [],
+      "emotion": "action",
+      "scene_type": "establishing",
+      "description": "A vibrant, colorful explosion of light and energy fills the screen, suggesting a powerful event or transition.",
+      "confidence": 0.9
+    },
+    "s00_588": {
+      "characters": [],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A bright, intense beam of light is emitted from a source, suggesting a high-stakes moment in the animation.",
+      "confidence": 0.9
+    },
+    "s00_589": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A bright, fiery object is seen moving quickly across the sky, leaving a trail of glowing smoke behind it.",
+      "confidence": 0.9
+    },
+    "s00_590": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "The video shows a wide shot of a city at sunset, with the sky transitioning from orange to purple hues.",
+      "confidence": 0.9
+    },
+    "s00_591": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is seen in a dynamic pose, possibly leaping or being propelled through the air, with a fiery background suggesting a high-energy scene.",
+      "confidence": 0.9
+    },
+    "s00_651": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "reaction",
+      "description": "A character is shown with a bloody neck, suggesting a recent struggle or injury.",
+      "confidence": 0.9
+    },
+    "s00_658": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is engulfed in flames, suggesting a dramatic or intense moment in the story.",
+      "confidence": 0.9
+    },
+    "s00_667": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is unleashing a powerful energy attack.",
+      "confidence": 0.9
+    },
+    "s00_671": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "reaction",
+      "description": "A character is lying down, possibly asleep or resting, with a calm and peaceful expression.",
+      "confidence": 0.8
+    },
+    "s00_672": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is engulfed in flames, suggesting a high-intensity action scene.",
+      "confidence": 0.9
+    },
+    "s00_673": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A character is preparing to attack with a sword, while another character is in the background, possibly preparing to defend.",
+      "confidence": 0.9
+    },
+    "s00_674": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A character is wielding a weapon, possibly a sword, with a blurred background suggesting rapid movement or action.",
+      "confidence": 0.8
+    },
+    "s00_675": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "reaction",
+      "description": "A character with red hair and a determined expression is about to speak.",
+      "confidence": 0.9
+    },
+    "s00_678": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "reaction",
+      "description": "A character is reacting to something with a surprised or startled expression.",
+      "confidence": 0.8
+    },
+    "s00_683": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A large explosion or burst of energy is occurring in the center of the frame, with bright yellow and orange hues dominating the scene.",
+      "confidence": 0.9
+    },
+    "s00_684": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A close-up shot of a hand holding a gun, suggesting a tense or action-packed scene.",
+      "confidence": 0.8
+    },
+    "s00_688": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is surrounded by flames, suggesting a moment of intense action or danger.",
+      "confidence": 0.9
+    },
+    "s00_689": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is leaping off a building, performing a dynamic acrobatic move.",
+      "confidence": 0.9
+    },
+    "s00_700": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "reaction",
+      "description": "A character is holding onto a wall, possibly in a tense or suspenseful moment.",
+      "confidence": 0.8
+    },
+    "s00_702": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "reaction",
+      "description": "Four characters are seated inside a car, appearing to be in a state of calm or contemplation.",
+      "confidence": 0.8
+    },
+    "s00_715": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A close-up shot of a car's wheel, suggesting the beginning of a scene.",
+      "confidence": 0.9
+    },
+    "s00_716": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "action",
+      "description": "A hand is gripping the steering wheel of a vehicle, suggesting the driver is in control and focused on the road ahead.",
+      "confidence": 0.9
+    },
+    "s00_719": {
+      "characters": [],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is being propelled through the air by a large explosion.",
+      "confidence": 0.9
+    },
+    "s00_720": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A wide shot of a cityscape with buildings and a clear sky.",
+      "confidence": 0.9
+    },
+    "s00_722": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A white car is parked on a city street at night, with its headlights on.",
+      "confidence": 0.9
+    },
+    "s00_724": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "establishing",
+      "description": "A city street is engulfed in flames and smoke, indicating a large-scale disaster or explosion.",
+      "confidence": 0.9
+    },
+    "s00_741": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is being propelled through the air by a bright, explosive force.",
+      "confidence": 0.9
+    },
+    "s00_748": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A bright, overexposed shot of a yellow sky with no visible characters or objects.",
+      "confidence": 0.8
+    },
+    "s00_752": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A car is speeding through a tunnel with sparks flying around it.",
+      "confidence": 0.9
+    },
+    "s00_753": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A long, curved arrow with glowing red and yellow tips is seen in the sky, suggesting a wide scene or establishing shot.",
+      "confidence": 0.9
+    },
+    "s00_757": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A character is being attacked by another character with a glowing weapon.",
+      "confidence": 0.8
+    },
+    "s00_758": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "action",
+      "description": "A character is standing on the roof of a car, holding a gun, while the car is driving on a road at night.",
+      "confidence": 0.8
+    },
+    "s00_759": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "reaction",
+      "description": "A character is holding their head in their hands, possibly in distress or contemplation.",
+      "confidence": 0.8
+    },
+    "s00_762": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "reaction",
+      "description": "A hand is adjusting the volume on a radio, indicating a sense of urgency or concern.",
+      "confidence": 0.9
+    },
+    "s00_763": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A giant character is standing in the middle of a city street at night.",
+      "confidence": 0.9
+    },
+    "s00_773": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A character is gripping a sword with blood on it, suggesting a recent fight or injury.",
+      "confidence": 0.9
+    },
+    "s00_774": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "reaction",
+      "description": "A character is holding their hand up to their face, possibly in a gesture of surprise or contemplation.",
+      "confidence": 0.8
+    },
+    "s00_775": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A fiery explosion or burst of energy is seen in the sky, suggesting a powerful event or attack.",
+      "confidence": 0.9
+    },
+    "s00_778": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A bright, glowing orb is seen in the dark, suggesting an establishing shot of a mysterious or significant object.",
+      "confidence": 0.9
+    },
+    "s00_787": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "action",
+      "scene_type": "action",
+      "description": "A character is standing in front of a fiery explosion, possibly preparing for or reacting to an attack.",
+      "confidence": 0.9
+    },
+    "s00_789": {
+      "characters": [],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A close-up of a hand holding a piece of paper with a signature.",
+      "confidence": 0.9
+    },
+    "s00_790": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A close-up shot of a character's feet walking on a rocky terrain, suggesting a journey or exploration.",
+      "confidence": 0.9
+    },
+    "s00_791": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A character is hanging upside down from a window ledge, suggesting a moment of suspense or danger.",
+      "confidence": 0.9
+    },
+    "s00_792": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "tense",
+      "scene_type": "action",
+      "description": "A character is being attacked by two green lights, indicating a fight or confrontation.",
+      "confidence": 0.9
+    },
+    "s00_794": {
+      "characters": [
+        "reze"
+      ],
+      "emotion": "neutral",
+      "scene_type": "establishing",
+      "description": "A wide shot of a city street at night, showing a building and a person walking away from the camera.",
+      "confidence": 0.9
+    }
+  }
+}

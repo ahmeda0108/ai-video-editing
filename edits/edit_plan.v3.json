@@ -1,366 +1,169 @@
 {
   "version": 3,
-  "profile": "amv",
+  "profile": "action_arc",
   "meta": {
-    "fps": 30,
+    "fps": 24,
     "width": 1920,
     "height": 1080,
-    "durationInFrames": 996,
-    "audio": "track_v1.wav",
-    "tempo_bpm": 123.05
+    "durationInFrames": 1565,
+    "audio": "enemy.mp3",
+    "audioStart": 48.0,
+    "musicVolume": 0.9,
+    "fadeInSec": 0.0,
+    "fadeOutSec": 0.0,
+    "tempo_bpm": 152.0
   },
   "grade": {
-    "preset": "neonDusk",
+    "preset": "cinemaCool",
     "saturation": 0.9,
-    "contrast": 1.08,
+    "contrast": 1.1,
     "brightness": 0.98,
-    "vignette": 0.45,
+    "vignette": 0.5,
     "grain": 0.05,
-    "letterbox": 90,
-    "tint": "#243056",
-    "tintOpacity": 0.16
+    "letterbox": 120,
+    "tint": "#101826",
+    "tintOpacity": 0.13
   },
   "clips": [
     {
       "id": "c000",
-      "clipId": "s00_037",
-      "source": "footage.mp4",
-      "sourceStart": 165.586,
-      "trackStart": 5,
-      "duration": 46,
+      "clipId": "s00_308",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1489.429,
+      "trackStart": 0,
+      "duration": 33,
       "speed": 1.0,
       "transitionIn": {
-        "type": "fade",
-        "dur": 9
+        "type": "cut",
+        "dur": 0
       },
-      "effects": [
-        "kenburns"
-      ],
+      "effects": [],
       "level": "low",
       "isDrop": false,
-      "intensity": 0.0,
-      "impact": 0.0,
-      "reason": "low energy (0.11) -> intensity 0.00, quality 0.57"
+      "intensity": 0.284,
+      "impact": 0.308,
+      "reason": "happy act; low energy -> intensity 0.28"
     },
     {
       "id": "c001",
-      "clipId": "s00_002",
-      "source": "footage.mp4",
-      "sourceStart": 12.023,
-      "trackStart": 51,
-      "duration": 28,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "mid",
-      "isDrop": false,
-      "intensity": 0.071,
-      "impact": 0.067,
-      "reason": "mid energy (0.28) -> intensity 0.07, quality 0.59"
-    },
-    {
-      "id": "c002",
-      "clipId": "s00_003",
-      "source": "footage.mp4",
-      "sourceStart": 14.162,
-      "trackStart": 79,
-      "duration": 16,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "whip",
-        "dur": 10
-      },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
-      "isDrop": false,
-      "intensity": 1.0,
-      "impact": 1.0,
-      "reason": "high energy (0.35) -> intensity 1.00, quality 0.80"
-    },
-    {
-      "id": "c003",
-      "clipId": "s00_044",
-      "source": "footage.mp4",
-      "sourceStart": 213.213,
-      "trackStart": 95,
+      "clipId": "s00_405",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1984.215,
+      "trackStart": 33,
       "duration": 30,
       "speed": 1.0,
       "transitionIn": {
-        "type": "fade",
-        "dur": 9
+        "type": "cut",
+        "dur": 0
       },
       "effects": [],
       "level": "mid",
       "isDrop": false,
-      "intensity": 0.286,
-      "impact": 0.109,
-      "reason": "mid energy (0.29) -> intensity 0.29, quality 0.47"
+      "intensity": 0.113,
+      "impact": 0.072,
+      "reason": "happy act; mid energy -> intensity 0.11"
     },
     {
-      "id": "c004",
-      "clipId": "s00_001",
-      "source": "footage.mp4",
-      "sourceStart": 8.615,
-      "trackStart": 125,
+      "id": "c002",
+      "clipId": "s00_310",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1495.146,
+      "trackStart": 63,
       "duration": 26,
       "speed": 1.0,
       "transitionIn": {
         "type": "cut",
         "dur": 0
       },
-      "effects": [
-        "kenburns"
-      ],
+      "effects": [],
       "level": "mid",
       "isDrop": false,
-      "intensity": 0.26,
-      "impact": 0.097,
-      "reason": "mid energy (0.31) -> intensity 0.26, quality 0.35"
+      "intensity": 0.295,
+      "impact": 0.182,
+      "reason": "happy act; mid energy -> intensity 0.29"
     },
     {
-      "id": "c005",
-      "clipId": "s00_000",
-      "source": "footage.mp4",
-      "sourceStart": 2.022,
-      "trackStart": 151,
-      "duration": 29,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "mid",
-      "isDrop": false,
-      "intensity": 0.221,
-      "impact": 0.276,
-      "reason": "mid energy (0.28) -> intensity 0.22, quality 0.51"
-    },
-    {
-      "id": "c006",
-      "clipId": "s00_011",
-      "source": "footage.mp4",
-      "sourceStart": 54.462,
-      "trackStart": 180,
-      "duration": 44,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "low",
-      "isDrop": false,
-      "intensity": 0.013,
-      "impact": 0.008,
-      "reason": "low energy (0.24) -> intensity 0.01, quality 0.52"
-    },
-    {
-      "id": "c007",
-      "clipId": "s00_040",
-      "source": "footage.mp4",
-      "sourceStart": 194.401,
-      "trackStart": 224,
-      "duration": 46,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "low",
-      "isDrop": false,
-      "intensity": 0.101,
-      "impact": 0.031,
-      "reason": "low energy (0.22) -> intensity 0.10, quality 0.57"
-    },
-    {
-      "id": "c008",
-      "clipId": "s00_007",
-      "source": "footage.mp4",
-      "sourceStart": 39.816,
-      "trackStart": 270,
-      "duration": 16,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "whip",
-        "dur": 10
-      },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
-      "isDrop": false,
-      "intensity": 0.733,
-      "impact": 1.0,
-      "reason": "high energy (0.36) -> intensity 0.73, quality 0.55"
-    },
-    {
-      "id": "c009",
-      "clipId": "s00_010",
-      "source": "footage.mp4",
-      "sourceStart": 52.184,
-      "trackStart": 286,
-      "duration": 14,
+      "id": "c003",
+      "clipId": "s00_404",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1979.753,
+      "trackStart": 89,
+      "duration": 31,
       "speed": 1.0,
       "transitionIn": {
         "type": "cut",
         "dur": 0
       },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
+      "effects": [],
+      "level": "mid",
       "isDrop": false,
-      "intensity": 1.0,
-      "impact": 1.0,
-      "reason": "high energy (0.34) -> intensity 1.00, quality 0.42"
+      "intensity": 0.218,
+      "impact": 0.107,
+      "reason": "happy act; mid energy -> intensity 0.22"
     },
     {
-      "id": "c010",
-      "clipId": "s00_012",
-      "source": "footage.mp4",
-      "sourceStart": 57.057,
-      "trackStart": 300,
+      "id": "c004",
+      "clipId": "s00_305",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1473.442,
+      "trackStart": 120,
+      "duration": 18,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.006,
+      "impact": 0.026,
+      "reason": "happy act; high energy -> intensity 0.01"
+    },
+    {
+      "id": "c005",
+      "clipId": "s00_356",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1824.331,
+      "trackStart": 138,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.311,
+      "impact": 0.274,
+      "reason": "happy act; mid energy -> intensity 0.31"
+    },
+    {
+      "id": "c006",
+      "clipId": "s00_314",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1510.306,
+      "trackStart": 167,
       "duration": 27,
       "speed": 1.0,
       "transitionIn": {
         "type": "cut",
         "dur": 0
       },
-      "effects": [
-        "kenburns"
-      ],
+      "effects": [],
       "level": "mid",
       "isDrop": false,
-      "intensity": 0.138,
-      "impact": 0.121,
-      "reason": "mid energy (0.29) -> intensity 0.14, quality 0.56"
+      "intensity": 0.194,
+      "impact": 0.332,
+      "reason": "happy act; mid energy -> intensity 0.19"
     },
     {
-      "id": "c011",
-      "clipId": "s00_010",
-      "source": "footage.mp4",
-      "sourceStart": 52.184,
-      "trackStart": 327,
-      "duration": 14,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "whip",
-        "dur": 10
-      },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
-      "isDrop": false,
-      "intensity": 1.0,
-      "impact": 1.0,
-      "reason": "high energy (0.35) -> intensity 0.30, quality 0.22"
-    },
-    {
-      "id": "c012",
-      "clipId": "s00_016",
-      "source": "footage.mp4",
-      "sourceStart": 65.376,
-      "trackStart": 341,
-      "duration": 46,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "low",
-      "isDrop": false,
-      "intensity": 0.165,
-      "impact": 0.064,
-      "reason": "low energy (0.27) -> intensity 0.16, quality 0.40"
-    },
-    {
-      "id": "c013",
-      "clipId": "s00_029",
-      "source": "footage.mp4",
-      "sourceStart": 123.93,
-      "trackStart": 387,
-      "duration": 28,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "mid",
-      "isDrop": false,
-      "intensity": 0.223,
-      "impact": 0.107,
-      "reason": "mid energy (0.28) -> intensity 0.22, quality 0.35"
-    },
-    {
-      "id": "c014",
-      "clipId": "s00_008",
-      "source": "footage.mp4",
-      "sourceStart": 42.684,
-      "trackStart": 415,
-      "duration": 29,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "cut",
-        "dur": 0
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "mid",
-      "isDrop": false,
-      "intensity": 0.076,
-      "impact": 0.078,
-      "reason": "mid energy (0.30) -> intensity 0.08, quality 0.47"
-    },
-    {
-      "id": "c015",
-      "clipId": "s00_026",
-      "source": "footage.mp4",
-      "sourceStart": 112.137,
-      "trackStart": 444,
-      "duration": 30,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "mid",
-      "isDrop": false,
-      "intensity": 0.003,
-      "impact": 0.0,
-      "reason": "mid energy (0.33) -> intensity 0.00, quality 0.56"
-    },
-    {
-      "id": "c016",
-      "clipId": "s00_021",
-      "source": "footage.mp4",
-      "sourceStart": 93.524,
-      "trackStart": 474,
+      "id": "c007",
+      "clipId": "s00_436",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 2122.715,
+      "trackStart": 194,
       "duration": 29,
       "speed": 1.0,
       "transitionIn": {
@@ -368,590 +171,1050 @@
         "dur": 0
       },
       "effects": [],
-      "level": "mid",
-      "isDrop": false,
-      "intensity": 0.33,
-      "impact": 0.115,
-      "reason": "mid energy (0.30) -> intensity 0.33, quality 0.50"
-    },
-    {
-      "id": "c017",
-      "clipId": "s00_025",
-      "source": "footage.mp4",
-      "sourceStart": 106.864,
-      "trackStart": 503,
-      "duration": 44,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "low",
-      "isDrop": false,
-      "intensity": 0.011,
-      "impact": 0.016,
-      "reason": "low energy (0.23) -> intensity 0.01, quality 0.45"
-    },
-    {
-      "id": "c018",
-      "clipId": "s00_004",
-      "source": "footage.mp4",
-      "sourceStart": 22.384,
-      "trackStart": 547,
-      "duration": 7,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "cut",
-        "dur": 0
-      },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
-      "isDrop": false,
-      "intensity": 0.459,
-      "impact": 0.708,
-      "reason": "high energy (0.25) -> intensity 0.46, quality 0.38"
-    },
-    {
-      "id": "c019",
-      "clipId": "s00_013",
-      "source": "footage.mp4",
-      "sourceStart": 60.301,
-      "trackStart": 554,
-      "duration": 7,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "punch",
-        "dur": 8
-      },
-      "effects": [
-        "shake",
-        "flash"
-      ],
-      "level": "high",
-      "isDrop": true,
-      "intensity": 1.0,
-      "impact": 0.875,
-      "reason": "DROP high energy (0.25) -> intensity 1.00, quality 0.28"
-    },
-    {
-      "id": "c020",
-      "clipId": "s00_003",
-      "source": "footage.mp4",
-      "sourceStart": 13.972,
-      "trackStart": 561,
-      "duration": 29,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "cut",
-        "dur": 0
-      },
-      "effects": [],
-      "level": "mid",
-      "isDrop": false,
-      "intensity": 1.0,
-      "impact": 1.0,
-      "reason": "mid energy (0.32) -> intensity 0.07, quality 0.50"
-    },
-    {
-      "id": "c021",
-      "clipId": "s00_006",
-      "source": "footage.mp4",
-      "sourceStart": 32.006,
-      "trackStart": 590,
-      "duration": 15,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "cut",
-        "dur": 0
-      },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
-      "isDrop": false,
-      "intensity": 0.462,
-      "impact": 0.686,
-      "reason": "high energy (0.37) -> intensity 0.46, quality 0.35"
-    },
-    {
-      "id": "c022",
-      "clipId": "s00_007",
-      "source": "footage.mp4",
-      "sourceStart": 39.839,
-      "trackStart": 605,
-      "duration": 14,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "punch",
-        "dur": 8
-      },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
-      "isDrop": false,
-      "intensity": 0.733,
-      "impact": 1.0,
-      "reason": "high energy (0.36) -> intensity 0.73, quality 0.55"
-    },
-    {
-      "id": "c023",
-      "clipId": "s00_034",
-      "source": "footage.mp4",
-      "sourceStart": 149.05,
-      "trackStart": 619,
-      "duration": 32,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "mid",
-      "isDrop": false,
-      "intensity": 0.059,
-      "impact": 0.018,
-      "reason": "mid energy (0.30) -> intensity 0.06, quality 0.32"
-    },
-    {
-      "id": "c024",
-      "clipId": "s00_003",
-      "source": "footage.mp4",
-      "sourceStart": 14.173,
-      "trackStart": 651,
-      "duration": 15,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "cut",
-        "dur": 0
-      },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
-      "isDrop": false,
-      "intensity": 1.0,
-      "impact": 1.0,
-      "reason": "high energy (0.34) -> intensity 1.00, quality 0.80"
-    },
-    {
-      "id": "c025",
-      "clipId": "s00_020",
-      "source": "footage.mp4",
-      "sourceStart": 85.105,
-      "trackStart": 666,
-      "duration": 44,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "low",
-      "isDrop": false,
-      "intensity": 0.001,
-      "impact": 0.001,
-      "reason": "low energy (0.25) -> intensity 0.00, quality 0.51"
-    },
-    {
-      "id": "c026",
-      "clipId": "s00_009",
-      "source": "footage.mp4",
-      "sourceStart": 47.72,
-      "trackStart": 710,
-      "duration": 12,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "whip",
-        "dur": 10
-      },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
-      "isDrop": false,
-      "intensity": 0.454,
-      "impact": 0.331,
-      "reason": "high energy (0.34) -> intensity 0.45, quality 0.66"
-    },
-    {
-      "id": "c027",
-      "clipId": "s00_028",
-      "source": "footage.mp4",
-      "sourceStart": 119.6,
-      "trackStart": 722,
-      "duration": 14,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "cut",
-        "dur": 0
-      },
-      "effects": [
-        "shake"
-      ],
-      "level": "high",
-      "isDrop": false,
-      "intensity": 0.669,
-      "impact": 0.455,
-      "reason": "high energy (0.34) -> intensity 0.28, quality 0.31"
-    },
-    {
-      "id": "c028",
-      "clipId": "s00_035",
-      "source": "footage.mp4",
-      "sourceStart": 153.694,
-      "trackStart": 736,
-      "duration": 30,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "cut",
-        "dur": 0
-      },
-      "effects": [
-        "kenburns"
-      ],
       "level": "mid",
       "isDrop": false,
       "intensity": 0.0,
       "impact": 0.0,
-      "reason": "mid energy (0.28) -> intensity 0.00, quality 0.45"
+      "reason": "happy act; mid energy -> intensity 0.00"
     },
     {
-      "id": "c029",
-      "clipId": "s00_015",
-      "source": "footage.mp4",
-      "sourceStart": 62.167,
-      "trackStart": 766,
-      "duration": 32,
+      "id": "c008",
+      "clipId": "s00_309",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1492.037,
+      "trackStart": 223,
+      "duration": 27,
       "speed": 1.0,
       "transitionIn": {
-        "type": "fade",
-        "dur": 9
+        "type": "cut",
+        "dur": 0
       },
-      "effects": [
-        "kenburns"
-      ],
+      "effects": [],
       "level": "mid",
       "isDrop": false,
-      "intensity": 0.149,
-      "impact": 0.066,
-      "reason": "mid energy (0.30) -> intensity 0.15, quality 0.32"
+      "intensity": 0.115,
+      "impact": 0.345,
+      "reason": "happy act; mid energy -> intensity 0.12"
     },
     {
-      "id": "c030",
-      "clipId": "s00_031",
-      "source": "footage.mp4",
-      "sourceStart": 131.596,
-      "trackStart": 798,
+      "id": "c009",
+      "clipId": "s00_345",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1787.114,
+      "trackStart": 250,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.206,
+      "impact": 0.135,
+      "reason": "happy act; mid energy -> intensity 0.21"
+    },
+    {
+      "id": "c010",
+      "clipId": "s00_306",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1479.461,
+      "trackStart": 279,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.179,
+      "impact": 0.738,
+      "reason": "happy act; mid energy -> intensity 0.18"
+    },
+    {
+      "id": "c011",
+      "clipId": "s00_434",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 2112.105,
+      "trackStart": 307,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.064,
+      "impact": 0.091,
+      "reason": "happy act; mid energy -> intensity 0.06"
+    },
+    {
+      "id": "c012",
+      "clipId": "s00_318",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1522.441,
+      "trackStart": 335,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.044,
+      "impact": 0.08,
+      "reason": "happy act; mid energy -> intensity 0.04"
+    },
+    {
+      "id": "c013",
+      "clipId": "s00_337",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1673.859,
+      "trackStart": 364,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.271,
+      "impact": 0.35,
+      "reason": "happy act; mid energy -> intensity 0.27"
+    },
+    {
+      "id": "c014",
+      "clipId": "s00_303",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1466.985,
+      "trackStart": 392,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.065,
+      "impact": 0.093,
+      "reason": "happy act; mid energy -> intensity 0.06"
+    },
+    {
+      "id": "c015",
+      "clipId": "s00_403",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1974.194,
+      "trackStart": 421,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.218,
+      "impact": 0.18,
+      "reason": "happy act; mid energy -> intensity 0.22"
+    },
+    {
+      "id": "c016",
+      "clipId": "s00_311",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1497.32,
+      "trackStart": 450,
+      "duration": 30,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.154,
+      "impact": 0.601,
+      "reason": "happy act; mid energy -> intensity 0.15"
+    },
+    {
+      "id": "c017",
+      "clipId": "s00_353",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1816.113,
+      "trackStart": 480,
       "duration": 26,
       "speed": 1.0,
       "transitionIn": {
         "type": "cut",
         "dur": 0
       },
-      "effects": [
-        "kenburns"
-      ],
+      "effects": [],
       "level": "mid",
       "isDrop": false,
-      "intensity": 0.005,
-      "impact": 0.005,
-      "reason": "mid energy (0.30) -> intensity 0.01, quality 0.41"
+      "intensity": 0.197,
+      "impact": 0.298,
+      "reason": "happy act; mid energy -> intensity 0.20"
     },
     {
-      "id": "c031",
-      "clipId": "s00_033",
-      "source": "footage.mp4",
-      "sourceStart": 145.291,
-      "trackStart": 824,
-      "duration": 47,
-      "speed": 1.0,
-      "transitionIn": {
-        "type": "fade",
-        "dur": 9
-      },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "low",
-      "isDrop": false,
-      "intensity": 0.0,
-      "impact": 0.0,
-      "reason": "low energy (0.22) -> intensity 0.00, quality 0.48"
-    },
-    {
-      "id": "c032",
-      "clipId": "s00_049",
-      "source": "footage.mp4",
-      "sourceStart": 233.752,
-      "trackStart": 871,
+      "id": "c018",
+      "clipId": "s00_319",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1526.664,
+      "trackStart": 506,
       "duration": 28,
       "speed": 1.0,
       "transitionIn": {
         "type": "cut",
         "dur": 0
       },
-      "effects": [
-        "kenburns"
-      ],
+      "effects": [],
       "level": "mid",
       "isDrop": false,
-      "intensity": 0.042,
-      "impact": 0.049,
-      "reason": "mid energy (0.30) -> intensity 0.04, quality 0.29"
+      "intensity": 0.048,
+      "impact": 0.093,
+      "reason": "happy act; mid energy -> intensity 0.05"
     },
     {
-      "id": "c033",
-      "clipId": "s00_013",
-      "source": "footage.mp4",
-      "sourceStart": 60.2,
-      "trackStart": 899,
-      "duration": 13,
+      "id": "c019",
+      "clipId": "s00_344",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1781.896,
+      "trackStart": 534,
+      "duration": 30,
       "speed": 1.0,
       "transitionIn": {
         "type": "cut",
         "dur": 0
       },
-      "effects": [
-        "shake"
-      ],
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.05,
+      "impact": 0.145,
+      "reason": "happy act; mid energy -> intensity 0.05"
+    },
+    {
+      "id": "c020",
+      "clipId": "s00_313",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1505.081,
+      "trackStart": 564,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.0,
+      "impact": 0.007,
+      "reason": "happy act; mid energy -> intensity 0.00"
+    },
+    {
+      "id": "c021",
+      "clipId": "s00_357",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1826.704,
+      "trackStart": 592,
+      "duration": 38,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.213,
+      "impact": 0.174,
+      "reason": "happy act; low energy -> intensity 0.21"
+    },
+    {
+      "id": "c022",
+      "clipId": "s00_430",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 2093.207,
+      "trackStart": 630,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.01,
+      "impact": 0.016,
+      "reason": "happy act; mid energy -> intensity 0.01"
+    },
+    {
+      "id": "c023",
+      "clipId": "s00_362",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 1840.274,
+      "trackStart": 658,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.048,
+      "impact": 0.104,
+      "reason": "happy act; mid energy -> intensity 0.05"
+    },
+    {
+      "id": "c024",
+      "clipId": "s00_688",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3474.26,
+      "trackStart": 686,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.816,
+      "impact": 0.845,
+      "reason": "fight act; high energy -> intensity 0.82"
+    },
+    {
+      "id": "c025",
+      "clipId": "s00_689",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3477.534,
+      "trackStart": 705,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.882,
+      "impact": 0.75,
+      "reason": "fight act; high energy -> intensity 0.88"
+    },
+    {
+      "id": "c026",
+      "clipId": "s00_667",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3412.188,
+      "trackStart": 724,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
       "level": "high",
       "isDrop": false,
       "intensity": 1.0,
-      "impact": 0.875,
-      "reason": "high energy (0.34) -> intensity 0.36, quality 0.38"
+      "impact": 1.0,
+      "reason": "fight act; high energy -> intensity 1.00"
+    },
+    {
+      "id": "c027",
+      "clipId": "s00_591",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3131.76,
+      "trackStart": 743,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.459,
+      "impact": 0.592,
+      "reason": "fight act; high energy -> intensity 0.46"
+    },
+    {
+      "id": "c028",
+      "clipId": "s00_752",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3717.57,
+      "trackStart": 762,
+      "duration": 21,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.807,
+      "impact": 0.709,
+      "reason": "fight act; high energy -> intensity 0.81"
+    },
+    {
+      "id": "c029",
+      "clipId": "s00_787",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3855.689,
+      "trackStart": 783,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 0.617,
+      "reason": "fight act; high energy -> intensity 1.00"
+    },
+    {
+      "id": "c030",
+      "clipId": "s00_557",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3018.605,
+      "trackStart": 802,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 0.672,
+      "reason": "fight act; high energy -> intensity 1.00"
+    },
+    {
+      "id": "c031",
+      "clipId": "s00_574",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3073.356,
+      "trackStart": 821,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 1.0,
+      "reason": "fight act; high energy -> intensity 1.00"
+    },
+    {
+      "id": "c032",
+      "clipId": "s00_689",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3477.522,
+      "trackStart": 840,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.882,
+      "impact": 0.75,
+      "reason": "fight act; high energy -> intensity 0.88"
+    },
+    {
+      "id": "c033",
+      "clipId": "s00_683",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3460.7,
+      "trackStart": 859,
+      "duration": 18,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.753,
+      "impact": 1.0,
+      "reason": "fight act; high energy -> intensity 0.75"
     },
     {
       "id": "c034",
-      "clipId": "s00_014",
-      "source": "footage.mp4",
-      "sourceStart": 60.686,
-      "trackStart": 912,
-      "duration": 14,
+      "clipId": "s00_673",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3430.606,
+      "trackStart": 877,
+      "duration": 19,
       "speed": 1.0,
       "transitionIn": {
-        "type": "punch",
-        "dur": 8
+        "type": "cut",
+        "dur": 0
       },
-      "effects": [
-        "shake"
-      ],
+      "effects": [],
       "level": "high",
       "isDrop": false,
-      "intensity": 0.636,
-      "impact": 0.623,
-      "reason": "high energy (0.36) -> intensity 0.64, quality 0.25"
+      "intensity": 1.0,
+      "impact": 0.857,
+      "reason": "fight act; high energy -> intensity 1.00"
     },
     {
       "id": "c035",
-      "clipId": "s00_007",
-      "source": "footage.mp4",
-      "sourceStart": 39.833,
-      "trackStart": 926,
-      "duration": 15,
+      "clipId": "s00_791",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3882.756,
+      "trackStart": 896,
+      "duration": 19,
       "speed": 1.0,
       "transitionIn": {
-        "type": "whip",
-        "dur": 10
+        "type": "cut",
+        "dur": 0
       },
-      "effects": [
-        "shake"
-      ],
+      "effects": [],
       "level": "high",
       "isDrop": false,
-      "intensity": 0.733,
+      "intensity": 0.776,
       "impact": 1.0,
-      "reason": "high energy (0.33) -> intensity 0.16, quality 0.57"
+      "reason": "fight act; high energy -> intensity 0.78"
     },
     {
       "id": "c036",
-      "clipId": "s00_017",
-      "source": "footage.mp4",
-      "sourceStart": 69.765,
-      "trackStart": 941,
-      "duration": 44,
+      "clipId": "s00_688",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3474.284,
+      "trackStart": 915,
+      "duration": 18,
       "speed": 1.0,
       "transitionIn": {
-        "type": "fade",
-        "dur": 9
+        "type": "cut",
+        "dur": 0
       },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "low",
+      "effects": [],
+      "level": "high",
       "isDrop": false,
-      "intensity": 0.016,
-      "impact": 0.011,
-      "reason": "low energy (0.24) -> intensity 0.02, quality 0.37"
+      "intensity": 0.816,
+      "impact": 0.845,
+      "reason": "fight act; high energy -> intensity 0.82"
     },
     {
       "id": "c037",
-      "clipId": "s00_032",
-      "source": "footage.mp4",
-      "sourceStart": 139.367,
-      "trackStart": 985,
-      "duration": 11,
+      "clipId": "s00_757",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3734.729,
+      "trackStart": 933,
+      "duration": 29,
       "speed": 1.0,
       "transitionIn": {
-        "type": "fade",
-        "dur": 9
+        "type": "cut",
+        "dur": 0
       },
-      "effects": [
-        "kenburns"
-      ],
-      "level": "low",
+      "effects": [],
+      "level": "mid",
       "isDrop": false,
-      "intensity": 0.0,
-      "impact": 0.001,
-      "reason": "low energy (0.01) -> intensity 0.00, quality 0.49"
-    }
-  ],
-  "beatFlashes": [
-    562,
-    590,
-    651,
-    710
-  ],
-  "audioInfo": {
-    "drops": [
-      18.75
-    ],
-    "sections": [
-      {
-        "start": 0.0,
-        "end": 5.9,
-        "level": "low",
-        "energy": 0.2126
-      },
-      {
-        "start": 5.9,
-        "end": 16.55,
-        "level": "low",
-        "energy": 0.2356
-      },
-      {
-        "start": 16.55,
-        "end": 18.75,
-        "level": "low",
-        "energy": 0.2366
-      },
-      {
-        "start": 18.75,
-        "end": 27.25,
-        "level": "high",
-        "energy": 0.3596
-      },
-      {
-        "start": 27.25,
-        "end": 31.2,
-        "level": "low",
-        "energy": 0.2363
-      },
-      {
-        "start": 31.2,
-        "end": 33.15,
-        "level": "low",
-        "energy": 0.0927
-      }
-    ],
-    "beats": [
-      0.163,
-      0.65,
-      1.161,
-      1.695,
-      2.183,
-      2.647,
-      3.158,
-      3.646,
-      4.156,
-      4.644,
-      5.039,
-      5.596,
-      6.014,
-      6.502,
-      7.012,
-      7.477,
-      7.988,
-      8.475,
-      8.986,
-      9.52,
-      9.985,
-      10.472,
-      10.89,
-      11.378,
-      11.958,
-      12.353,
-      12.887,
-      13.328,
-      13.839,
-      14.327,
-      14.814,
-      15.325,
-      15.813,
-      16.254,
-      16.765,
-      17.322,
-      17.81,
-      18.228,
-      18.692,
-      19.18,
-      19.667,
-      20.155,
-      20.643,
-      21.153,
-      21.711,
-      22.198,
-      22.639,
-      23.15,
-      23.661,
-      24.056,
-      24.543,
-      25.031,
-      25.519,
-      26.006,
-      26.587,
-      27.028,
-      27.469,
-      27.98,
-      28.491,
-      29.025,
-      29.466,
-      29.977,
-      30.395,
-      30.883,
-      31.37,
-      31.927,
-      32.345,
-      32.833
-    ]
-  },
-  "notes": [
-    {
-      "version": 2,
-      "from_score": 55,
-      "applied": [
-        "replace c011: -> s00_010 (weak_in_strong)",
-        "replace c020: -> s00_003 (weak_drop)",
-        "replace c027: -> s00_028 (weak_in_strong)",
-        "replace c033: -> s00_047 (weak_in_strong)",
-        "replace c035: -> s00_007 (weak_in_strong)"
-      ]
+      "intensity": 0.656,
+      "impact": 0.57,
+      "reason": "fight act; mid energy -> intensity 0.66"
     },
     {
-      "version": 3,
-      "from_score": 91,
-      "applied": [
-        "replace c033: -> s00_013 (weak_in_strong)"
-      ]
+      "id": "c038",
+      "clipId": "s00_775",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3825.542,
+      "trackStart": 962,
+      "duration": 27,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 1.0,
+      "reason": "fight act; mid energy -> intensity 1.00",
+      "_loud": -18.5,
+      "diegetic": true,
+      "diegeticVolume": 1.3
+    },
+    {
+      "id": "c039",
+      "clipId": "s00_792",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3885.461,
+      "trackStart": 989,
+      "duration": 38,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.708,
+      "impact": 1.0,
+      "reason": "fight act; low energy -> intensity 0.71",
+      "_loud": -23.9
+    },
+    {
+      "id": "c040",
+      "clipId": "s00_591",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3131.378,
+      "trackStart": 1027,
+      "duration": 38,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "low",
+      "isDrop": false,
+      "intensity": 0.459,
+      "impact": 0.592,
+      "reason": "fight act; low energy -> intensity 0.46"
+    },
+    {
+      "id": "c041",
+      "clipId": "s00_773",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3814.991,
+      "trackStart": 1065,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.783,
+      "impact": 0.651,
+      "reason": "fight act; mid energy -> intensity 0.78"
+    },
+    {
+      "id": "c042",
+      "clipId": "s00_555",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3000.184,
+      "trackStart": 1093,
+      "duration": 30,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.818,
+      "impact": 1.0,
+      "reason": "fight act; mid energy -> intensity 0.82",
+      "_loud": -26.4
+    },
+    {
+      "id": "c043",
+      "clipId": "s00_658",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3390.824,
+      "trackStart": 1123,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.483,
+      "impact": 0.6,
+      "reason": "fight act; mid energy -> intensity 0.48"
+    },
+    {
+      "id": "c044",
+      "clipId": "s00_565",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3044.164,
+      "trackStart": 1152,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.227,
+      "impact": 0.699,
+      "reason": "fight act; mid energy -> intensity 0.23"
+    },
+    {
+      "id": "c045",
+      "clipId": "s00_589",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3120.753,
+      "trackStart": 1180,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.478,
+      "impact": 0.824,
+      "reason": "fight act; mid energy -> intensity 0.48"
+    },
+    {
+      "id": "c046",
+      "clipId": "s00_741",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3682.352,
+      "trackStart": 1208,
+      "duration": 28,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 1.0,
+      "reason": "fight act; mid energy -> intensity 1.00",
+      "_loud": -24.6
+    },
+    {
+      "id": "c047",
+      "clipId": "s00_674",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3432.853,
+      "trackStart": 1236,
+      "duration": 38,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": true,
+      "intensity": 1.0,
+      "impact": 0.596,
+      "reason": "fight act; high energy -> intensity 1.00"
+    },
+    {
+      "id": "c048",
+      "clipId": "s00_757",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3734.927,
+      "trackStart": 1274,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.656,
+      "impact": 0.57,
+      "reason": "fight act; high energy -> intensity 0.66"
+    },
+    {
+      "id": "c049",
+      "clipId": "s00_787",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3855.7,
+      "trackStart": 1293,
+      "duration": 19,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 0.617,
+      "reason": "fight act; high energy -> intensity 1.00"
+    },
+    {
+      "id": "c050",
+      "clipId": "s00_557",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3018.617,
+      "trackStart": 1312,
+      "duration": 18,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 0.672,
+      "reason": "fight act; high energy -> intensity 1.00"
+    },
+    {
+      "id": "c051",
+      "clipId": "s00_574",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3073.32,
+      "trackStart": 1330,
+      "duration": 21,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 1.0,
+      "impact": 1.0,
+      "reason": "fight act; high energy -> intensity 1.00"
+    },
+    {
+      "id": "c052",
+      "clipId": "s00_672",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3425.367,
+      "trackStart": 1351,
+      "duration": 18,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.902,
+      "impact": 0.706,
+      "reason": "fight act; high energy -> intensity 0.90"
+    },
+    {
+      "id": "c053",
+      "clipId": "s00_791",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 3882.733,
+      "trackStart": 1369,
+      "duration": 20,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "high",
+      "isDrop": false,
+      "intensity": 0.776,
+      "impact": 1.0,
+      "reason": "fight act; high energy -> intensity 0.78"
+    },
+    {
+      "id": "c054",
+      "clipId": "s00_1112",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 5249.516,
+      "trackStart": 1389,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.222,
+      "impact": 0.224,
+      "reason": "aftermath act; mid energy -> intensity 0.22"
+    },
+    {
+      "id": "c055",
+      "clipId": "s00_1182",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 5568.619,
+      "trackStart": 1418,
+      "duration": 26,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.142,
+      "impact": 0.059,
+      "reason": "aftermath act; mid energy -> intensity 0.14"
+    },
+    {
+      "id": "c056",
+      "clipId": "s00_1089",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 5119.254,
+      "trackStart": 1444,
+      "duration": 29,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.0,
+      "impact": 0.0,
+      "reason": "aftermath act; mid energy -> intensity 0.00"
+    },
+    {
+      "id": "c057",
+      "clipId": "s00_1181",
+      "source": "chainsaw_reze_1080p.mp4",
+      "sourceStart": 5565.095,
+      "trackStart": 1473,
+      "duration": 92,
+      "speed": 1.0,
+      "transitionIn": {
+        "type": "cut",
+        "dur": 0
+      },
+      "effects": [],
+      "level": "mid",
+      "isDrop": false,
+      "intensity": 0.111,
+      "impact": 0.06,
+      "reason": "aftermath act; mid energy -> intensity 0.11 | FINAL held aftermath -> hard cut off"
     }
-  ]
+  ],
+  "beatFlashes": [],
+  "audioDucks": [
+    {
+      "start": 962,
+      "dur": 27,
+      "to": 0.28
+    }
+  ],
+  "captions": [
+    {
+      "text": "MY ENEMY",
+      "start": 643,
+      "dur": 86,
+      "style": "underlay",
+      "sub": "everybody wants to be",
+      "pos": "center"
+    }
+  ],
+  "audioInfo": {
+    "window": [
+      48.0,
+      113.2
+    ],
+    "acts": [
+      {
+        "name": "happy",
+        "t0": 1456.5,
+        "t1": 2787.5,
+        "emotions": [
+          "tender",
+          "happy"
+        ],
+        "characters": [
+          "reze",
+          "denji"
+        ]
+      },
+      {
+        "name": "fight",
+        "t0": 2787.5,
+        "t1": 5007.5,
+        "emotions": [
+          "action",
+          "tense",
+          "fear"
+        ],
+        "characters": [
+          "reze"
+        ]
+      },
+      {
+        "name": "aftermath",
+        "t0": 5007.5,
+        "t1": 5593.2,
+        "emotions": [
+          "grief",
+          "tender",
+          "neutral"
+        ],
+        "characters": [
+          "reze"
+        ]
+      }
+    ],
+    "act_song_bounds": [
+      [
+        "happy",
+        0.0,
+        28.0
+      ],
+      [
+        "fight",
+        28.0,
+        57.1
+      ],
+      [
+        "aftermath",
+        57.1,
+        65.2
+      ]
+    ]
+  },
+  "notes": []
 }

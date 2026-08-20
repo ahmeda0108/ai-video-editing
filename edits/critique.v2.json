@@ -1,24 +1,50 @@
 {
-  "score": 91,
-  "n_issues": 1,
-  "variety": 0.868,
+  "score": 85,
+  "n_issues": 3,
+  "variety": 0.774,
   "issues": [
     {
-      "severity": 3,
-      "type": "weak_in_strong",
-      "clipId": "c033",
-      "t": 29.97,
-      "frame": 899,
-      "note": "c033 is a low-intensity shot (0.30) on a high-energy beat (energy 0.34) — wasted strong musical moment",
-      "suggestion": "use a high-motion / high-impact clip here",
+      "severity": 2,
+      "type": "wasted_footage",
+      "clipId": null,
+      "t": 0.0,
+      "frame": 0,
+      "note": "high-impact clip s00_088 (impact 0.86) is never used",
+      "suggestion": "swap it into a drop or high-energy beat",
       "action": {
-        "action": "replace",
-        "clipId": "c033",
-        "prefer": "impact",
-        "match_intensity": 0.7
+        "action": "inject",
+        "libClipId": "s00_088",
+        "prefer": "impact"
+      }
+    },
+    {
+      "severity": 2,
+      "type": "wasted_footage",
+      "clipId": null,
+      "t": 0.0,
+      "frame": 0,
+      "note": "high-impact clip s00_211 (impact 0.87) is never used",
+      "suggestion": "swap it into a drop or high-energy beat",
+      "action": {
+        "action": "inject",
+        "libClipId": "s00_211",
+        "prefer": "impact"
+      }
+    },
+    {
+      "severity": 2,
+      "type": "wasted_footage",
+      "clipId": null,
+      "t": 0.0,
+      "frame": 0,
+      "note": "high-impact clip s00_291 (impact 1.00) is never used",
+      "suggestion": "swap it into a drop or high-energy beat",
+      "action": {
+        "action": "inject",
+        "libClipId": "s00_291",
+        "prefer": "impact"
       }
     }
   ],
-  "summary": "score 91/100; 1 issues (weak_in_strong×1)",
-  "provider": "local"
+  "summary": "score 85/100; 3 issues (wasted_footage×3)"
 }

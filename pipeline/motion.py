@@ -58,12 +58,21 @@ def compute(footage: Optional[Path] = None, force: bool = False) -> dict:
         raise RuntimeError(f"gray decode failed: {proc.stderr.decode(errors='ignore')[-400:]}")
     buf = np.frombuffer(proc.stdout, dtype=np.uint8)
     n = len(buf) // (W * H)
-    frames = buf[: n * W * H].reshape(n, H, W).astype("float32")
+    frames = buf[: n * W * H].reshape(n, W * H)   # (n, px) uint8, kept small
 
-    brightness = frames.reshape(n, -1).mean(axis=1) / 255.0
-    # motion = mean abs diff between consecutive frames, normalised 0..1
-    diff = np.abs(np.diff(frames, axis=0)).reshape(n - 1, -1).mean(axis=1) / 255.0
-    motion = np.concatenate([[0.0], diff])
+    # Block-process so a 100-min film doesn't blow up memory (upcasting every
+    # frame to float32 at once would be gigabytes). uint8 stays; only a block
+    # is promoted to int16 at a time.
+    brightness = np.empty(n, dtype="float32")
+    motion = np.zeros(n, dtype="float32")
+    B = 4000
+    for s in range(0, n, B):
+        e = min(s + B, n)
+        brightness[s:e] = frames[s:e].mean(axis=1) / 255.0
+        d0 = max(1, s)                              # motion[0] stays 0
+        cur = frames[d0:e].astype(np.int16)
+        prev = frames[d0 - 1:e - 1].astype(np.int16)
+        motion[d0:e] = np.abs(cur - prev).mean(axis=1) / 255.0
 
     result = {
         "_input_hash": ih,

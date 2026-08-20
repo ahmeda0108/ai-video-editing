@@ -35,16 +35,24 @@ HEIGHT = 1080
 COMPOSITION_ID = "AutoEdit"
 
 # ---- analysis knobs -------------------------------------------------------
+# All overridable via env so a feature-length film can use coarser settings than
+# the bundled sample without editing code (e.g. AE_MIN_SHOT_SEC=1.0).
+def _envf(name: str, default: float) -> float:
+    try:
+        return float(os.environ.get(name, default))
+    except (TypeError, ValueError):
+        return default
+
 # Scene detection sensitivity (ffmpeg scdet threshold, 0..100). Lower = more cuts.
-SCENE_THRESHOLD = 8.0
-MIN_SHOT_SEC = 0.4          # discard/merge shots shorter than this
-MAX_SHOT_SEC = 10.0         # very long shots get sub-sampled for keyframes
+SCENE_THRESHOLD = _envf("AE_SCENE_THRESHOLD", 8.0)
+MIN_SHOT_SEC = _envf("AE_MIN_SHOT_SEC", 0.4)     # discard/merge shots shorter than this
+MAX_SHOT_SEC = _envf("AE_MAX_SHOT_SEC", 10.0)    # very long shots get sub-sampled for keyframes
 
 # Adaptive keyframe sampling. Fast/high-motion shots must not be under-sampled,
 # or fight impacts get lost. We sample MORE frames when motion is high.
-KF_MIN_PER_SHOT = 1
-KF_MAX_PER_SHOT = 6
-KF_LONG_EDGE = 384          # keyframe jpeg long-edge px (small = cheap vision calls)
+KF_MIN_PER_SHOT = int(_envf("AE_KF_MIN", 1))
+KF_MAX_PER_SHOT = int(_envf("AE_KF_MAX", 6))
+KF_LONG_EDGE = int(_envf("AE_KF_LONG_EDGE", 384))  # keyframe jpeg long-edge px
 
 # Audio
 AUDIO_SR = 22050
@@ -71,10 +79,23 @@ def load_dotenv() -> None:
 load_dotenv()
 
 # Which vision provider to use for semantic tagging + critique.
-#   "auto"      -> anthropic if ANTHROPIC_API_KEY present, else local
-#   "anthropic" -> force Anthropic multimodal
+#   "auto"      -> anthropic if ANTHROPIC_API_KEY present,
+#                  else ollama if a local Ollama server is reachable,
+#                  else local metrics-only heuristics
+#   "ollama"    -> force local VLM via Ollama (100% local, zero cost, no key)
+#   "anthropic" -> force Anthropic multimodal (needs a paid key)
 #   "local"     -> force local metrics-only heuristics (no network, no key)
 VISION_PROVIDER = os.environ.get("VISION_PROVIDER", "auto")
+
+# ---- local VLM (Ollama) ---------------------------------------------------
+# Default is a small, CPU-friendly vision model so it runs on modest hardware
+# (no dedicated GPU / limited RAM). Swap freely: `VISION_MODEL=moondream` is
+# lighter/faster; `qwen2.5vl:7b` / `llama3.2-vision` are stronger if you have
+# the RAM/VRAM. `python -m pipeline.run doctor` recommends one for your machine.
+VISION_MODEL = os.environ.get("VISION_MODEL", "qwen2.5vl:3b")
+OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+
+# ---- Anthropic (optional, paid) -------------------------------------------
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 # Vision model id (multimodal). Swappable; kept current. Defaults to the most
 # capable Claude vision model; set ANTHROPIC_MODEL=claude-haiku-4-5 (or
@@ -86,7 +107,22 @@ def has_anthropic() -> bool:
     return bool(ANTHROPIC_API_KEY)
 
 
+def ollama_reachable(timeout: float = 1.5) -> bool:
+    """True if a local Ollama server answers. Cheap check, swallows all errors."""
+    import urllib.request
+    try:
+        with urllib.request.urlopen(f"{OLLAMA_HOST.rstrip('/')}/api/tags",
+                                    timeout=timeout) as r:
+            return r.status == 200
+    except Exception:
+        return False
+
+
 def active_vision_provider() -> str:
     if VISION_PROVIDER == "auto":
-        return "anthropic" if has_anthropic() else "local"
+        if has_anthropic():
+            return "anthropic"
+        if ollama_reachable():
+            return "ollama"
+        return "local"
     return VISION_PROVIDER

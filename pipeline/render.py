@@ -31,6 +31,7 @@ def render(plan_path: Path, out_path: Optional[Path] = None,
         "src/index.ts", config.COMPOSITION_ID,
         out_path.as_posix(),
         f"--props={plan_path.as_posix()}",
+        "--timeout=120000",
     ]
     if concurrency:
         cmd.append(f"--concurrency={concurrency}")
@@ -47,9 +48,13 @@ def render(plan_path: Path, out_path: Optional[Path] = None,
 
 
 def render_chunk(plan_path: Path, start: int, end: int, out_path: Path,
-                 concurrency: int = 4) -> Path:
+                 concurrency: int = 4, timeout_ms: int = 120000) -> Path:
     """Render only frames [start, end] (inclusive). Used for chunked rendering
-    to stay under environment per-process limits, then concatenated."""
+    to stay under environment per-process limits, then concatenated.
+
+    `timeout_ms` raises the per-frame delayRender timeout: seeking deep into a
+    long, high-bitrate source video for OffthreadVideo extraction can exceed the
+    30s default, so we give each frame more headroom."""
     cmd = [
         NPX, "remotion", "render",
         "src/index.ts", config.COMPOSITION_ID,
@@ -57,6 +62,8 @@ def render_chunk(plan_path: Path, start: int, end: int, out_path: Path,
         f"--props={Path(plan_path).as_posix()}",
         f"--frames={start}-{end}",
         f"--concurrency={concurrency}",
+        f"--timeout={timeout_ms}",
+        "--log=error",
     ]
     print("+", " ".join(cmd))
     proc = subprocess.run(cmd, cwd=str(config.ROOT))

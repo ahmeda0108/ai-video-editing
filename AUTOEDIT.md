@@ -63,6 +63,14 @@ edit-type-agnostic.
 python -m pip install -r pipeline/requirements.txt
 # (Node deps already installed for Remotion; ffmpeg is bundled via imageio-ffmpeg)
 
+# 0b. one-time: set up FREE LOCAL vision (see VISION_LOCAL.md)
+python -m pipeline.run doctor                 # hardware + prereq check + advice
+python -m pipeline.run setup --pull --test    # after installing Ollama: pull model + verify
+
+# general-purpose LOCAL analysis of ANY image or video (not AMV-specific)
+python -m pipeline.run vision path/to/image.jpg
+python -m pipeline.run vision path/to/clip.mp4 --every 2 --max-frames 40
+
 # 1. analyze raw footage + music -> clip library (cached)
 python -m pipeline.run analyze                      # uses public/footage.mp4 + public/track_v1.wav
 python -m pipeline.run analyze /path/to/footage_folder --track /path/to/song.wav
@@ -91,29 +99,41 @@ Outputs:
 
 ---
 
-## Required API keys / services
+## Vision providers (semantic understanding)
 
-| Thing | Needed? | Notes |
+Semantic vision (tagging + rendered-draft critique + general image/video
+analysis) has **three** interchangeable providers behind one abstraction — see
+[`VISION_LOCAL.md`](./VISION_LOCAL.md) for the full local setup.
+
+| Provider | Needed? | Notes |
 |---|---|---|
-| **None** (default) | — | The whole loop runs locally with the metrics critic + local CV tagging. |
-| `ANTHROPIC_API_KEY` | optional | Upgrades tagging + critique to true multimodal understanding. Copy `.env.example` → `.env` and set it. `ANTHROPIC_MODEL` defaults to `claude-opus-4-8` (set `claude-haiku-4-5` / `claude-sonnet-5` to cut cost). |
+| `local` | — | Metrics-only critic + CV tagging. No VLM, but the whole loop runs with zero setup. |
+| **`ollama`** | **recommended** | **100% local, zero-cost VLM.** Install Ollama + a small model (`python -m pipeline.run setup --pull --test`). No key, nothing uploaded. This is the free path to *real* scene understanding. |
+| `anthropic` | optional | Cloud multimodal via `ANTHROPIC_API_KEY` (paid). `ANTHROPIC_MODEL` defaults to `claude-opus-4-8`. Only used if you set a key. |
 
-No other external services. Provide a key only to unlock semantic vision; the
-pipeline never *requires* one.
+`VISION_PROVIDER=auto` picks: anthropic if a key is set, else **ollama** if a
+local server is reachable, else `local`. So with Ollama installed and no key, you
+get free local semantic vision by default. The pipeline **never** falls back to a
+cloud API silently.
 
 ---
 
 ## Local vs remote
 
-| Runs **locally** (no network) | Runs **remotely** (only with a key) |
+| Runs **locally** (no network) | Runs **remotely** (only if you set a key) |
 |---|---|
-| ffmpeg decode / scene detection / keyframes (bundled binary) | Semantic keyframe tagging (subject/setting/camera/mood) |
-| motion + brightness analysis (numpy) | Rendered-draft critique by a vision model |
+| ffmpeg decode / scene detection / keyframes (bundled binary) | *(optional)* Anthropic tagging/critique — only when `ANTHROPIC_API_KEY` is set |
+| motion + brightness analysis (numpy) | |
 | audio tempo/beats/energy/sections/drops (numpy) | |
 | pHash + color embeddings, dedup clustering | |
 | clip library, selection, edit-plan generation | |
 | Remotion render | |
 | **metrics critic** (score + timestamped issues) + revise loop | |
+| **semantic keyframe tagging + rendered-draft critique via local VLM (Ollama)** | |
+| **general-purpose image/video analysis (`vision` command, local VLM)** | |
+
+With the Ollama provider, semantic vision is **fully local** — the right column
+is used only if you deliberately opt into the paid cloud provider.
 
 ---
 

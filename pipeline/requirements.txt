@@ -3,6 +3,11 @@ numpy>=1.24
 pillow>=10.0
 imageio-ffmpeg>=0.5     # bundles a static ffmpeg binary (no system install)
 
-# Optional: only needed if you set ANTHROPIC_API_KEY to enable multimodal
-# tagging + critique. The pipeline runs fully without it.
+# Local VLM (Ollama) needs NO python package — it is called over its local HTTP
+# API using only the standard library. Just install the Ollama app + a model:
+#   winget install Ollama.Ollama
+#   python -m pipeline.run setup --pull --test
+
+# Optional: only needed if you set ANTHROPIC_API_KEY to enable CLOUD multimodal
+# tagging + critique. The pipeline runs fully without it (and without any cloud).
 anthropic>=0.40 ; python_version >= "3.8"
